@@ -105,6 +105,9 @@
       "folders": []
     }
   ],
+  "esmodules": [
+    "scripts/quickstart-shops.mjs"
+  ],
   "version": "#{VERSION}#",
   "url": "#{URL}#",
   "manifest": "#{MANIFEST}#",

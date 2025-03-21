@@ -1,0 +1,46 @@
+name: Update Install Count Badge
+
+on:
+  schedule:
+    - cron: "0 * * * *"  # Every hour
+  workflow_dispatch:      # Allow manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Query PostHog and write install count
+        env:
+          POSTHOG_API_TOKEN: ${{ secrets.POSTHOG_API_TOKEN }}
+          POSTHOG_PROJECT_ID: "139712"
+        run: |
+          echo "Fetching install count from PostHog..."
+
+          response=$(curl -s -X POST https://app.posthog.com/api/projects/$POSTHOG_PROJECT_ID/query/ \
+            -H "Authorization: Bearer $POSTHOG_API_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d '{
+              "kind": "DataTableNode",
+              "source": {
+                "kind": "EventsQuery",
+                "event": "qss_world_install",
+                "select": ["count()"]
+              }
+            }')
+
+          count=$(echo "$response" | jq '.[0]["count()"] // 0')
+          echo "Install count: $count"
+
+          mkdir -p metrics
+          echo "{ \"installs\": $count }" > metrics/install-count.json
+
+      - name: Commit & push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add metrics/install-count.json
+          git commit -m "Update install count badge" || echo "No changes to commit"
+          git push

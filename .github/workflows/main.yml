@@ -46,7 +46,7 @@ jobs:
 
       - name: Clean Dev Files
         run: |
-          rm -rf .github .gitignore .vscode src
+          rm -rf .github .gitignore .vscode src metrics
 
       - name: Commit Clean Release
         run: |
