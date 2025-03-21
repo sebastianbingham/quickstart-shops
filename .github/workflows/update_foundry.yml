@@ -1,0 +1,51 @@
+name: Release to Foundry
+
+on:
+  workflow_dispatch:
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Get latest release version
+        id: get_version
+        run: |
+          VERSION=$(curl -s https://api.github.com/repos/${{ github.repository }}/releases/latest | jq -r .tag_name)
+          echo "Latest version is $VERSION"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Send release to FoundryVTT API
+        id: foundry_api
+        run: |
+          VERSION="${{ steps.get_version.outputs.version }}"
+          echo "Sending version $VERSION to FoundryVTT..."
+
+          RESPONSE=$(curl -s -X POST https://api.foundryvtt.com/_api/packages/release_version/ \
+            -H "Content-Type: application/json" \
+            -H "Authorization: ${{ secrets.PACKAGE_RELEASE_TOKEN }}" \
+            -d @- <<EOF
+          {
+            "id": "quickstart-shops",
+            "dry-run": true,
+            "release": {
+              "version": "$VERSION",
+              "manifest": "https://github.com/${{ github.repository }}/releases/latest/download/module.json",
+              "notes": "",
+              "compatibility": {
+                "minimum": "12",
+                "verified": "12",
+                "maximum": ""
+              }
+            }
+          }
+  EOF
+  )
+  
+  echo "Foundry response:"
+  echo "$RESPONSE"
+  
+  # Optional: save to file for email step
+  echo "$RESPONSE" > foundry-response.json
