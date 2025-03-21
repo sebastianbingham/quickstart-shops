@@ -1,0 +1,67 @@
+name: Build Clean Release for FoundryVTT
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'  # Trigger on version tags like v1.0.0
+
+jobs:
+  release:
+    name: Create Clean Release Branch
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Needed to push new branch
+
+      - name: Extract Version From Tag
+        id: get_version
+        run: |
+          TAG=${GITHUB_REF#refs/tags/}
+          echo "version-without-v=${TAG#v}" >> $GITHUB_OUTPUT
+          echo "branch-name=release-${TAG#v}" >> $GITHUB_OUTPUT
+      - name: Create Release Branch
+        run: |
+          git checkout -b ${{ steps.get_version.outputs.branch-name }}
+      - name: Replace Tokens in module.json
+        uses: cschleiden/replace-tokens@v1
+        with:
+          files: 'src/module.json'
+        env:
+          VERSION: ${{ steps.get_version.outputs.version-without-v }}
+          URL: https://github.com/${{ github.repository }}
+          MANIFEST: https://github.com/${{ github.repository }}/releases/latest/download/module.json
+          DOWNLOAD: https://github.com/${{ github.repository }}/releases/download/${{ github.ref_name }}/module.zip
+
+      - name: Move Final module.json to Root
+        run: mv src/module.json module.json
+
+      - name: Clean Repo for Release
+        run: |
+          rm -rf .github .gitignore .vscode src
+      - name: Commit Clean Release
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add .
+          git commit -m "Build release version ${{ steps.get_version.outputs.version-without-v }}"
+      - name: Push Clean Release Branch
+        run: |
+          git push origin HEAD
+      - name: Zip Module Files
+        run: zip -r module.zip . -x "*.git*"
+
+      - name: Create GitHub Release
+        uses: ncipollo/release-action@v1
+        with:
+          allowUpdates: true
+          tag: ${{ github.ref_name }}
+          name: Release ${{ github.ref_name }}
+          body: |
+            Automated release for ${{ github.ref_name }}
+          artifacts: module.zip,module.json
+          token: ${{ secrets.GITHUB_TOKEN }}
