@@ -76,9 +76,9 @@
       "folders": []
     }
   ],
-  "version": "1.0.0",
+  "version": "25.03.210050",
   "url": "https://github.com/sebastianbingham/quickstart-shops",
   "manifest": "https://github.com/sebastianbingham/quickstart-shops/releases/latest/download/module.json",
-  "download": "https://github.com/sebastianbingham/quickstart-shops/releases/download/v1.0.0/module.zip",
+  "download": "https://github.com/sebastianbingham/quickstart-shops/releases/download/25.03.210050/module.zip",
   "bugs": "https://github.com/sebastianbingham/quickstart-shops/issues"
 }
