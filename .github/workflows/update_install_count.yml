@@ -15,19 +15,20 @@ jobs:
       - name: Query PostHog and write install count
         env:
           POSTHOG_API_TOKEN: ${{ secrets.POSTHOG_API_TOKEN }}
-          POSTHOG_PROJECT_ID: "139712"
         run: |
           echo "Fetching install count from PostHog..."
 
-          response=$(curl -s -X POST https://app.posthog.com/api/projects/$POSTHOG_PROJECT_ID/query/ \
+          response=$(curl -s -X POST https://app.posthog.com/api/projects/139712/query/ \
             -H "Authorization: Bearer $POSTHOG_API_TOKEN" \
             -H "Content-Type: application/json" \
             -d '{
-              "kind": "DataTableNode",
-              "source": {
-                "kind": "EventsQuery",
-                "event": "qss_world_install",
-                "select": ["count()"]
+              "query": {
+                "kind": "DataTableNode",
+                "source": {
+                  "kind": "EventsQuery",
+                  "event": "qss_world_install",
+                  "select": ["count()"]
+                }
               }
             }')
 
