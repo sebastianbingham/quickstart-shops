@@ -22,6 +22,7 @@ jobs:
         run: |
           VERSION="${{ steps.get_version.outputs.version }}"
           echo "Using version: $VERSION"
+          echo "Secret: ${{ secrets.PACKAGE_RELEASE_TOKEN }}"
 
           echo '{
             "id": "quickstart-shops",
