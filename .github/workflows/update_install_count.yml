@@ -31,7 +31,7 @@ jobs:
               }
             }')
 
-          count=$(echo "$response" | jq '.[0]["count()"] // 0')
+          count=$(echo "$response" | jq '.results[0][0] // 0')
           echo "Install count: $count"
 
           mkdir -p metrics
