@@ -3,12 +3,32 @@
   "title": "Quickstart Shops",
   "compatibility": {
     "minimum": "12",
-    "verified": "12"
+    "verified": "12.331",
+    "maximum": "12.331"
   },
   "relationships": {
     "requires": [
       {
         "id": "monks-enhanced-journal",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "dnd-players-handbook",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dnd-dungeon-masters-guide",
         "type": "module",
         "compatibility": {}
       }
@@ -31,36 +51,44 @@
       "label": "Quickstart Shops (SRD)",
       "path": "packs/quickstart-shops-srd",
       "type": "JournalEntry",
+      "system": "dnd5e",
       "ownership": {
-        "PLAYER": "NONE",
-        "TRUSTED": "NONE",
+        "PLAYER": "LIMITED",
         "ASSISTANT": "OBSERVER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
       "name": "quickstart-shops-core",
       "label": "Quickstart Shops (Core)",
       "path": "packs/quickstart-shops-core",
       "type": "JournalEntry",
+      "system": "dnd5e",
       "ownership": {
-        "PLAYER": "NONE",
-        "TRUSTED": "NONE",
+        "PLAYER": "LIMITED",
         "ASSISTANT": "OBSERVER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
       "name": "quickstart-shops-lorebound",
       "label": "Quickstart Shops (Lorebound)",
       "path": "packs/quickstart-shops-lorebound",
       "type": "JournalEntry",
+      "system": "dnd5e",
       "ownership": {
-        "PLAYER": "NONE",
-        "TRUSTED": "NONE",
+        "PLAYER": "LIMITED",
         "ASSISTANT": "OBSERVER"
-      },
-      "system": "dnd5e"
+      }
+    },
+    {
+      "name": "quickstart-shops",
+      "label": "Quickstart Shops",
+      "path": "packs/quickstart-shops",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OBSERVER"
+      }
     }
   ],
   "packFolders": [
@@ -69,6 +97,7 @@
       "color": "#b8860b",
       "sorting": "m",
       "packs": [
+        "quickstart-shops",
         "quickstart-shops-srd",
         "quickstart-shops-core",
         "quickstart-shops-lorebound"
