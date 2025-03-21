@@ -17,34 +17,29 @@ jobs:
           VERSION=$(curl -s https://api.github.com/repos/${{ github.repository }}/releases/latest | jq -r .tag_name)
           echo "version=$VERSION" >> $GITHUB_OUTPUT
 
-      - name: Create JSON payload
-        id: create_payload
+      - name: Release Foundry Package
+        id: release_foundry_package
         run: |
-          VERSION="${{ steps.get_version.outputs.version }}"
-          echo "Using version: $VERSION"
-
-          echo '{
+          cat << EOF > payload.json
+          {
             "id": "quickstart-shops",
-            "dry-run": true,
             "release": {
-              "version": "'"$VERSION"'",
-              "manifest": "https://github.com/${{ github.repository }}/releases/latest/download/module.json",
-              "notes": "",
+              "version": "${{ steps.get-version.outputs.VERSION }}",
+              "manifest": "https://github.com/sebastianbingham/quickstart-shops/releases/latest/download/module.json",
+              "download": "$https://github.com/sebastianbingham/quickstart-shops/releases/latest/download/module.zip",
+              "notes": "https://github.com/sebastianbingham/quickstart-shops/releases/tag/${{ steps.get-version.outputs.VERSION }}",
               "compatibility": {
                 "minimum": "12",
                 "verified": "12",
                 "maximum": ""
               }
             }
-          }' > payload.json
+          }
+          EOF
 
-      - name: Send release to FoundryVTT API
-        run: |
-          RESPONSE=$(curl -s -X POST https://api.foundryvtt.com/_api/packages/release_version/ \
+          cat payload.json  # Debug: Print the payload
+
+          curl -X POST "https://api.foundryvtt.com/_api/packages/release_version" \
             -H "Content-Type: application/json" \
             -H "Authorization: ${{ secrets.PACKAGE_RELEASE_TOKEN }}" \
-            --data @payload.json)
-
-          echo "Foundry API Response:"
-          echo "$RESPONSE"
-          echo "$RESPONSE" > foundry-response.json
+            -d @payload.json
