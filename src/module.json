@@ -1,0 +1,83 @@
+{
+  "id": "quickstart-shops",
+  "title": "Quickstart Shops",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "monks-enhanced-journal",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Skip the prep and dive straight into the roleplay! Quickstart Shops is a lightweight Foundry VTT module designed to give Game Masters instant access to ready-to-use shops built with Monk’s Enhanced Journal. Each shop is organized, categorized, and stocked with commonly available gear, potions, weapons, and other adventuring necessities.\n\nWhether you're running a bustling city or a roadside hamlet, these prebuilt shops help you avoid decision paralysis and get back to storytelling. Each entry is journal-linked, searchable, and optimized for in-session use.",
+  "authors": [
+    {
+      "name": "Sebastian Bingham",
+      "url": "https://foundryvtt.com/community/bastian113",
+      "flags": {
+        "github": "sebastianbingham"
+      }
+    }
+  ],
+  "packs": [
+    {
+      "name": "quickstart-shops-srd",
+      "label": "Quickstart Shops (SRD)",
+      "path": "packs/quickstart-shops-srd",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "quickstart-shops-core",
+      "label": "Quickstart Shops (Core)",
+      "path": "packs/quickstart-shops-core",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "quickstart-shops-lorebound",
+      "label": "Quickstart Shops (Lorebound)",
+      "path": "packs/quickstart-shops-lorebound",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OBSERVER"
+      },
+      "system": "dnd5e"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Quickstart Shops",
+      "color": "#b8860b",
+      "sorting": "m",
+      "packs": [
+        "quickstart-shops-srd",
+        "quickstart-shops-core",
+        "quickstart-shops-lorebound"
+      ],
+      "folders": []
+    }
+  ],
+  "version": "#{VERSION}#",
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "bugs": "https://github.com/sebastianbingham/quickstart-shops/issues"
+}
