@@ -31,9 +31,9 @@ jobs:
               "download": "$https://github.com/sebastianbingham/quickstart-shops/releases/latest/download/module.zip",
               "notes": "https://github.com/sebastianbingham/quickstart-shops/releases/tag/${{ steps.get_version.outputs.version }}",
               "compatibility": {
-                "minimum": "12",
-                "verified": "12",
-                "maximum": ""
+                "minimum": "${{ vars.FOUNDRY_MIN_VERSION }}",
+                "verified": "${{ vars.FOUNDRY_VERIFIED_VERSION  }}",
+                "maximum": "${{ vars.FOUNDRY_MAX_VERSION }}"
               }
             }
           }
