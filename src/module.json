@@ -47,6 +47,17 @@
   ],
   "packs": [
     {
+      "name": "quickstart-shops",
+      "label": "Quickstart Shops",
+      "path": "packs/quickstart-shops",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OBSERVER"
+      }
+    },
+    {
       "name": "quickstart-shops-srd",
       "label": "Quickstart Shops (SRD)",
       "path": "packs/quickstart-shops-srd",
@@ -72,17 +83,6 @@
       "name": "quickstart-shops-lorebound",
       "label": "Quickstart Shops (Lorebound)",
       "path": "packs/quickstart-shops-lorebound",
-      "type": "JournalEntry",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "ASSISTANT": "OBSERVER"
-      }
-    },
-    {
-      "name": "quickstart-shops",
-      "label": "Quickstart Shops",
-      "path": "packs/quickstart-shops",
       "type": "JournalEntry",
       "system": "dnd5e",
       "ownership": {
