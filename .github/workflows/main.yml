@@ -2,10 +2,6 @@ name: Clean Release Builder
 
 on:
   workflow_dispatch:
-    inputs:
-      version:
-        description: 'Version (e.g. v1.0.0)'
-        required: true
 
 jobs:
   release:
@@ -20,26 +16,27 @@ jobs:
         with:
           fetch-depth: 0  # Needed to push new branches and tags
 
-      - name: Parse Version Components
-        id: parse
+      - name: Generate Version from UTC Time
+        id: generate_version
         run: |
-          TAG=${{ github.event.inputs.version }}
-          echo "version-without-v=${TAG#v}" >> $GITHUB_OUTPUT
-          echo "branch-name=release-${TAG#v}" >> $GITHUB_OUTPUT
+          VERSION=$(date -u "+%y.%m.%d%H%M")
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "tag=v$VERSION" >> $GITHUB_OUTPUT
+          echo "branch=release-$VERSION" >> $GITHUB_OUTPUT
 
       - name: Create Clean Branch
         run: |
-          git checkout -b ${{ steps.parse.outputs.branch-name }}
+          git checkout -b ${{ steps.generate_version.outputs.branch }}
 
       - name: Replace Tokens in Manifest
         uses: cschleiden/replace-tokens@v1
         with:
           files: 'src/module.json'
         env:
-          VERSION: ${{ steps.parse.outputs.version-without-v }}
+          VERSION: ${{ steps.generate_version.outputs.version }}
           URL: https://github.com/${{ github.repository }}
           MANIFEST: https://github.com/${{ github.repository }}/releases/latest/download/module.json
-          DOWNLOAD: https://github.com/${{ github.repository }}/releases/download/${{ github.event.inputs.version }}/module.zip
+          DOWNLOAD: https://github.com/${{ github.repository }}/releases/download/${{ steps.generate_version.outputs.tag }}/module.zip
 
       - name: Move Final Manifest to Root
         run: mv src/module.json module.json
@@ -53,15 +50,15 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
           git add .
-          git commit -m "Clean release ${{ steps.parse.outputs.version-without-v }}"
+          git commit -m "Clean release ${{ steps.generate_version.outputs.version }}"
 
       - name: Push Clean Branch
         run: git push origin HEAD
 
       - name: Create Tag
         run: |
-          git tag ${{ github.event.inputs.version }}
-          git push origin ${{ github.event.inputs.version }}
+          git tag ${{ steps.generate_version.outputs.tag }}
+          git push origin ${{ steps.generate_version.outputs.tag }}
 
       - name: Zip Clean Module
         run: zip -r module.zip . -x "*.git*"
@@ -70,9 +67,9 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           allowUpdates: true
-          tag: ${{ github.event.inputs.version }}
-          name: Release ${{ github.event.inputs.version }}
+          tag: ${{ steps.generate_version.outputs.tag }}
+          name: Release ${{ steps.generate_version.outputs.version }}
           body: |
-            Automated clean release for ${{ github.event.inputs.version }}
+            Automated clean release for ${{ steps.generate_version.outputs.version }}
           artifacts: module.zip,module.json
           token: ${{ secrets.GITHUB_TOKEN }}
