@@ -1,4 +1,5 @@
 # Quickstart Shops
+![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsebastianbingham%2Fquickstart-shops-metrics%2Fmain%2Fmetrics%2Finstall-count.json&query=installs&label=VTT%20Worlds%20Installed%20In&color=%23FE6A1F)
 
 **Quickstart Shops** is a Foundry Virtual Tabletop (VTT) module that expands on [Monk's Enhanced Journal](https://foundryvtt.com/packages/monks-enhanced-journal) by providing ready-to-use, categorized shops for your in-game world. This module makes it easy to drop in immersive, prebuilt stores for your players with minimal prep.
 
