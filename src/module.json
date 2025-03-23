@@ -47,9 +47,9 @@
   ],
   "packs": [
     {
-      "name": "quickstart-shops",
-      "label": "Quickstart Shops",
-      "path": "packs/quickstart-shops",
+      "name": "quickstart-shops-core",
+      "label": "Quickstart Shops (Core)",
+      "path": "packs/quickstart-shops-core",
       "type": "JournalEntry",
       "system": "dnd5e",
       "ownership": {
@@ -61,17 +61,6 @@
       "name": "quickstart-shops-srd",
       "label": "Quickstart Shops (SRD)",
       "path": "packs/quickstart-shops-srd",
-      "type": "JournalEntry",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "ASSISTANT": "OBSERVER"
-      }
-    },
-    {
-      "name": "quickstart-shops-core",
-      "label": "Quickstart Shops (Core)",
-      "path": "packs/quickstart-shops-core",
       "type": "JournalEntry",
       "system": "dnd5e",
       "ownership": {
@@ -97,9 +86,8 @@
       "color": "#b8860b",
       "sorting": "m",
       "packs": [
-        "quickstart-shops",
-        "quickstart-shops-srd",
         "quickstart-shops-core",
+        "quickstart-shops-srd",
         "quickstart-shops-lorebound"
       ],
       "folders": []
