@@ -1,0 +1,64 @@
+name: Basic Arcana
+flags:
+  monks-enhanced-journal:
+    pagetype: shop
+    img: modules/quickstart-shops/assets/icons/basic-arcana.webp
+_id: basicShop0000002
+pages:
+- type: text
+  name: Basic Arcana
+  flags:
+    monks-enhanced-journal:
+      type: shop
+      scrollPos: '{".tab.description .tab-inner":0}'
+      shoptype: Arcana
+      location: ''
+      state: open
+      autoopen: false
+      purchasing: confirm
+      selling: confirm
+      appendix: false
+      7frIvrnKdDEsk744:
+        notes: ''
+      _lasttab: items
+      twentyfour: true
+      opening: 540
+      closing: 1020
+  _id: arcana0000000001
+  system: {}
+  title:
+    show: true
+    level: 1
+  image: {}
+  text:
+    format: 1
+    content: <p>The interior hums with quiet energy. Shelves are packed with arcane
+      tomes, crystal spheres, and spell components neatly organized in brass-labeled
+      drawers. A faint shimmer lingers in the air, and faint glyphs flicker on the
+      walls when the light hits them just right.</p>
+  video:
+    controls: true
+    volume: 0.5
+  src: modules/quickstart-shops/assets/icons/basic-arcana.webp
+  sort: 0
+  ownership:
+    default: 2
+  _stats:
+    compendiumSource: null
+    duplicateSource: null
+    coreVersion: '12.331'
+    systemId: dnd5e
+    systemVersion: 4.3.6
+  _key: '!journal.pages!basicShop0000002.arcana0000000001'
+folder: qssBasicShops001
+sort: 200000
+ownership:
+  default: 0
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.3.6
+categories: []
+_key: '!journal!basicShop0000002'

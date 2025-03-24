@@ -1,0 +1,150 @@
+name: Getting Started - Quickstart Shops
+flags:
+  exportSource:
+    world: test
+    system: dnd5e
+    coreVersion: '12.331'
+    systemVersion: 4.3.6
+pages:
+  - sort: 100000
+    name: Welcome
+    type: text
+    _id: qssWelcome000001
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Hey Team!</p><p></p><p>Thank you so much for checking out
+        <strong>Quickstart Shops</strong>!</p><p></p><p>I built this module
+        because, frankly, I was tired of the paralysis that came with designing
+        shops from scratch. I was drowning in complexity or staring at a blank
+        screen with no direction. Most shop systems I tried were too vague or
+        too bloated for what I needed at the table. So I decided to make
+        something that just works to give GMs a solid, functional foundation
+        with the flexibility to grow.</p><p></p><p>What surprised me was how
+        quickly people found it. Within hours of posting, Quickstart Shops was
+        installed in dozens of Foundry worlds, which blew me away. Thank you for
+        giving it a shot—it means more than I can say.</p><p></p><p>There's
+        still a lot more I want to do with this module, so keep an eye out for
+        updates! A full "how to use" guide is on the way soon to walk you
+        through everything it can do (and help spark ideas for customizing it
+        for your world).</p><p></p><p>Thanks again for your support—and happy
+        shopping! 🛒</p><p></p><p>~Sebastian</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags:
+      monks-enhanced-journal:
+        appendix: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.6
+    _key: '!journal.pages!qssGetStarted001.qssWelcome000001'
+  - sort: 200000
+    name: How to Use
+    type: text
+    _id: qssHowToUse00001
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: <p>How to Use is coming soon.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags:
+      monks-enhanced-journal:
+        appendix: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.6
+    _key: '!journal.pages!qssGetStarted001.qssHowToUse00001'
+  - sort: 300000
+    name: Report Issue/Feature Request
+    type: text
+    _id: qssChangeLog0001
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: <p>Reporting issues and feature requests coming soon.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags:
+      monks-enhanced-journal:
+        appendix: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.6
+    _key: '!journal.pages!qssGetStarted001.qssChangeLog0001'
+  - sort: 400000
+    name: Changelogs
+    type: text
+    _id: cDPncWhugaCW6bEl
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: <p>Changelogs coming soon.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags:
+      monks-enhanced-journal:
+        appendix: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.6
+    _key: '!journal.pages!qssGetStarted001.cDPncWhugaCW6bEl'
+folder: null
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.3.6
+_id: qssGetStarted001
+sort: 0
+ownership:
+  default: 0
+categories: []
+_key: '!journal!qssGetStarted001'
+

@@ -7,12 +7,10 @@ const inputDir = "./src/packs"; // Update if needed
 function sanitizeOwnership(ownership = {}) {
     const sanitized = {};
 
-    // Only retain 'default' if it exists and is a number
     if (typeof ownership.default === "number") {
         sanitized.default = ownership.default;
     }
 
-    // Add default: 0 if not present
     if (!("default" in sanitized)) {
         sanitized.default = 0;
     }
@@ -28,12 +26,37 @@ function cleanStats(stats = {}) {
     return cleaned;
 }
 
+function checkIdLengths(data, filePath) {
+    const issues = [];
+
+    // Check root _id
+    if (typeof data._id === "string" && data._id.length !== 16) {
+        issues.push(`⚠️ Root _id is ${data._id.length} chars: "${data._id}"`);
+    }
+
+    // Check page _id(s)
+    if (Array.isArray(data.pages)) {
+        for (const page of data.pages) {
+            if (typeof page._id === "string" && page._id.length !== 16) {
+                issues.push(`⚠️ Page _id is ${page._id.length} chars: "${page._id}"`);
+            }
+        }
+    }
+
+    if (issues.length > 0) {
+        console.warn(`🚨 ID Length Issues in ${filePath}:\n${issues.join("\n")}`);
+    }
+}
+
 async function processYamlFile(filePath) {
     const content = await fs.readFile(filePath, "utf8");
     const data = yaml.load(content);
     let modified = false;
 
-    // Clean top-level ownership
+    // ID length check
+    checkIdLengths(data, filePath);
+
+    // Sanitize ownership
     if (data.ownership) {
         const cleanedOwnership = sanitizeOwnership(data.ownership);
         if (JSON.stringify(data.ownership) !== JSON.stringify(cleanedOwnership)) {
@@ -51,23 +74,21 @@ async function processYamlFile(filePath) {
         }
     }
 
-    // Clean pages
+    // Pages
     if (Array.isArray(data.pages)) {
         for (const page of data.pages) {
-            // Clean page ownership
             if (page.ownership) {
-                const cleanedPageOwnership = sanitizeOwnership(page.ownership);
-                if (JSON.stringify(page.ownership) !== JSON.stringify(cleanedPageOwnership)) {
-                    page.ownership = cleanedPageOwnership;
+                const cleaned = sanitizeOwnership(page.ownership);
+                if (JSON.stringify(page.ownership) !== JSON.stringify(cleaned)) {
+                    page.ownership = cleaned;
                     modified = true;
                 }
             }
 
-            // Clean page _stats
             if (page._stats) {
-                const cleanedPageStats = cleanStats(page._stats);
-                if (JSON.stringify(page._stats) !== JSON.stringify(cleanedPageStats)) {
-                    page._stats = cleanedPageStats;
+                const cleanedStats = cleanStats(page._stats);
+                if (JSON.stringify(page._stats) !== JSON.stringify(cleanedStats)) {
+                    page._stats = cleanedStats;
                     modified = true;
                 }
             }

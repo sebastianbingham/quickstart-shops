@@ -1,5 +1,4 @@
 name: Basic Apothecary
-type: journalEntry
 flags:
   monks-enhanced-journal:
     pagetype: shop
@@ -19,7 +18,7 @@ pages:
         selling: confirm
         appendix: false
         scrollPos: '{".tab.description .tab-inner":0}'
-        _lasttab: items
+        _lasttab: description
         twentyfour: true
         opening: 540
         closing: 1020
@@ -46,7 +45,7 @@ pages:
       systemId: dnd5e
       systemVersion: 4.3.6
     _key: '!journal.pages!basicShop0000001.apothecary000001'
-folder: qssBasicShops000
+folder: qssBasicShops001
 sort: 100000
 ownership:
   default: 0
@@ -56,5 +55,5 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.3.6
-categories: []
 _key: '!journal!basicShop0000001'
+categories: []

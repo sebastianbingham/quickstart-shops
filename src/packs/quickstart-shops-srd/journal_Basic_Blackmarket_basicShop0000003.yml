@@ -1,0 +1,66 @@
+name: Basic Blackmarket
+flags:
+  monks-enhanced-journal:
+    pagetype: shop
+    img: modules/quickstart-shops/assets/icons/basic-blackmarket.webp
+pages:
+- type: text
+  name: Basic Blackmarket
+  flags:
+    monks-enhanced-journal:
+      type: shop
+      scrollPos: '{".tab.description .tab-inner":0}'
+      shoptype: Blackmarket
+      location: ''
+      state: open
+      autoopen: false
+      purchasing: confirm
+      selling: confirm
+      appendix: false
+      pagetype: shop
+      img: null
+      7frIvrnKdDEsk744:
+        notes: ''
+      _lasttab: items
+      twentyfour: true
+      opening: 960
+      closing: 300
+  _id: blackmarket00001
+  system: {}
+  title:
+    show: true
+    level: 1
+  image: {}
+  text:
+    format: 1
+    content: '<p>Dimly lit and filled with shadowy corners, the shop is cluttered
+      with oddities: bone dice, strange masks, aged maps, and locked boxes with no
+      keys. The scent of old parchment and incense hangs heavy, and every item seems
+      to whisper a story best left untold.</p>'
+  video:
+    controls: true
+    volume: 0.5
+  src: modules/quickstart-shops/assets/icons/basic-blackmarket.webp
+  sort: 0
+  ownership:
+    default: 2
+  _stats:
+    compendiumSource: null
+    duplicateSource: null
+    coreVersion: '12.331'
+    systemId: dnd5e
+    systemVersion: 4.3.6
+  _key: '!journal.pages!basicShop0000003.blackmarket00001'
+folder: qssBasicShops001
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.3.6
+_id: basicShop0000003
+sort: 300000
+ownership:
+  default: 0
+categories: []
+_key: '!journal!basicShop0000003'

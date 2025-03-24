@@ -1,0 +1,64 @@
+name: Basic General Goods
+flags:
+  monks-enhanced-journal:
+    pagetype: shop
+    img: modules/quickstart-shops/assets/icons/basic-general_goods.webp
+_id: basicShop0000007
+pages:
+- type: text
+  name: Basic General Goods
+  flags:
+    monks-enhanced-journal:
+      type: shop
+      scrollPos: '{".tab.description .tab-inner":0}'
+      shoptype: General Goods
+      location: ''
+      state: open
+      autoopen: false
+      purchasing: confirm
+      selling: confirm
+      appendix: false
+      7frIvrnKdDEsk744:
+        notes: ''
+      _lasttab: items
+      twentyfour: true
+      opening: 540
+      closing: 1020
+  _id: general000000001
+  system: {}
+  title:
+    show: true
+    level: 1
+  image: {}
+  text:
+    format: 1
+    content: <p>Simple and utilitarian, the shop is lined with crates and shelves
+      stacked with rope, lanterns, bedrolls, rations, and travel gear. Everything
+      is practical and well-organized, with a faint smell of leather, grain, and fresh-cut
+      wood.</p>
+  video:
+    controls: true
+    volume: 0.5
+  src: modules/quickstart-shops/assets/icons/basic-general_goods.webp
+  sort: 0
+  ownership:
+    default: 2
+  _stats:
+    compendiumSource: null
+    duplicateSource: null
+    coreVersion: '12.331'
+    systemId: dnd5e
+    systemVersion: 4.3.6
+  _key: '!journal.pages!basicShop0000007.general000000001'
+folder: qssBasicShops001
+sort: 106250
+ownership:
+  default: 0
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.3.6
+categories: []
+_key: '!journal!basicShop0000007'

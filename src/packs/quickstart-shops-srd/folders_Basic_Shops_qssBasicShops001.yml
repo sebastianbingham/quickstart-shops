@@ -2,7 +2,7 @@ name: Basic Shops
 sorting: a
 folder: null
 type: JournalEntry
-_id: qssBasicShops000
+_id: qssBasicShops001
 description: ''
 sort: 0
 color: null
@@ -13,5 +13,5 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.3.6
-_key: '!folders!qssBasicShops000'
+_key: '!folders!qssBasicShops001'
 
