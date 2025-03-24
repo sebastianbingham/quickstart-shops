@@ -1,0 +1,12 @@
+{
+  "name": "quickstart-shops",
+  "type": "module",
+  "scripts": {
+    "pack": "node foundry-cli-scripts/pack.mjs",
+    "unpack": "node foundry-cli-scripts/unpack.mjs",
+    "sanitize": "node foundry-cli-scripts/sanitize.mjs"
+  },
+  "dependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.4"
+  }
+}

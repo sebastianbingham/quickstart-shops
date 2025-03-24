@@ -1,0 +1,59 @@
+name: Basic Tavern
+flags:
+  monks-enhanced-journal:
+    pagetype: shop
+    img: modules/quickstart-shops/assets/icons/basic-tavern.webp
+_id: 0dmPLmurjbAnqBSG
+pages:
+  - type: text
+    name: Basic Tavern
+    flags:
+      monks-enhanced-journal:
+        type: shop
+        scrollPos: '{".tab.description .tab-inner":0}'
+        shoptype: Tavern
+        location: ''
+        state: open
+        autoopen: false
+        purchasing: confirm
+        selling: locked
+        appendix: false
+        _lasttab: items
+        twentyfour: true
+        opening: 1
+        closing: 1439
+    _id: 6JyZ7006uxVVnOp4
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: <p>Warm light spills from within, carrying the scent of roasted meat, stale ale, and pipe smoke. Wooden tables are worn smooth by years of stories and spills. A fireplace crackles nearby, and the low murmur of voices gives the place a lived-in comfort.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: modules/quickstart-shops/assets/icons/basic-tavern.webp
+    sort: 0
+    ownership:
+      default: 2
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.6
+    _key: '!journal.pages!0dmPLmurjbAnqBSG.6JyZ7006uxVVnOp4'
+folder: qssBasicShops000
+sort: 100782
+ownership:
+  default: 0
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.3.6
+categories: []
+_key: '!journal!0dmPLmurjbAnqBSG'

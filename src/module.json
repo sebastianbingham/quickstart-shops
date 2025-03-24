@@ -54,7 +54,7 @@
       "system": "dnd5e",
       "ownership": {
         "PLAYER": "LIMITED",
-        "ASSISTANT": "OBSERVER"
+        "GAMEMASTER": "OWNER"
       }
     },
     {
@@ -65,7 +65,7 @@
       "system": "dnd5e",
       "ownership": {
         "PLAYER": "LIMITED",
-        "ASSISTANT": "OBSERVER"
+        "GAMEMASTER": "OWNER"
       }
     },
     {
@@ -76,7 +76,7 @@
       "system": "dnd5e",
       "ownership": {
         "PLAYER": "LIMITED",
-        "ASSISTANT": "OBSERVER"
+        "GAMEMASTER": "OWNER"
       }
     }
   ],

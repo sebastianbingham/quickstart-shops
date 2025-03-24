@@ -1,0 +1,61 @@
+name: Basic Entertainment
+flags:
+  monks-enhanced-journal:
+    pagetype: shop
+    img: modules/quickstart-shops/assets/icons/basic-entertainment.webp
+_id: 1y4WjU9RHwL1cqwz
+pages:
+  - type: text
+    name: Basic Entertainment
+    flags:
+      monks-enhanced-journal:
+        type: shop
+        scrollPos: '{".tab.description .tab-inner":0}'
+        shoptype: Entertainment
+        location: ''
+        state: open
+        autoopen: false
+        purchasing: confirm
+        selling: confirm
+        appendix: false
+        7frIvrnKdDEsk744:
+          notes: ''
+        _lasttab: items
+        twentyfour: true
+        opening: 540
+        closing: 1020
+    _id: lWZK1T6T2ReTVYaK
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: <p>Bright fabrics, glittering instruments, and costumes in every color fill the space with theatrical flair. The air smells of wax and old perfume, and the walls are adorned with posters, playbills, and masks frozen in permanent expression.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: modules/quickstart-shops/assets/icons/basic-entertainment.webp
+    sort: 0
+    ownership:
+      default: 2
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.6
+    _key: '!journal.pages!1y4WjU9RHwL1cqwz.lWZK1T6T2ReTVYaK'
+folder: qssBasicShops000
+sort: 112500
+ownership:
+  default: 0
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.3.6
+categories: []
+_key: '!journal!1y4WjU9RHwL1cqwz'
