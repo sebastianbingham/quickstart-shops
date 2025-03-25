@@ -1,0 +1,5 @@
+2025/03/24-21:52:53.004 7b18 Delete type=3 #1
+2025/03/24-21:52:53.008 a710 Level-0 table #5: started
+2025/03/24-21:52:53.010 a710 Level-0 table #5: 1870 bytes OK
+2025/03/24-21:52:53.012 a710 Delete type=0 #3
+2025/03/24-21:52:53.012 a710 Manual compaction at level-0 from '!journal!qssGetStarted001' @ 72057594037927935 : 1 .. '!journal.pages!qssGetStarted001.qssWelcome000001' @ 0 : 0; will stop at (end)

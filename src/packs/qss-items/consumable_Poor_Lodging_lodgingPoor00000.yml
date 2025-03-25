@@ -8,7 +8,9 @@ system:
     autoDestroy: true
     max: ''
   description:
-    value: <p>Single-night stay in a poor establishment. Includes one bed and minimal amenities appropriate to the poor lifestyle.</p>
+    value: >-
+      <p>Single-night stay in a poor establishment. Includes one bed and minimal
+      amenities appropriate to the poor lifestyle.</p>
     chat: ''
   identifier: poor-lodging
   source:
@@ -63,3 +65,4 @@ _stats:
 _id: lodgingPoor00000
 name: Poor Lodging
 _key: '!items!lodgingPoor00000'
+
