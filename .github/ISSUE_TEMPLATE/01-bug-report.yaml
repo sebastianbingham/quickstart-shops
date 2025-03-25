@@ -13,15 +13,6 @@ body:
 
         Please fill out the form below to report a bug in the Quickstart Shops module.
 
-  - type: input
-    id: version
-    attributes:
-      label: Version
-      description: What version of Quickstart Shops were you using?
-      placeholder: e.g. v25.03.230514
-    validations:
-      required: true
-
   - type: textarea
     id: what-happened
     attributes:
@@ -48,5 +39,16 @@ body:
     attributes:
       label: What did you expect to happen?
       placeholder: e.g. I expected the shop to load all default items without errors.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: What version of the Quickstart Shops module are you using?
+      options:
+        - v25.03.230514
+        - Older Version
     validations:
       required: true

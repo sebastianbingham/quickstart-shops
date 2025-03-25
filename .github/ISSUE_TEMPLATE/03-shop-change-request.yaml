@@ -16,6 +16,7 @@ body:
         - This **does not** affect shops that have already been imported into a world.
         - This is a change **request**, not a guarantee.
         - Please provide a clear rationale for the change—there are no hard rules yet, but we value thoughtful feedback.
+
   - type: input
     id: documentUUID
     attributes:
@@ -25,6 +26,7 @@ body:
       placeholder: "e.g. JournalEntry.quickstart-shop-name"
     validations:
       required: true
+
   - type: input
     id: itemName
     attributes:
@@ -33,6 +35,7 @@ body:
       placeholder: "e.g. Potion of Healing"
     validations:
       required: true
+
   - type: input
     id: quantity
     attributes:
@@ -41,6 +44,7 @@ body:
       placeholder: "e.g. 3"
     validations:
       required: true
+
   - type: textarea
     id: justification
     attributes:
@@ -49,6 +53,7 @@ body:
       placeholder: "Explain why this item should be adjusted in the shop..."
     validations:
       required: true
+
   - type: dropdown
     id: version
     attributes:
