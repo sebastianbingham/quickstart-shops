@@ -1,28 +1,30 @@
-name: Basic Apothecary
+name: Basic Entertainment
 flags:
   monks-enhanced-journal:
     pagetype: shop
-    img: modules/quickstart-shops/assets/icons/basic-apothecary.webp
-_id: basicShop0000001
+    img: modules/quickstart-shops/assets/icons/basic-entertainment.webp
+_id: basicShop0000006
 pages:
   - type: text
-    name: Basic Apothecary
+    name: Basic Entertainment
     flags:
       monks-enhanced-journal:
         type: shop
-        shoptype: Apothecary
+        scrollPos: '{".tab.description .tab-inner":0}'
+        shoptype: Entertainment
         location: ''
         state: open
         autoopen: false
         purchasing: confirm
         selling: confirm
         appendix: false
-        scrollPos: '{".tab.description .tab-inner":0}'
-        _lasttab: description
+        7frIvrnKdDEsk744:
+          notes: ''
+        _lasttab: items
         twentyfour: true
         opening: 540
         closing: 1020
-    _id: apothecary000001
+    _id: entertainment001
     system: {}
     title:
       show: true
@@ -30,11 +32,15 @@ pages:
     image: {}
     text:
       format: 1
-      content: <p>A clean, earthy scent fills the air, mingling with dried herbs that hang in neat bundles from the ceiling. Rows of wooden drawers and glass jars hold powders, roots, and salves, while shelves display carefully labeled tinctures and remedies, both mundane and restorative.</p>
+      content: >-
+        <p>Bright fabrics, glittering instruments, and costumes in every color
+        fill the space with theatrical flair. The air smells of wax and old
+        perfume, and the walls are adorned with posters, playbills, and masks
+        frozen in permanent expression.</p>
     video:
       controls: true
       volume: 0.5
-    src: modules/quickstart-shops/assets/icons/basic-apothecary.webp
+    src: modules/quickstart-shops/assets/icons/basic-entertainment.webp
     sort: 0
     ownership:
       default: 2
@@ -44,9 +50,9 @@ pages:
       coreVersion: '12.331'
       systemId: dnd5e
       systemVersion: 4.3.6
-    _key: '!journal.pages!basicShop0000001.apothecary000001'
+    _key: '!journal.pages!basicShop0000006.entertainment001'
 folder: qssBasicShops001
-sort: 100000
+sort: 112500
 ownership:
   default: 0
 _stats:
@@ -55,5 +61,6 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.3.6
-_key: '!journal!basicShop0000001'
 categories: []
+_key: '!journal!basicShop0000006'
+

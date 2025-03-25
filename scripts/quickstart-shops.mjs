@@ -1,6 +1,6 @@
 const MODULE_ID = "quickstart-shops";
 
-const compendiumId = "quickstart-shops.quickstart-shops-core";
+const compendiumId = "quickstart-shops.qss-core";
 const entryId = "CAnEd3B4HfUMFxRS";
 
 console.log("QSS | Script loaded!");

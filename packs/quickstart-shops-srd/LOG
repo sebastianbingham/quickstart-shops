@@ -1,5 +1,0 @@
-2025/03/24-17:24:29.076 1c1c Delete type=3 #1
-2025/03/24-17:24:29.079 a2c0 Level-0 table #5: started
-2025/03/24-17:24:29.080 a2c0 Level-0 table #5: 5829 bytes OK
-2025/03/24-17:24:29.082 a2c0 Delete type=0 #3
-2025/03/24-17:24:29.082 a2c0 Manual compaction at level-0 from '!folders!qssBasicShops001' @ 72057594037927935 : 1 .. '!journal.pages!basicShop0000010.tavern0000000001' @ 0 : 0; will stop at (end)

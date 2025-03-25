@@ -1,0 +1,67 @@
+name: Basic Guild
+flags:
+  monks-enhanced-journal:
+    pagetype: shop
+    img: modules/quickstart-shops/assets/icons/basic-guild.webp
+_id: basicShop0000008
+pages:
+  - type: text
+    name: Basic Guild
+    flags:
+      monks-enhanced-journal:
+        type: shop
+        scrollPos: '{".tab.description .tab-inner":0}'
+        shoptype: Guild
+        location: ''
+        state: open
+        autoopen: false
+        purchasing: confirm
+        selling: confirm
+        appendix: false
+        7frIvrnKdDEsk744:
+          notes: ''
+        _lasttab: items
+        twentyfour: true
+        opening: 540
+        closing: 1020
+    _id: guild00000000001
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p data-start="1617" data-end="1867">The faint scratch of quills on
+        parchment fills the quiet space. Scroll racks, ink pots, and stacks of
+        neatly bound papers line the walls. A single desk sits beneath a reading
+        lamp, surrounded by shelves full of maps, ledgers, and sealed scroll
+        tubes.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: modules/quickstart-shops/assets/icons/basic-guild.webp
+    sort: 0
+    ownership:
+      default: 2
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.6
+    _key: '!journal.pages!basicShop0000008.guild00000000001'
+folder: qssBasicShops001
+sort: 103125
+ownership:
+  default: 0
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.3.6
+categories: []
+_key: '!journal!basicShop0000008'
+

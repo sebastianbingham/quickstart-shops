@@ -1,0 +1,64 @@
+name: Basic Blacksmith
+flags:
+  monks-enhanced-journal:
+    pagetype: shop
+    img: modules/quickstart-shops/assets/icons/basic-blacksmith.webp
+_id: basicShop0000004
+pages:
+  - type: text
+    name: Basic Blacksmith
+    flags:
+      monks-enhanced-journal:
+        type: shop
+        scrollPos: '{".tab.description .tab-inner":0}'
+        shoptype: blacksmith
+        location: ''
+        state: open
+        autoopen: false
+        purchasing: confirm
+        selling: confirm
+        appendix: false
+        _lasttab: items
+        twentyfour: true
+        opening: 540
+        closing: 1020
+    _id: blacksmith000001
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>The air is hot and smells of metal and coal. Hammers ring
+        rhythmically from the back, where glowing forges light the dim interior.
+        Racks display finished tools, nails, horseshoes, and the occasional
+        gleaming piece of armor or gear.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: modules/quickstart-shops/assets/icons/basic-blacksmith.webp
+    sort: 0
+    ownership:
+      default: 2
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.6
+    _key: '!journal.pages!basicShop0000004.blacksmith000001'
+folder: qssBasicShops001
+sort: 150000
+ownership:
+  default: 0
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.3.6
+categories: []
+_key: '!journal!basicShop0000004'
+

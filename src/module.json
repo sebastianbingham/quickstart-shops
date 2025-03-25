@@ -47,9 +47,9 @@
   ],
   "packs": [
     {
-      "name": "quickstart-shops-core",
-      "label": "Quickstart Shops (Core)",
-      "path": "packs/quickstart-shops-core",
+      "name": "qss-core",
+      "label": "QSS - Core",
+      "path": "packs/qss-core",
       "type": "JournalEntry",
       "system": "dnd5e",
       "ownership": {
@@ -58,9 +58,9 @@
       }
     },
     {
-      "name": "quickstart-shops-srd",
-      "label": "Quickstart Shops (SRD)",
-      "path": "packs/quickstart-shops-srd",
+      "name": "qss-srd",
+      "label": "QSS - SRD Items",
+      "path": "packs/qss-srd",
       "type": "JournalEntry",
       "system": "dnd5e",
       "ownership": {
@@ -69,9 +69,9 @@
       }
     },
     {
-      "name": "quickstart-shops-lorebound",
-      "label": "Quickstart Shops (Lorebound)",
-      "path": "packs/quickstart-shops-lorebound",
+      "name": "qss-lorebound",
+      "label": "QSS - Lorebound Stores",
+      "path": "packs/qss-lorebound",
       "type": "JournalEntry",
       "system": "dnd5e",
       "ownership": {
@@ -82,13 +82,13 @@
   ],
   "packFolders": [
     {
-      "name": "Quickstart Shops",
+      "name": "Quickstart Shops (QSS)",
       "color": "#b8860b",
       "sorting": "m",
       "packs": [
-        "quickstart-shops-core",
-        "quickstart-shops-srd",
-        "quickstart-shops-lorebound"
+        "qss-core",
+        "qss-srd",
+        "qss-lorebound"
       ],
       "folders": []
     }
