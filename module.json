@@ -108,9 +108,9 @@
   "esmodules": [
     "scripts/quickstart-shops.mjs"
   ],
-  "version": "#{VERSION}#",
-  "url": "#{URL}#",
-  "manifest": "#{MANIFEST}#",
-  "download": "#{DOWNLOAD}#",
+  "version": "25.03.250657",
+  "url": "https://github.com/sebastianbingham/quickstart-shops",
+  "manifest": "https://github.com/sebastianbingham/quickstart-shops/releases/latest/download/module.json",
+  "download": "https://github.com/sebastianbingham/quickstart-shops/releases/download/v25.03.250657/module.zip",
   "bugs": "https://github.com/sebastianbingham/quickstart-shops/issues"
 }
