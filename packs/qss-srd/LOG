@@ -1,3 +1,5 @@
-2025/03/24-23:21:33.226 6cb8 Recovering log #7
-2025/03/24-23:21:33.230 6cb8 Delete type=0 #7
-2025/03/24-23:21:33.230 6cb8 Delete type=3 #6
+2025/03/25-00:26:00.721 2470 Delete type=3 #1
+2025/03/25-00:26:00.727 b30c Level-0 table #5: started
+2025/03/25-00:26:00.730 b30c Level-0 table #5: 95389 bytes OK
+2025/03/25-00:26:00.731 b30c Delete type=0 #3
+2025/03/25-00:26:00.732 b30c Manual compaction at level-0 from '!folders!qssBasicShops001' @ 72057594037927935 : 1 .. '!journal.pages!basicShop0000010.tavern0000000001' @ 0 : 0; will stop at (end)

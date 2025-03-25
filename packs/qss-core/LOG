@@ -1,3 +1,5 @@
-2025/03/24-23:21:33.218 9964 Recovering log #7
-2025/03/24-23:21:33.223 9964 Delete type=0 #7
-2025/03/24-23:21:33.223 9964 Delete type=3 #6
+2025/03/25-00:26:00.585 2470 Delete type=3 #1
+2025/03/25-00:26:00.589 b30c Level-0 table #5: started
+2025/03/25-00:26:00.590 b30c Level-0 table #5: 1859 bytes OK
+2025/03/25-00:26:00.592 b30c Delete type=0 #3
+2025/03/25-00:26:00.592 b30c Manual compaction at level-0 from '!journal!qssChangeLog0000' @ 72057594037927935 : 1 .. '!journal.pages!qssGetStarted001.qssWelcome000001' @ 0 : 0; will stop at (end)

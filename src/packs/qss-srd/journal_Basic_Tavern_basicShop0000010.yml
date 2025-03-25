@@ -33,7 +33,9 @@ pages:
                 autoDestroy: true
                 max: ''
               description:
-                value: <p>Single-night stay in a poor establishment. Includes one bed and minimal amenities appropriate to the poor lifestyle.</p>
+                value: >-
+                  <p>Single-night stay in a poor establishment. Includes one bed
+                  and minimal amenities appropriate to the poor lifestyle.</p>
                 chat: ''
               identifier: poor-lodging
               source:
@@ -108,7 +110,10 @@ pages:
                 autoDestroy: true
                 max: ''
               description:
-                value: <p>Single-night stay in a modest establishment. Includes one bed and minimal amenities appropriate to the modest lifestyle.</p>
+                value: >-
+                  <p>Single-night stay in a modest establishment. Includes one
+                  bed and minimal amenities appropriate to the modest
+                  lifestyle.</p>
                 chat: ''
               identifier: modest-lodging
               source:
@@ -183,7 +188,10 @@ pages:
                 autoDestroy: true
                 max: ''
               description:
-                value: <p>Single-night stay in a comfortable establishment. Includes one bed and minimal amenities appropriate to the comfortable lifestyle.</p>
+                value: >-
+                  <p>Single-night stay in a comfortable establishment. Includes
+                  one bed and minimal amenities appropriate to the comfortable
+                  lifestyle.</p>
                 chat: ''
               identifier: comfortable-lodging
               source:
@@ -258,7 +266,10 @@ pages:
                 autoDestroy: true
                 max: ''
               description:
-                value: <p>Single-night stay in a wealthy establishment. Includes one bed and minimal amenities appropriate to the wealthy lifestyle.</p>
+                value: >-
+                  <p>Single-night stay in a wealthy establishment. Includes one
+                  bed and minimal amenities appropriate to the wealthy
+                  lifestyle.</p>
                 chat: ''
               identifier: wealthy-lodging
               source:
@@ -333,7 +344,10 @@ pages:
                 autoDestroy: true
                 max: ''
               description:
-                value: <p>Single-night stay in a aristocratic establishment. Includes one bed and minimal amenities appropriate to the aristocratic lifestyle.</p>
+                value: >-
+                  <p>Single-night stay in a aristocratic establishment. Includes
+                  one bed and minimal amenities appropriate to the aristocratic
+                  lifestyle.</p>
                 chat: ''
               identifier: aristocratic-lodging
               source:
@@ -404,7 +418,9 @@ pages:
             img: icons/consumables/grains/bread-loaf-boule-rustic-brown.webp
             system:
               description:
-                value: <p>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</p>
+                value: >-
+                  <p>Rations consist of dry foods suitable for extended travel,
+                  including jerky, dried fruit, hardtack, and nuts.</p>
                 chat: ''
               source:
                 custom: ''
@@ -596,7 +612,12 @@ pages:
     image: {}
     text:
       format: 1
-      content: <p>Warm light spills from within, carrying the scent of roasted meat, stale ale, and pipe smoke. Wooden tables are worn smooth by years of stories and spills. A fireplace crackles nearby, and the low murmur of voices gives the place a lived-in comfort.<br /><br />(DM - be sure to show/hide the corect lodging options)</p>
+      content: >-
+        <p>Warm light spills from within, carrying the scent of roasted meat,
+        stale ale, and pipe smoke. Wooden tables are worn smooth by years of
+        stories and spills. A fireplace crackles nearby, and the low murmur of
+        voices gives the place a lived-in comfort.<br /><br />(DM - be sure to
+        show/hide the corect lodging options)</p>
     video:
       controls: true
       volume: 0.5
@@ -621,5 +642,6 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.3.6
-_key: '!journal!basicShop0000010'
 categories: []
+_key: '!journal!basicShop0000010'
+

@@ -11,7 +11,23 @@ pages:
     image: {}
     text:
       format: 1
-      content: <p>Hey Team!</p><p></p><p>Thank you so much for checking out <strong>Quickstart Shops</strong>!</p><p></p><p>I built this module because, frankly, I was tired of the paralysis that came with designing shops from scratch. I was drowning in complexity or staring at a blank screen with no direction. Most shop systems I tried were too vague or too bloated for what I needed at the table. So I decided to make something that just works to give GMs a solid, functional foundation with the flexibility to grow.</p><p></p><p>What surprised me was how quickly people found it. Within hours of posting, Quickstart Shops was installed in dozens of Foundry worlds, which blew me away. Thank you for giving it a shot—it means more than I can say.</p><p></p><p>There's still a lot more I want to do with this module, so keep an eye out for updates! A full "how to use" guide is on the way soon to walk you through everything it can do (and help spark ideas for customizing it for your world).</p><p></p><p>Thanks again for your support—and happy shopping! 🛒</p><p></p><p>~Sebastian</p>
+      content: >-
+        <p>Hey Team!</p><p></p><p>Thank you so much for checking out
+        <strong>Quickstart Shops</strong>!</p><p></p><p>I built this module
+        because, frankly, I was tired of the paralysis that came with designing
+        shops from scratch. I was drowning in complexity or staring at a blank
+        screen with no direction. Most shop systems I tried were too vague or
+        too bloated for what I needed at the table. So I decided to make
+        something that just works to give GMs a solid, functional foundation
+        with the flexibility to grow.</p><p></p><p>What surprised me was how
+        quickly people found it. Within hours of posting, Quickstart Shops was
+        installed in dozens of Foundry worlds, which blew me away. Thank you for
+        giving it a shot—it means more than I can say.</p><p></p><p>There's
+        still a lot more I want to do with this module, so keep an eye out for
+        updates! A full "how to use" guide is on the way soon to walk you
+        through everything it can do (and help spark ideas for customizing it
+        for your world).</p><p></p><p>Thanks again for your support—and happy
+        shopping! 🛒</p><p></p><p>~Sebastian</p>
     video:
       controls: true
       volume: 0.5
@@ -95,5 +111,6 @@ _id: qssGetStarted001
 sort: 1000
 ownership:
   default: 0
-_key: '!journal!qssGetStarted001'
 categories: []
+_key: '!journal!qssGetStarted001'
+

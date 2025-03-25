@@ -1,3 +1,5 @@
-2025/03/24-23:21:33.248 3fac Recovering log #7
-2025/03/24-23:21:33.252 3fac Delete type=0 #7
-2025/03/24-23:21:33.253 3fac Delete type=3 #6
+2025/03/25-00:26:00.617 2470 Delete type=3 #1
+2025/03/25-00:26:00.620 b30c Level-0 table #5: started
+2025/03/25-00:26:00.622 b30c Level-0 table #5: 2451 bytes OK
+2025/03/25-00:26:00.623 b30c Delete type=0 #3
+2025/03/25-00:26:00.623 b30c Manual compaction at level-0 from '!folders!lodging000000001' @ 72057594037927935 : 1 .. '!items!lodgingWealthy00' @ 0 : 0; will stop at (end)
