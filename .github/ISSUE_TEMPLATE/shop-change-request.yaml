@@ -38,16 +38,10 @@ body:
     attributes:
       label: Quantity
       description: What should the new quantity be? (Use 0 to remove an item.)
+      placeholder: "e.g. 3"
     validations:
       required: true
-  - type: textarea
-    id: justification
-    attributes:
-      label: Why should this change be made?
-      description: Provide a reasonable case for why this item should be added, removed, or changed.
-      placeholder: "Explain why this item should be adjusted in the shop..."
-    validations:
-      required: true
+
   - type: dropdown
     id: version
     attributes:
