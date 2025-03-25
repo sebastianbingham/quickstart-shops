@@ -51,10 +51,5 @@ body:
         - v25.03.250657
         - v25.03.230514
         - Older Version
-        - v25.03.250657
-        - v25.03.230514
-        - Older Version
-        - v25.03.230514
-        - Older Version
     validations:
       required: true
