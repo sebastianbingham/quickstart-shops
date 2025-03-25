@@ -1,5 +1,5 @@
-2025/03/24-19:01:33.402 7e90 Delete type=3 #1
-2025/03/24-19:01:33.406 9150 Level-0 table #5: started
-2025/03/24-19:01:33.408 9150 Level-0 table #5: 1870 bytes OK
-2025/03/24-19:01:33.409 9150 Delete type=0 #3
-2025/03/24-19:01:33.409 9150 Manual compaction at level-0 from '!journal!qssGetStarted001' @ 72057594037927935 : 1 .. '!journal.pages!qssGetStarted001.qssWelcome000001' @ 0 : 0; will stop at (end)
+2025/03/24-19:13:02.838 6d8c Delete type=3 #1
+2025/03/24-19:13:02.842 9e04 Level-0 table #5: started
+2025/03/24-19:13:02.843 9e04 Level-0 table #5: 1870 bytes OK
+2025/03/24-19:13:02.845 9e04 Delete type=0 #3
+2025/03/24-19:13:02.845 9e04 Manual compaction at level-0 from '!journal!qssGetStarted001' @ 72057594037927935 : 1 .. '!journal.pages!qssGetStarted001.qssWelcome000001' @ 0 : 0; will stop at (end)
