@@ -33,7 +33,14 @@ body:
       placeholder: "e.g. Potion of Healing"
     validations:
       required: true
-
+  - type: input
+    id: quantity
+    attributes:
+      label: Quantity
+      description: What should the new quantity be? (Use 0 to remove an item.)
+      placeholder: "e.g. 3"
+    validations:
+      required: true
   - type: textarea
     id: justification
     attributes:
