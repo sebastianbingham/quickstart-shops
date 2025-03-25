@@ -1,5 +1,5 @@
-2025/03/25-00:26:00.617 2470 Delete type=3 #1
-2025/03/25-00:26:00.620 b30c Level-0 table #5: started
-2025/03/25-00:26:00.622 b30c Level-0 table #5: 2451 bytes OK
-2025/03/25-00:26:00.623 b30c Delete type=0 #3
-2025/03/25-00:26:00.623 b30c Manual compaction at level-0 from '!folders!lodging000000001' @ 72057594037927935 : 1 .. '!items!lodgingWealthy00' @ 0 : 0; will stop at (end)
+2025/03/25-01:36:56.718 814c Delete type=3 #1
+2025/03/25-01:36:56.721 a7e0 Level-0 table #5: started
+2025/03/25-01:36:56.723 a7e0 Level-0 table #5: 2451 bytes OK
+2025/03/25-01:36:56.725 a7e0 Delete type=0 #3
+2025/03/25-01:36:56.725 a7e0 Manual compaction at level-0 from '!folders!lodging000000001' @ 72057594037927935 : 1 .. '!items!lodgingWealthy00' @ 0 : 0; will stop at (end)

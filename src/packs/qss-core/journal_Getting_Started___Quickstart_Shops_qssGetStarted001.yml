@@ -11,23 +11,7 @@ pages:
     image: {}
     text:
       format: 1
-      content: >-
-        <p>Hey Team!</p><p></p><p>Thank you so much for checking out
-        <strong>Quickstart Shops</strong>!</p><p></p><p>I built this module
-        because, frankly, I was tired of the paralysis that came with designing
-        shops from scratch. I was drowning in complexity or staring at a blank
-        screen with no direction. Most shop systems I tried were too vague or
-        too bloated for what I needed at the table. So I decided to make
-        something that just works to give GMs a solid, functional foundation
-        with the flexibility to grow.</p><p></p><p>What surprised me was how
-        quickly people found it. Within hours of posting, Quickstart Shops was
-        installed in dozens of Foundry worlds, which blew me away. Thank you for
-        giving it a shot—it means more than I can say.</p><p></p><p>There's
-        still a lot more I want to do with this module, so keep an eye out for
-        updates! A full "how to use" guide is on the way soon to walk you
-        through everything it can do (and help spark ideas for customizing it
-        for your world).</p><p></p><p>Thanks again for your support—and happy
-        shopping! 🛒</p><p></p><p>~Sebastian</p>
+      content: <p>Hey Team!</p><p></p><p>Thank you so much for checking out <strong data-start="362" data-end="382">Quickstart Shops</strong>!</p><p></p><p data-start="385" data-end="816">I built this module because I was tired of the paralysis that came with designing shops from scratch. I kept getting stuck—either overwhelmed by complexity or staring at a blank screen with no direction. Most shop systems I tried were too vague or bloated for what I needed at the table. So I set out to create something that <em data-start="734" data-end="746">just works</em>—a solid, functional foundation for GMs, with the flexibility to grow.</p><p></p><p data-start="818" data-end="1061">What surprised me most was how quickly people found it. Within hours of posting, Quickstart Shops was already installed in dozens of Foundry worlds—and that absolutely blew me away. Thank you for giving it a shot. It means more than I can say.</p><p></p><p data-start="1063" data-end="1294">There’s still a lot more I want to do with this module, so keep an eye out for updates! A full "how to use" guide will soon walk you through everything it can do (and help spark ideas for customizing it for your world).</p><p></p><p data-start="1296" data-end="1348">Thanks again for your support—and happy shopping!</p><p></p><p>~Sebastian</p>
     video:
       controls: true
       volume: 0.5
@@ -73,9 +57,9 @@ pages:
       systemVersion: 4.3.6
     _key: '!journal.pages!qssGetStarted001.qssHowToUse00001'
   - sort: 300000
-    name: Report Issue/Feature Request
+    name: Support, Feedback & Feature Requests
     type: text
-    _id: qssChangeLog0001
+    _id: supportFdbk00001
     system: {}
     title:
       show: true
@@ -83,7 +67,7 @@ pages:
     image: {}
     text:
       format: 1
-      content: <p>Reporting issues and feature requests coming soon.</p>
+      content: <p data-start="263" data-end="364">Do you have a question, found a bug, or want to suggest a new shop or feature?<br data-start="258" data-end="261" />I’d love to hear from you!</p><p data-start="289" data-end="509">The GitHub issue tracker is the best way to get support or share ideas. Whether it’s a missing item, a pricing tweak, or something new you’d like to see in <strong data-start="453" data-end="473">Quickstart Shops</strong>, your input helps shape its future.</p><p>Help make <strong data-start="729" data-end="749">Quickstart Shops</strong> even better for your table!</p><p></p><p data-start="601" data-end="714">➡️ <a data-start="604" data-end="714" rel="noopener" target="_new" href="https://github.com/sebastianbingham/quickstart-shops/issues/new/choose">Submit an Issue or Request on GitHub</a></p><p></p><h3 data-start="784" data-end="810">🧠 Want to Contribute?</h3><p data-start="812" data-end="959">I'm always open to collaboration — whether you're a <strong data-start="711" data-end="724">developer</strong>, a <strong data-start="728" data-end="740">designer</strong>, or an <strong data-start="748" data-end="758">artist</strong>. I'm especially looking for artists who’d like to help bring the world of shops to life with icons, signage, or storefront art.</p><p data-start="888" data-end="1052">Feel free to fork the repo, open a pull request, or reach out through GitHub if you'd like to contribute. I’d be thrilled to build something extraordinary together.</p>
     video:
       controls: true
       volume: 0.5
@@ -99,7 +83,35 @@ pages:
       coreVersion: '12.331'
       systemId: dnd5e
       systemVersion: 4.3.6
-    _key: '!journal.pages!qssGetStarted001.qssChangeLog0001'
+    _key: '!journal.pages!qssGetStarted001.supportFdbk00001'
+  - sort: 400000
+    name: Changelog
+    type: text
+    _id: changelog0000001
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: <p>Check out Quickstart Shops' most recent release's latest updates, features, and fixes.</p><p></p><p><a href="https://github.com/sebastianbingham/quickstart-shops/releases/latest">View the latest release notes here</a></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags:
+      monks-enhanced-journal:
+        appendix: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.6
+    _key: '!journal.pages!qssGetStarted001.changelog0000001'
 folder: null
 _stats:
   compendiumSource: null
@@ -111,6 +123,6 @@ _id: qssGetStarted001
 sort: 1000
 ownership:
   default: 0
-categories: []
+flags: {}
 _key: '!journal!qssGetStarted001'
-
+categories: []
