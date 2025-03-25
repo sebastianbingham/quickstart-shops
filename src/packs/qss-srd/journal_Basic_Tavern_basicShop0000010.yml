@@ -22,6 +22,384 @@ pages:
         twentyfour: true
         opening: 1
         closing: 1439
+        items:
+          - type: consumable
+            img: modules/quickstart-shops/assets/icons/basic-tavern.webp
+            system:
+              activities: {}
+              uses:
+                spent: 0
+                recovery: []
+                autoDestroy: true
+                max: ''
+              description:
+                value: <p>Single-night stay in a poor establishment. Includes one bed and minimal amenities appropriate to the poor lifestyle.</p>
+                chat: ''
+              identifier: poor-lodging
+              source:
+                revision: 1
+                rules: '2024'
+                book: Quickstart Shops
+                page: ''
+                custom: QSS
+                license: GPL-3.0
+              identified: true
+              unidentified:
+                description: ''
+              container: null
+              quantity: 1
+              weight:
+                value: 0
+                units: lb
+              price:
+                value: 1
+                denomination: sp
+              rarity: common
+              attunement: ''
+              attuned: false
+              equipped: false
+              type:
+                value: ''
+                subtype: ''
+              damage:
+                base:
+                  number: null
+                  denomination: null
+                  types: []
+                  custom:
+                    enabled: false
+                  scaling:
+                    number: 1
+                replace: false
+              magicalBonus: null
+              properties: []
+            effects: []
+            folder: lodging000000001
+            sort: 1000
+            ownership:
+              default: 0
+            flags:
+              monks-enhanced-journal:
+                quantity: 1
+                price: 1 sp
+                hide: true
+                lock: false
+                parentId: lodgingPoor00000
+                cost: 1 sp
+                consumable: false
+            _stats:
+              compendiumSource: null
+              duplicateSource: null
+              coreVersion: '12.331'
+              systemId: dnd5e
+              systemVersion: 4.3.6
+              createdTime: null
+              modifiedTime: null
+              lastModifiedBy: null
+            _id: oMIVdxmBjaZipjKY
+            name: Poor Lodging
+          - type: consumable
+            img: modules/quickstart-shops/assets/icons/basic-tavern.webp
+            system:
+              activities: {}
+              uses:
+                spent: 0
+                recovery: []
+                autoDestroy: true
+                max: ''
+              description:
+                value: <p>Single-night stay in a modest establishment. Includes one bed and minimal amenities appropriate to the modest lifestyle.</p>
+                chat: ''
+              identifier: modest-lodging
+              source:
+                revision: 1
+                rules: '2024'
+                book: Quickstart Shops
+                page: ''
+                custom: QSS
+                license: GPL-3.0
+              identified: true
+              unidentified:
+                description: ''
+              container: null
+              quantity: 1
+              weight:
+                value: 0
+                units: lb
+              price:
+                value: 5
+                denomination: sp
+              rarity: common
+              attunement: ''
+              attuned: false
+              equipped: false
+              type:
+                value: ''
+                subtype: ''
+              damage:
+                base:
+                  number: null
+                  denomination: null
+                  types: []
+                  custom:
+                    enabled: false
+                  scaling:
+                    number: 1
+                replace: false
+              magicalBonus: null
+              properties: []
+            effects: []
+            folder: lodging000000001
+            sort: 2000
+            ownership:
+              default: 0
+            flags:
+              monks-enhanced-journal:
+                quantity: 1
+                price: 5 sp
+                hide: true
+                lock: false
+                parentId: lodgingModest000
+                cost: 5 sp
+                consumable: false
+            _stats:
+              compendiumSource: null
+              duplicateSource: null
+              coreVersion: '12.331'
+              systemId: dnd5e
+              systemVersion: 4.3.6
+              createdTime: null
+              modifiedTime: null
+              lastModifiedBy: null
+            _id: efu2OoazKaggOHhg
+            name: Modest Lodging
+          - type: consumable
+            img: modules/quickstart-shops/assets/icons/basic-tavern.webp
+            system:
+              activities: {}
+              uses:
+                spent: 0
+                recovery: []
+                autoDestroy: true
+                max: ''
+              description:
+                value: <p>Single-night stay in a comfortable establishment. Includes one bed and minimal amenities appropriate to the comfortable lifestyle.</p>
+                chat: ''
+              identifier: comfortable-lodging
+              source:
+                revision: 1
+                rules: '2024'
+                book: Quickstart Shops
+                page: ''
+                custom: QSS
+                license: GPL-3.0
+              identified: true
+              unidentified:
+                description: ''
+              container: null
+              quantity: 1
+              weight:
+                value: 0
+                units: lb
+              price:
+                value: 8
+                denomination: sp
+              rarity: common
+              attunement: ''
+              attuned: false
+              equipped: false
+              type:
+                value: ''
+                subtype: ''
+              damage:
+                base:
+                  number: null
+                  denomination: null
+                  types: []
+                  custom:
+                    enabled: false
+                  scaling:
+                    number: 1
+                replace: false
+              magicalBonus: null
+              properties: []
+            effects: []
+            folder: lodging000000001
+            sort: 3000
+            ownership:
+              default: 0
+            flags:
+              monks-enhanced-journal:
+                quantity: 1
+                price: 8 sp
+                hide: true
+                lock: false
+                parentId: lodgingComfy0000
+                cost: 8 sp
+                consumable: false
+            _stats:
+              compendiumSource: Compendium.quickstart-shops.qss-items.Item.lodgingComfy0000
+              duplicateSource: null
+              coreVersion: '12.331'
+              systemId: dnd5e
+              systemVersion: 4.3.6
+              createdTime: null
+              modifiedTime: null
+              lastModifiedBy: null
+            _id: WmOVAyRFihildFLS
+            name: Comfortable Lodging
+          - type: consumable
+            img: modules/quickstart-shops/assets/icons/basic-tavern.webp
+            system:
+              activities: {}
+              uses:
+                spent: 0
+                recovery: []
+                autoDestroy: true
+                max: ''
+              description:
+                value: <p>Single-night stay in a wealthy establishment. Includes one bed and minimal amenities appropriate to the wealthy lifestyle.</p>
+                chat: ''
+              identifier: wealthy-lodging
+              source:
+                revision: 1
+                rules: '2024'
+                book: Quickstart Shops
+                page: ''
+                custom: QSS
+                license: GPL-3.0
+              identified: true
+              unidentified:
+                description: ''
+              container: null
+              quantity: 1
+              weight:
+                value: 0
+                units: lb
+              price:
+                value: 2
+                denomination: gp
+              rarity: common
+              attunement: ''
+              attuned: false
+              equipped: false
+              type:
+                value: ''
+                subtype: ''
+              damage:
+                base:
+                  number: null
+                  denomination: null
+                  types: []
+                  custom:
+                    enabled: false
+                  scaling:
+                    number: 1
+                replace: false
+              magicalBonus: null
+              properties: []
+            effects: []
+            folder: lodging000000001
+            sort: 4000
+            ownership:
+              default: 0
+            flags:
+              monks-enhanced-journal:
+                quantity: 1
+                price: 2 gp
+                hide: true
+                lock: false
+                parentId: lodgingWealthy00
+                cost: 2 gp
+                consumable: false
+            _stats:
+              compendiumSource: null
+              duplicateSource: null
+              coreVersion: '12.331'
+              systemId: dnd5e
+              systemVersion: 4.3.6
+              createdTime: null
+              modifiedTime: null
+              lastModifiedBy: null
+            _id: 7RAYh2M9ZQGQXrcN
+            name: Wealthy Lodging
+          - type: consumable
+            img: modules/quickstart-shops/assets/icons/basic-tavern.webp
+            system:
+              activities: {}
+              uses:
+                spent: 0
+                recovery: []
+                autoDestroy: true
+                max: ''
+              description:
+                value: <p>Single-night stay in a aristocratic establishment. Includes one bed and minimal amenities appropriate to the aristocratic lifestyle.</p>
+                chat: ''
+              identifier: aristocratic-lodging
+              source:
+                revision: 1
+                rules: '2024'
+                book: Quickstart Shops
+                page: ''
+                custom: QSS
+                license: GPL-3.0
+              identified: true
+              unidentified:
+                description: ''
+              container: null
+              quantity: 1
+              weight:
+                value: 0
+                units: lb
+              price:
+                value: 4
+                denomination: gp
+              rarity: common
+              attunement: ''
+              attuned: false
+              equipped: false
+              type:
+                value: ''
+                subtype: ''
+              damage:
+                base:
+                  number: null
+                  denomination: null
+                  types: []
+                  custom:
+                    enabled: false
+                  scaling:
+                    number: 1
+                replace: false
+              magicalBonus: null
+              properties: []
+            effects: []
+            folder: lodging000000001
+            sort: 5000
+            ownership:
+              default: 0
+            flags:
+              monks-enhanced-journal:
+                quantity: 1
+                price: 4 gp
+                hide: true
+                lock: false
+                parentId: lodgingAristo000
+                cost: 4 gp
+                consumable: false
+            _stats:
+              compendiumSource: null
+              duplicateSource: null
+              coreVersion: '12.331'
+              systemId: dnd5e
+              systemVersion: 4.3.6
+              createdTime: null
+              modifiedTime: null
+              lastModifiedBy: null
+            _id: Pk7M1YYqf5GhL1vL
+            name: Aristocratic Lodging
+        FBG4i3sknz4dd9ix:
+          notes: ''
     _id: tavern0000000001
     system: {}
     title:
@@ -30,11 +408,7 @@ pages:
     image: {}
     text:
       format: 1
-      content: >-
-        <p>Warm light spills from within, carrying the scent of roasted meat,
-        stale ale, and pipe smoke. Wooden tables are worn smooth by years of
-        stories and spills. A fireplace crackles nearby, and the low murmur of
-        voices gives the place a lived-in comfort.</p>
+      content: <p>Warm light spills from within, carrying the scent of roasted meat, stale ale, and pipe smoke. Wooden tables are worn smooth by years of stories and spills. A fireplace crackles nearby, and the low murmur of voices gives the place a lived-in comfort.<br /><br />(DM - be sure to show/hide the corect lodging options)</p>
     video:
       controls: true
       volume: 0.5
@@ -59,6 +433,5 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.3.6
-categories: []
 _key: '!journal!basicShop0000010'
-
+categories: []
