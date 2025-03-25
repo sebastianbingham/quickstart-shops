@@ -1,28 +1,35 @@
-name: Update Issue Forms
+name: Update Issue Forms on Main
 
 on:
   workflow_call:
-    inputs:
-      version:
-        required: true
-        type: string
+  workflow_dispatch:
 
 jobs:
-  update:
+  update-forms:
     name: Update YAML Issue Forms
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
-      - name: 📥 Checkout Main Branch
+      - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-          ref: main
+          ref: master
+          fetch-depth: 0  # Needed to access all tags
 
-      - name: 🛠 Update Versions in YAML Forms
+      - name: Get Latest Version Tag
+        id: get_version
         run: |
-          NEW_VERSION="${{ inputs.version }}"
+          TAG=$(git tag --sort=-creatordate | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+$' | head -n 1)
+          echo "Latest tag: $TAG"
+          echo "version=$TAG" >> $GITHUB_OUTPUT
+
+      - name: Update Version in Issue Forms
+        run: |
+          NEW_VERSION="${{ steps.get_version.outputs.version }}"
+          echo "Updating forms with version: $NEW_VERSION"
+
           FORM_PATHS=(
             ".github/ISSUE_TEMPLATE/01-bug-report.yaml"
             ".github/ISSUE_TEMPLATE/03-shop-change-request.yaml"
@@ -64,10 +71,12 @@ jobs:
             echo "✅ Updated $ISSUE_FORM with version $NEW_VERSION"
           done
 
-      - name: 🟢 Commit and Push Changes
+      - name: Commit Changes
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add .
-          git commit -m "chore: update issue form versions to $NEW_VERSION"
-          git push origin main
+          git add .github/ISSUE_TEMPLATE/*.yaml
+          git commit -m "Update issue forms with ${{ steps.get_version.outputs.version }}" || echo "No changes to commit"
+
+      - name: Push Changes
+        run: git push
