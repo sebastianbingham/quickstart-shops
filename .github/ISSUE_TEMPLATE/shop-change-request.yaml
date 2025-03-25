@@ -33,15 +33,15 @@ body:
       placeholder: "e.g. Potion of Healing"
     validations:
       required: true
-  - type: number
-    id: quantity
+
+  - type: textarea
+    id: justification
     attributes:
-      label: Quantity
-      description: What should the new quantity be? (Use 0 to remove an item.)
-      placeholder: "e.g. 3"
+      label: Why should this change be made?
+      description: Provide a reasonable case for why this item should be added, removed, or changed.
+      placeholder: "Explain why this item should be adjusted in the shop..."
     validations:
       required: true
-
   - type: dropdown
     id: version
     attributes:
