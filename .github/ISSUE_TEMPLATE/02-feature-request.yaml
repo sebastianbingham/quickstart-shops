@@ -1,0 +1,32 @@
+name: Feature Request
+description: Suggest a new feature or enhancement for Quickstart Shops.
+title: "[FEATURE]: "
+labels: [ "enhancement" ]
+assignees:
+  - sebastianbingham
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 💡 Feature Request
+
+        Share your idea for improving the Quickstart Shops module! For changes to items be sure to use that issue template.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What is the feature or improvement?
+      description: Explain what the feature is, what it should do, and how it helps users.
+      placeholder: I’d like to be able to filter shops in the UI based on item types, such as potions, scrolls, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Why is this useful?
+      description: Help us understand how this would improve usability or functionality.
+      placeholder: This would help GMs quickly browse for specialized shop content.
+    validations:
+      required: true

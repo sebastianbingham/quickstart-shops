@@ -50,11 +50,3 @@ body:
       placeholder: e.g. I expected the shop to load all default items without errors.
     validations:
       required: true
-
-  - type: textarea
-    id: notes
-    attributes:
-      label: Additional Notes or Screenshots
-      description: If applicable, include screenshots or other details.
-    validations:
-      required: true
