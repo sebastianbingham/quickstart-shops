@@ -1,0 +1,73 @@
+name: Update Issue Forms
+
+on:
+  workflow_call:
+    inputs:
+      version:
+        required: true
+        type: string
+
+jobs:
+  update:
+    name: Update YAML Issue Forms
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: 📥 Checkout Main Branch
+        uses: actions/checkout@v3
+        with:
+          ref: main
+
+      - name: 🛠 Update Versions in YAML Forms
+        run: |
+          NEW_VERSION="${{ inputs.version }}"
+          FORM_PATHS=(
+            ".github/ISSUE_TEMPLATE/01-bug-report.yaml"
+            ".github/ISSUE_TEMPLATE/03-shop-change-request.yaml"
+          )
+
+          for ISSUE_FORM in "${FORM_PATHS[@]}"; do
+            echo "🔄 Updating $ISSUE_FORM..."
+
+            if [ ! -f "$ISSUE_FORM" ]; then
+              echo "⚠️ $ISSUE_FORM not found. Skipping..."
+              continue
+            fi
+
+            current_versions=$(awk '/^ {8}- v[0-9]+\.[0-9]+\.[0-9]+/ {gsub(/^ +- /, "", $0); print $0}' "$ISSUE_FORM")
+            updated_versions=$(echo -e "$NEW_VERSION\n$current_versions" | grep -v 'Older Version' | sort -r | uniq | head -n 5)
+
+            awk -v new_versions="$updated_versions" '
+              BEGIN {
+                split(new_versions, lines, "\n")
+                in_versions = 0
+              }
+              {
+                if ($1 == "options:") {
+                  print $0
+                  in_versions = 1
+                  for (i in lines) {
+                    print "        - " lines[i]
+                  }
+                  print "        - Older Version"
+                  next
+                }
+                if (in_versions && $1 ~ /^ *- /) {
+                  next
+                }
+                print $0
+              }
+            ' "$ISSUE_FORM" > temp.yaml && mv temp.yaml "$ISSUE_FORM"
+
+            echo "✅ Updated $ISSUE_FORM with version $NEW_VERSION"
+          done
+
+      - name: 🟢 Commit and Push Changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add .
+          git commit -m "chore: update issue form versions to $NEW_VERSION"
+          git push origin main
