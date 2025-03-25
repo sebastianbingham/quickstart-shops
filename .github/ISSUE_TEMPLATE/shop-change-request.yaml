@@ -8,11 +8,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Thank you for your suggestion!
+        ## 🛍️ Thank you for your suggestion!
 
         This form is **only for requesting an item be added, removed, or its quantity changed** in a specific **Quickstart Shop** journal.
 
-        **Note**:
+        📝 **Note**:
         - This **does not** affect shops that have already been imported into a world.
         - This is a change **request**, not a guarantee.
         - Please provide a clear rationale for the change—there are no hard rules yet, but we value thoughtful feedback.
