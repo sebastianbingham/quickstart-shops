@@ -1,50 +1,47 @@
-name: Update Issue Forms on Main
+name: Update Issue Forms
 
 on:
-  workflow_call:
   workflow_dispatch:
+  workflow_call:
 
 jobs:
   update-forms:
     name: Update YAML Issue Forms
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          ref: master
-          fetch-depth: 0  # Needed to access all tags
+          ref: main
 
-      - name: Get Latest Version Tag
-        id: get_version
+      - name: Get latest version tag
+        id: version
         run: |
-          TAG=$(git tag --sort=-creatordate | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+$' | head -n 1)
-          echo "Latest tag: $TAG"
-          echo "version=$TAG" >> $GITHUB_OUTPUT
+          VERSION=$(git tag --sort=-creatordate | grep -E '^v[0-9]{2}\.[0-9]{2}\.[0-9]{6}$' | head -n 1)
+          echo "Latest version: $VERSION"
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
 
-      - name: Update Version in Issue Forms
+      - name: Update version dropdown in issue templates
         run: |
-          NEW_VERSION="${{ steps.get_version.outputs.version }}"
-          echo "Updating forms with version: $NEW_VERSION"
-
-          FORM_PATHS=(
+          TEMPLATES=(
             ".github/ISSUE_TEMPLATE/01-bug-report.yaml"
             ".github/ISSUE_TEMPLATE/03-shop-change-request.yaml"
           )
 
-          for ISSUE_FORM in "${FORM_PATHS[@]}"; do
-            echo "🔄 Updating $ISSUE_FORM..."
+          for FILE in "${TEMPLATES[@]}"; do
+            echo "🔧 Updating version list in $FILE"
 
-            if [ ! -f "$ISSUE_FORM" ]; then
-              echo "⚠️ $ISSUE_FORM not found. Skipping..."
-              continue
-            fi
+            current_versions=$(awk '
+              $1 == "id:" && $2 == "version" { in_versions = 1 }
+              in_versions && $1 == "options:" { next }
+              in_versions && $1 ~ /^ *- / { print $2 }
+              in_versions && NF == 0 { exit }
+            ' "$FILE" | grep -v '^Older Version$')
 
-            current_versions=$(awk '/^ {8}- v[0-9]+\.[0-9]+\.[0-9]+/ {gsub(/^ +- /, "", $0); print $0}' "$ISSUE_FORM")
-            updated_versions=$(echo -e "$NEW_VERSION\n$current_versions" | grep -v 'Older Version' | sort -r | uniq | head -n 5)
+            updated_versions=$(echo -e "${{ steps.version.outputs.version }}\n$current_versions" \
+              | grep -v '^Older Version$' \
+              | sort -r | uniq | head -n 5)
 
             awk -v new_versions="$updated_versions" '
               BEGIN {
@@ -66,17 +63,13 @@ jobs:
                 }
                 print $0
               }
-            ' "$ISSUE_FORM" > temp.yaml && mv temp.yaml "$ISSUE_FORM"
-
-            echo "✅ Updated $ISSUE_FORM with version $NEW_VERSION"
+            ' "$FILE" > temp.yaml && mv temp.yaml "$FILE"
           done
 
-      - name: Commit Changes
+      - name: Commit and push updated issue forms
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add .github/ISSUE_TEMPLATE/*.yaml
-          git commit -m "Update issue forms with ${{ steps.get_version.outputs.version }}" || echo "No changes to commit"
-
-      - name: Push Changes
-        run: git push
+          git add .github/ISSUE_TEMPLATE/01-bug-report.yaml .github/ISSUE_TEMPLATE/03-shop-change-request.yaml
+          git commit -m "Update issue form version dropdowns to include ${{ steps.version.outputs.version }}" || echo "No changes to commit"
+          git push
