@@ -1,6 +1,7 @@
 name: Add/Delete/Change Item In Shop
 description: Request to add, remove, or update the quantity of an item in a Quickstart Shop journal.
-labels: [ requested-shop-change ]
+title: "[CHANGE-REQUEST]: "
+labels: [ "requested-shop-change" ]
 assignees:
   - sebastianbingham
 body:
