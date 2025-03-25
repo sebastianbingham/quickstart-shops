@@ -1,0 +1,43 @@
+name: Changelog
+pages:
+  - sort: 100000
+    name: Changelog
+    type: text
+    _id: qssChangeLog0001
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: <p>Coming soon</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+    flags:
+      monks-enhanced-journal:
+        appendix: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.6
+    _key: '!journal.pages!qssChangeLog0000.qssChangeLog0001'
+folder: null
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.3.6
+_id: qssChangeLog0000
+sort: 2000
+ownership:
+  default: 0
+_key: '!journal!qssChangeLog0000'
+categories: []
