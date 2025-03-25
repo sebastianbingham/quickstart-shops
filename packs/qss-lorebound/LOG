@@ -1,5 +1,5 @@
-2025/03/24-19:13:02.857 6d8c Delete type=3 #1
-2025/03/24-19:13:02.859 9e04 Level-0 table #5: started
-2025/03/24-19:13:02.861 9e04 Level-0 table #5: 443 bytes OK
-2025/03/24-19:13:02.863 9e04 Delete type=0 #3
-2025/03/24-19:13:02.863 9e04 Manual compaction at level-0 from '!folders!qssBasicShops002' @ 72057594037927935 : 1 .. '!folders!qssBasicShops002' @ 0 : 0; will stop at (end)
+2025/03/24-21:05:16.919 8874 Delete type=3 #1
+2025/03/24-21:05:16.922 88b4 Level-0 table #5: started
+2025/03/24-21:05:16.923 88b4 Level-0 table #5: 443 bytes OK
+2025/03/24-21:05:16.925 88b4 Delete type=0 #3
+2025/03/24-21:05:16.925 88b4 Manual compaction at level-0 from '!folders!qssBasicShops002' @ 72057594037927935 : 1 .. '!folders!qssBasicShops002' @ 0 : 0; will stop at (end)
