@@ -1,64 +1,66 @@
-name: Bug Report
-description: File a bug report.
-title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
+name: Add/Delete/Change Item In Shop
+description: Request an item change in a Quickstart Shop journal.
+title: "[Shop Change]: "
+labels: ["requested-shop-change"]
 assignees:
-  - octocat
+  - sebastianbingham
+
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        🛍️ **Quickstart Shop Change Request**
+
+        This form is only for requesting that an item be added, removed, or its quantity changed in a Quickstart Shop journal.
+
+        **Note:**
+        - This does **not** affect shops already imported into worlds.
+        - This is a **request**, not a guarantee.
+        - Please provide a reasonable justification.
+
   - type: input
-    id: contact
+    id: documentUUID
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Document UUID
+      description: Found by clicking the globe/book icon on the journal entry in Foundry.
+      placeholder: e.g. JournalEntry.quickstart-shop-name
     validations:
       required: true
+
+  - type: input
+    id: itemName
+    attributes:
+      label: Item Name
+      description: The name of the item to add/remove/change.
+      placeholder: e.g. Potion of Healing
+    validations:
+      required: true
+
+  - type: number
+    id: quantity
+    attributes:
+      label: Quantity
+      description: Enter 0 to request removal.
+      placeholder: e.g. 3
+    validations:
+      required: true
+
   - type: dropdown
     id: version
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Quickstart Shop Version
+      description: What version are you using?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-      default: 0
+        - v25.03.230514
+        - Older Version
     validations:
       required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+
   - type: textarea
-    id: logs
+    id: reason
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com).
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      label: Why should this change be made?
+      description: Explain your reasoning for the item addition, removal, or change.
+      placeholder: e.g. This item fits the theme of the apothecary better than X.
+    validations:
+      required: true
