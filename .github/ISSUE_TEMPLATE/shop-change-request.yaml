@@ -25,6 +25,14 @@ body:
       placeholder: "e.g. JournalEntry.quickstart-shop-name"
     validations:
       required: true
+  - type: input
+    id: itemName
+    attributes:
+      label: Item Name
+      description: The exact name of the item you are requesting a change for.
+      placeholder: "e.g. Potion of Healing"
+    validations:
+      required: true
 
   - type: dropdown
     id: version
