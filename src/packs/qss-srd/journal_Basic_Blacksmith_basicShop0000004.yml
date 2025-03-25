@@ -29,7 +29,11 @@ pages:
             img: icons/weapons/axes/axe-battle-black.webp
             system:
               description:
-                value: <p>A stout crescent blade mounted on a thick shaft wrapped in a sturdy grip. This axe is large enough to be wielded with two hands and is adorned with a spike upon the back-side of the blade.</p>
+                value: >-
+                  <p>A stout crescent blade mounted on a thick shaft wrapped in
+                  a sturdy grip. This axe is large enough to be wielded with two
+                  hands and is adorned with a spike upon the back-side of the
+                  blade.</p>
                 chat: ''
               source:
                 custom: ''
@@ -199,7 +203,10 @@ pages:
             img: icons/weapons/clubs/club-banded-brown.webp
             system:
               description:
-                value: <p>A stout knob of wood forms a simple, but effective, cudgel. These weapons are used to bludgeon foes, bruising flesh and breaking bones.</p>
+                value: >-
+                  <p>A stout knob of wood forms a simple, but effective, cudgel.
+                  These weapons are used to bludgeon foes, bruising flesh and
+                  breaking bones.</p>
                 chat: ''
               source:
                 custom: ''
@@ -369,7 +376,10 @@ pages:
             img: icons/weapons/daggers/dagger-straight-blue.webp
             system:
               description:
-                value: <p>A short metal blade mounted to a small hilt and crossguard. The dagger makes an effective side armament for hardened warriors or a hidden blade for assassins and thieves.</p>
+                value: >-
+                  <p>A short metal blade mounted to a small hilt and crossguard.
+                  The dagger makes an effective side armament for hardened
+                  warriors or a hidden blade for assassins and thieves.</p>
                 chat: ''
               source:
                 custom: ''
@@ -540,7 +550,10 @@ pages:
             img: icons/weapons/maces/flail-ball-grey.webp
             system:
               description:
-                value: <p>A heavy iron ball attached to a stout wooden shaft with a heavy chain, allowing it to deal devastating damage at the end of wide, sweeping swings.</p>
+                value: >-
+                  <p>A heavy iron ball attached to a stout wooden shaft with a
+                  heavy chain, allowing it to deal devastating damage at the end
+                  of wide, sweeping swings.</p>
                 chat: ''
               source:
                 custom: ''
@@ -708,7 +721,10 @@ pages:
             img: icons/weapons/axes/axe-double-black.webp
             system:
               description:
-                value: <p>This enormous axe features two twin crescent blades mounted on either side of a tall spiked shaft. Designed to be wielded with two hands and cleave foes in twain.</p>
+                value: >-
+                  <p>This enormous axe features two twin crescent blades mounted
+                  on either side of a tall spiked shaft. Designed to be wielded
+                  with two hands and cleave foes in twain.</p>
                 chat: ''
               source:
                 custom: ''
@@ -878,7 +894,10 @@ pages:
             img: icons/weapons/clubs/club-heavy-barbed-grey.webp
             system:
               description:
-                value: <p>A larger variant of the simple club, a hefty wooden shaft with an enormous knot of wood upon the end deals crippling bludgeoning damage to unfortunate foes.</p>
+                value: >-
+                  <p>A larger variant of the simple club, a hefty wooden shaft
+                  with an enormous knot of wood upon the end deals crippling
+                  bludgeoning damage to unfortunate foes.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1047,7 +1066,11 @@ pages:
             img: icons/weapons/swords/greatsword-crossguard-steel.webp
             system:
               description:
-                value: <p>A mighty two-handed blade is over four feet long an almost five inches wide. This weapon requires extensive martial training but those proficient in its use are formidable warriors.</p>
+                value: >-
+                  <p>A mighty two-handed blade is over four feet long an almost
+                  five inches wide. This weapon requires extensive martial
+                  training but those proficient in its use are formidable
+                  warriors.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1217,7 +1240,11 @@ pages:
             img: icons/weapons/polearms/halberd-engraved-black.webp
             system:
               description:
-                value: <p>A spear-tipped metal shaft accompanied by a crescent blade, the halberd is a strong defensive weapon which allows a warrior to fend off foes using the reach of the shaft to attack from safe distance.</p>
+                value: >-
+                  <p>A spear-tipped metal shaft accompanied by a crescent blade,
+                  the halberd is a strong defensive weapon which allows a
+                  warrior to fend off foes using the reach of the shaft to
+                  attack from safe distance.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1389,7 +1416,10 @@ pages:
             img: icons/weapons/crossbows/crossbow-loaded-black.webp
             system:
               description:
-                value: <p>A large crossbow mounted on a sturdy block of wood which is loaded using a hand crank and fires thick steel bolts with deadly acceleration that punches through armor and flesh.</p>
+                value: >-
+                  <p>A large crossbow mounted on a sturdy block of wood which is
+                  loaded using a hand crank and fires thick steel bolts with
+                  deadly acceleration that punches through armor and flesh.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1563,7 +1593,9 @@ pages:
             img: icons/weapons/axes/axe-broad-black.webp
             system:
               description:
-                value: <p>This one-handed axe is light and balanced for throwing while remaining useful in hand combat.</p>
+                value: >-
+                  <p>This one-handed axe is light and balanced for throwing
+                  while remaining useful in hand combat.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1734,7 +1766,9 @@ pages:
             img: icons/weapons/polearms/javelin-flared.webp
             system:
               description:
-                value: <p>This light and flexible spear is designed for throwing, but is versatile enough to be used in melee combat as well.</p>
+                value: >-
+                  <p>This light and flexible spear is designed for throwing, but
+                  is versatile enough to be used in melee combat as well.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1904,7 +1938,10 @@ pages:
             img: icons/weapons/crossbows/crossbow-simple-brown.webp
             system:
               description:
-                value: <p>A small crossbow with a wooden haft and a tense cord which is capable of firing a single bolt which can puncture even heavy armor at close range.</p>
+                value: >-
+                  <p>A small crossbow with a wooden haft and a tense cord which
+                  is capable of firing a single bolt which can puncture even
+                  heavy armor at close range.</p>
                 chat: ''
               source:
                 custom: ''
@@ -2077,7 +2114,9 @@ pages:
             img: icons/weapons/hammers/shorthammer-double-stone-engraved.webp
             system:
               description:
-                value: <p>This sturdy hammer is small enough to be nimbly wielded or used in combination with another weapon.</p>
+                value: >-
+                  <p>This sturdy hammer is small enough to be nimbly wielded or
+                  used in combination with another weapon.</p>
                 chat: ''
               source:
                 custom: ''
@@ -2247,7 +2286,10 @@ pages:
             img: icons/weapons/swords/greatsword-guard.webp
             system:
               description:
-                value: <p>A lengthy straight blade designed for slashing foes, the longsword is a highly versatile weapon that may also be wielded with two hands for more punishing strikes.</p>
+                value: >-
+                  <p>A lengthy straight blade designed for slashing foes, the
+                  longsword is a highly versatile weapon that may also be
+                  wielded with two hands for more punishing strikes.</p>
                 chat: ''
               source:
                 custom: ''
@@ -2417,7 +2459,10 @@ pages:
             img: icons/weapons/maces/mace-flanged-steel.webp
             system:
               description:
-                value: <p>A heavy metal head mounted to the end of a sturdy haft meant to deliver powerful, crushing blows capable of shattering armor and bone alike.</p>
+                value: >-
+                  <p>A heavy metal head mounted to the end of a sturdy haft
+                  meant to deliver powerful, crushing blows capable of
+                  shattering armor and bone alike.</p>
                 chat: ''
               source:
                 custom: ''
@@ -2585,7 +2630,9 @@ pages:
             img: icons/weapons/hammers/hammer-double-stone-worn.webp
             system:
               description:
-                value: <p>This heavy two-handed mace crushes metal and bone with thunderous force.</p>
+                value: >-
+                  <p>This heavy two-handed mace crushes metal and bone with
+                  thunderous force.</p>
                 chat: ''
               source:
                 custom: ''
@@ -2755,7 +2802,10 @@ pages:
             img: icons/weapons/maces/mace-cube-spiked-steel.webp
             system:
               description:
-                value: <p>A viciously spiked metal head mounted upon the end of a stout haft makes for a deadly weapon which can puncture armor and flesh alike.</p>
+                value: >-
+                  <p>A viciously spiked metal head mounted upon the end of a
+                  stout haft makes for a deadly weapon which can puncture armor
+                  and flesh alike.</p>
                 chat: ''
               source:
                 custom: ''
@@ -2923,7 +2973,10 @@ pages:
             img: icons/weapons/polearms/spear-hooked-spike.webp
             system:
               description:
-                value: <p>A sturdy blade mounted upon the end of a long metal haft. Designed as a defensive weapon with considerable reach to both fend off and menace foes.</p>
+                value: >-
+                  <p>A sturdy blade mounted upon the end of a long metal haft.
+                  Designed as a defensive weapon with considerable reach to both
+                  fend off and menace foes.</p>
                 chat: ''
               source:
                 custom: ''
@@ -3094,7 +3147,10 @@ pages:
             img: icons/weapons/swords/sword-guard-bronze.webp
             system:
               description:
-                value: <p>A thin tensile metal blade, light in weight but long in reach designed for quick darting attacks to target weak points in enemy defenses with lightning swiftness.</p>
+                value: >-
+                  <p>A thin tensile metal blade, light in weight but long in
+                  reach designed for quick darting attacks to target weak points
+                  in enemy defenses with lightning swiftness.</p>
                 chat: ''
               source:
                 custom: ''
@@ -3263,7 +3319,9 @@ pages:
             img: icons/weapons/swords/scimitar-worn-blue.webp
             system:
               description:
-                value: <p>This curved blade is narrow near the wrapped handle but broadens towards a gleaming tip.</p>
+                value: >-
+                  <p>This curved blade is narrow near the wrapped handle but
+                  broadens towards a gleaming tip.</p>
                 chat: ''
               source:
                 custom: ''
@@ -3433,7 +3491,10 @@ pages:
             img: icons/weapons/bows/shortbow-leather.webp
             system:
               description:
-                value: <p>This two handed bow is somewhat smaller than the traditional longbow variant, making it well suited for rapid attacks while on the move or mounted from horseback.</p>
+                value: >-
+                  <p>This two handed bow is somewhat smaller than the
+                  traditional longbow variant, making it well suited for rapid
+                  attacks while on the move or mounted from horseback.</p>
                 chat: ''
               source:
                 custom: ''
@@ -3605,7 +3666,10 @@ pages:
             img: icons/weapons/sickles/sickle-curved.webp
             system:
               description:
-                value: <p>A crescent hooked blade mounted atop a short haft, light enough to be wielded in one hand for treshing crops or foes.</p>
+                value: >-
+                  <p>A crescent hooked blade mounted atop a short haft, light
+                  enough to be wielded in one hand for treshing crops or
+                  foes.</p>
                 chat: ''
               source:
                 custom: ''
@@ -3774,7 +3838,10 @@ pages:
             img: icons/weapons/polearms/spear-flared-green.webp
             system:
               description:
-                value: <p>A gleaming steel point mouted atop a stout wooden haft, the spear may be wielded in one hand or two and can puncture through the heaviest armor with deadly force.</p>
+                value: >-
+                  <p>A gleaming steel point mouted atop a stout wooden haft, the
+                  spear may be wielded in one hand or two and can puncture
+                  through the heaviest armor with deadly force.</p>
                 chat: ''
               source:
                 custom: ''
@@ -3944,7 +4011,9 @@ pages:
             img: icons/weapons/axes/pickaxe-iron-green.webp
             system:
               description:
-                value: <p>A brutal curved spike mounted on a sturdy haft - designed for puncturing armor with deadly force.</p>
+                value: >-
+                  <p>A brutal curved spike mounted on a sturdy haft - designed
+                  for puncturing armor with deadly force.</p>
                 chat: ''
               source:
                 custom: ''
@@ -4112,7 +4181,10 @@ pages:
             img: icons/weapons/hammers/hammer-drilling-spiked.webp
             system:
               description:
-                value: <p>A heavy metal hammer capable of being wielded with a single hand with a shield or in two hands to deliver crushing concussive blows.</p>
+                value: >-
+                  <p>A heavy metal hammer capable of being wielded with a single
+                  hand with a shield or in two hands to deliver crushing
+                  concussive blows.</p>
                 chat: ''
               source:
                 custom: ''
@@ -4281,7 +4353,10 @@ pages:
             img: icons/sundries/survival/leather-strap-brown.webp
             system:
               description:
-                value: <p>A tensile lash made of leather, cord, or chain which can lash out at nearby enemies, dealing lacerations and harrying them from a distance.</p>
+                value: >-
+                  <p>A tensile lash made of leather, cord, or chain which can
+                  lash out at nearby enemies, dealing lacerations and harrying
+                  them from a distance.</p>
                 chat: ''
               source:
                 custom: ''
@@ -4451,7 +4526,12 @@ pages:
             img: icons/equipment/chest/breastplate-collared-steel-grey.webp
             system:
               description:
-                value: <p>This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered.</p>
+                value: >-
+                  <p>This armor consists of a fitted metal chest piece worn with
+                  supple leather. Although it leaves the legs and arms
+                  relatively unprotected, this armor provides good protection
+                  for the wearer's vital organs while leaving the wearer
+                  relatively unencumbered.</p>
                 chat: ''
               source:
                 custom: ''
@@ -4530,7 +4610,11 @@ pages:
             img: icons/equipment/chest/breastplate-metal-scaled-grey.webp
             system:
               description:
-                value: <p>Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.</p>
+                value: >-
+                  <p>Made of interlocking metal rings, chain mail includes a
+                  layer of quilted fabric worn underneath the mail to prevent
+                  chafing and to cushion the impact of blows. The suit includes
+                  gauntlets.</p>
                 chat: ''
               source:
                 custom: ''
@@ -4610,7 +4694,12 @@ pages:
             img: icons/equipment/chest/breastplate-scale-grey.webp
             system:
               description:
-                value: <p>Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer's upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers.</p>
+                value: >-
+                  <p>Made of interlocking metal rings, a chain shirt is worn
+                  between layers of clothing or leather. This armor offers
+                  modest protection to the wearer's upper body and allows the
+                  sound of the rings rubbing against one another to be muffled
+                  by outer layers.</p>
                 chat: ''
               source:
                 custom: ''
@@ -4689,7 +4778,11 @@ pages:
             img: icons/equipment/chest/breastplate-cuirass-steel-grey.webp
             system:
               description:
-                value: <p>Half plate consists of shaped metal plates that cover most of the wearer's body. It does not include leg protection beyond simple greaves that are attached with leather straps.</p>
+                value: >-
+                  <p>Half plate consists of shaped metal plates that cover most
+                  of the wearer's body. It does not include leg protection
+                  beyond simple greaves that are attached with leather
+                  straps.</p>
                 chat: ''
               source:
                 custom: ''
@@ -4769,7 +4862,12 @@ pages:
             img: icons/equipment/chest/breastplate-collared-steel.webp
             system:
               description:
-                value: <p>Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.</p>
+                value: >-
+                  <p>Plate consists of shaped, interlocking metal plates to
+                  cover the entire body. A suit of plate includes gauntlets,
+                  heavy leather boots, a visored helmet, and thick layers of
+                  padding underneath the armor. Buckles and straps distribute
+                  the weight over the body.</p>
                 chat: ''
               source:
                 custom: ''
@@ -4849,7 +4947,11 @@ pages:
             img: icons/equipment/chest/breastplate-banded-simple-leather-brown.webp
             system:
               description:
-                value: <p>This armor is leather armor with heavy rings sewn into it. The rings help reinforce the armor against blows from swords and axes. Ring mail is inferior to chain mail, and it's usually worn only by those who can't afford better armor.</p>
+                value: >-
+                  <p>This armor is leather armor with heavy rings sewn into it.
+                  The rings help reinforce the armor against blows from swords
+                  and axes. Ring mail is inferior to chain mail, and it's
+                  usually worn only by those who can't afford better armor.</p>
                 chat: ''
               source:
                 custom: ''
@@ -4929,7 +5031,11 @@ pages:
             img: icons/equipment/chest/breastplate-banded-steel.webp
             system:
               description:
-                value: <p>This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets.</p>
+                value: >-
+                  <p>This armor consists of a coat and leggings (and perhaps a
+                  separate skirt) of leather covered with overlapping pieces of
+                  metal, much like the scales of a fish. The suit includes
+                  gauntlets.</p>
                 chat: ''
               source:
                 custom: ''
@@ -5009,7 +5115,10 @@ pages:
             img: icons/equipment/shield/round-wooden-boss-steel-brown.webp
             system:
               description:
-                value: <p>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.</p>
+                value: >-
+                  <p>A shield is made from wood or metal and is carried in one
+                  hand. Wielding a shield increases your Armor Class by 2. You
+                  can benefit from only one shield at a time.</p>
                 chat: ''
               source:
                 custom: ''
@@ -5088,7 +5197,10 @@ pages:
             img: icons/equipment/chest/breastplate-layered-steel.webp
             system:
               description:
-                value: <p>This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints.</p>
+                value: >-
+                  <p>This armor is made of narrow vertical strips of metal
+                  riveted to a backing of leather that is worn over cloth
+                  padding. Flexible chain mail protects the joints.</p>
                 chat: ''
               source:
                 custom: ''
@@ -5168,7 +5280,9 @@ pages:
             img: icons/equipment/chest/breastplate-rivited-red.webp
             system:
               description:
-                value: <p>Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.</p>
+                value: >-
+                  <p>Made from tough but flexible leather, studded leather is
+                  reinforced with close-set rivets or spikes.</p>
                 chat: ''
               source:
                 custom: ''
@@ -5247,7 +5361,10 @@ pages:
             img: icons/tools/hand/hammer-cobbler-steel.webp
             system:
               description:
-                value: <p>A tool with a heavy metal head mounted at the end of its handle, used for jobs such as breaking things and driving in nails. </p>
+                value: >-
+                  <p>A tool with a heavy metal head mounted at the end of its
+                  handle, used for jobs such as breaking things and driving in
+                  nails. </p>
                 chat: ''
               source:
                 custom: ''
@@ -5303,9 +5420,14 @@ pages:
             img: icons/skills/trades/smithing-tongs-metal-red.webp
             system:
               description:
-                value: |-
-                  <p>These special tools include the items needed to pursue a craft or trade in smithing.</p>
-                  <p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>
+                value: >-
+                  <p>These special tools include the items needed to pursue a
+                  craft or trade in smithing.</p>
+
+                  <p>Proficiency with a set of artisan's tools lets you add your
+                  proficiency bonus to any ability checks you make using the
+                  tools in your craft. Each type of artisan's tools requires a
+                  separate proficiency.</p>
                 chat: ''
               source:
                 custom: ''
@@ -5423,7 +5545,10 @@ pages:
             img: icons/commodities/stone/geode-raw-tan.webp
             system:
               description:
-                value: <p>Whetstone is a sharpening stone. It is used to sharpen the edges of steel tools and implements through grinding and honing.</p>
+                value: >-
+                  <p>Whetstone is a sharpening stone. It is used to sharpen the
+                  edges of steel tools and implements through grinding and
+                  honing.</p>
                 chat: ''
               source:
                 custom: ''
@@ -5481,7 +5606,11 @@ pages:
     image: {}
     text:
       format: 1
-      content: <p>The air is hot and smells of metal and coal. Hammers ring rhythmically from the back, where glowing forges light the dim interior. Racks display finished tools, nails, horseshoes, and the occasional gleaming piece of armor or gear.</p>
+      content: >-
+        <p>The air is hot and smells of metal and coal. Hammers ring
+        rhythmically from the back, where glowing forges light the dim interior.
+        Racks display finished tools, nails, horseshoes, and the occasional
+        gleaming piece of armor or gear.</p>
     video:
       controls: true
       volume: 0.5
@@ -5506,5 +5635,6 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.3.6
-_key: '!journal!basicShop0000004'
 categories: []
+_key: '!journal!basicShop0000004'
+

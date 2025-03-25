@@ -160,7 +160,10 @@ pages:
             img: icons/equipment/head/crown-feather-brown.webp
             system:
               description:
-                value: <p>A complete costume usually used by performers and artists in all manner of entertainment halls or for those that simply refuse to get out of character.</p>
+                value: >-
+                  <p>A complete costume usually used by performers and artists
+                  in all manner of entertainment halls or for those that simply
+                  refuse to get out of character.</p>
                 chat: ''
               source:
                 custom: ''
@@ -291,7 +294,9 @@ pages:
             img: icons/equipment/chest/robe-layered-white.webp
             system:
               description:
-                value: <p>Set of clothes designed specifically to be expensive and show it.</p>
+                value: >-
+                  <p>Set of clothes designed specifically to be expensive and
+                  show it.</p>
                 chat: ''
               source:
                 custom: ''
@@ -553,7 +558,9 @@ pages:
             img: icons/equipment/chest/robe-layered-teal.webp
             system:
               description:
-                value: <p>Simple or ceremonial wear, often used by priests and other religious figures.</p>
+                value: >-
+                  <p>Simple or ceremonial wear, often used by priests and other
+                  religious figures.</p>
                 chat: ''
               source:
                 custom: ''
@@ -684,7 +691,9 @@ pages:
             img: icons/equipment/back/mantle-collared-black.webp
             system:
               description:
-                value: <p>Simple or ostentacious wear, often used by priests and other religious figures for use in rituals and ceremonies.</p>
+                value: >-
+                  <p>Simple or ostentacious wear, often used by priests and
+                  other religious figures for use in rituals and ceremonies.</p>
                 chat: ''
               source:
                 custom: ''
@@ -816,9 +825,14 @@ pages:
             type: loot
             system:
               description:
-                value: |-
-                  <p>A square yard of cotton of average quality and weight. Used for all many of items and clothing.</p>
-                  <p>Far lighter, more comfortable, and easier to work with than canvas; however, the comparatively more delicate crop means it is accordingly more expensive and potentially harder to come by.</p>
+                value: >-
+                  <p>A square yard of cotton of average quality and weight. Used
+                  for all many of items and clothing.</p>
+
+                  <p>Far lighter, more comfortable, and easier to work with than
+                  canvas; however, the comparatively more delicate crop means it
+                  is accordingly more expensive and potentially harder to come
+                  by.</p>
                 chat: ''
               source:
                 custom: ''
@@ -874,10 +888,16 @@ pages:
             type: loot
             system:
               description:
-                value: |-
-                  <p>A square yard of linen of average quality and weight. Used for all many of items and clothing.</p>
-                  <p>Longer lasting than cotton, its durability and breathability make it particularly valued in warm climtes.</p>
-                  <p>Different types of linen do exist, with lighter weaves starting at 6 ounces per square yard, and the rest going up to 15 ounces.</p>
+                value: >-
+                  <p>A square yard of linen of average quality and weight. Used
+                  for all many of items and clothing.</p>
+
+                  <p>Longer lasting than cotton, its durability and
+                  breathability make it particularly valued in warm climtes.</p>
+
+                  <p>Different types of linen do exist, with lighter weaves
+                  starting at 6 ounces per square yard, and the rest going up to
+                  15 ounces.</p>
                 chat: ''
               source:
                 custom: ''
@@ -933,9 +953,14 @@ pages:
             type: loot
             system:
               description:
-                value: |-
-                  <p>A square yard of silk of average quality and weight. Used for all many of items and clothing.</p>
-                  <p>The finest and most desirable of the common fabrics, silk is also the lightest. Most silks will weigh between 2 and 4 ounces per square yard. The heavier the silk, the higher the quality, more durable, and more opaque in color it is.</p>
+                value: >-
+                  <p>A square yard of silk of average quality and weight. Used
+                  for all many of items and clothing.</p>
+
+                  <p>The finest and most desirable of the common fabrics, silk
+                  is also the lightest. Most silks will weigh between 2 and 4
+                  ounces per square yard. The heavier the silk, the higher the
+                  quality, more durable, and more opaque in color it is.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1016,5 +1041,6 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.3.6
-_key: '!journal!basicShop0000005'
 categories: []
+_key: '!journal!basicShop0000005'
+

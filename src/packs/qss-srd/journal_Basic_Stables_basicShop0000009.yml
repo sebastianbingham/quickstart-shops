@@ -28,7 +28,13 @@ pages:
             img: icons/environment/creatures/horse-brown.webp
             system:
               description:
-                value: <p>A component of a horse's tack that is worn on its head and connected to the reins. It consists of several adjustable leather straps, connecting metal rings, and a mouthpiece called the 'bit' or 'mullen', made of rope, bone, horn, or other hard substance such as bronze, steel, nickel, or wood.</p>
+                value: >-
+                  <p>A component of a horse's tack that is worn on its head and
+                  connected to the reins. It consists of several adjustable
+                  leather straps, connecting metal rings, and a mouthpiece
+                  called the 'bit' or 'mullen', made of rope, bone, horn, or
+                  other hard substance such as bronze, steel, nickel, or
+                  wood.</p>
                 chat: ''
               source:
                 custom: ''
@@ -109,7 +115,9 @@ pages:
             type: loot
             system:
               description:
-                value: <p>The source of omelettes and chicken wings, the average adult chicken weighs between 5 and 10 pounds.</p>
+                value: >-
+                  <p>The source of omelettes and chicken wings, the average
+                  adult chicken weighs between 5 and 10 pounds.</p>
                 chat: ''
               source:
                 custom: ''
@@ -165,9 +173,15 @@ pages:
             type: loot
             system:
               description:
-                value: |-
-                  <p>A creature for large-area farmers, cows require large areas of flat grazing meaning they are not as common as other livestock. However, they live longer, and give far more milk. They are also a source for much more durable leather that is less prone to cracking and is resistant to heat and dirt.</p>
-                  <p>Depending in the gender and breed, adult cows can weigh between 1,000 and 1,800 pounds.</p>
+                value: >-
+                  <p>A creature for large-area farmers, cows require large areas
+                  of flat grazing meaning they are not as common as other
+                  livestock. However, they live longer, and give far more milk.
+                  They are also a source for much more durable leather that is
+                  less prone to cracking and is resistant to heat and dirt.</p>
+
+                  <p>Depending in the gender and breed, adult cows can weigh
+                  between 1,000 and 1,800 pounds.</p>
                 chat: ''
               source:
                 custom: ''
@@ -223,9 +237,14 @@ pages:
             type: loot
             system:
               description:
-                value: |-
-                  <p>A useful creature for small-area farmers and highland dwellers, goats are effective at keeping meadows from overgrowing while providing milk, cheese, and eventually skins and meat.</p>
-                  <p>Depending on the breed, adult goats can range from 45 pounds all the way up to 300 pounds.</p>
+                value: >-
+                  <p>A useful creature for small-area farmers and highland
+                  dwellers, goats are effective at keeping meadows from
+                  overgrowing while providing milk, cheese, and eventually skins
+                  and meat.</p>
+
+                  <p>Depending on the breed, adult goats can range from 45
+                  pounds all the way up to 300 pounds.</p>
                 chat: ''
               source:
                 custom: ''
@@ -279,7 +298,11 @@ pages:
             img: icons/equipment/shoulder/pauldron-segmented-red.webp
             system:
               description:
-                value: <p>A type of seat that is fastened to a mount's back, designed to support the rider and affix part of the mount's tack such as stirrups.<br /><br />An exotic saddle is required for riding any aquatic or flying mount.</p>
+                value: >-
+                  <p>A type of seat that is fastened to a mount's back, designed
+                  to support the rider and affix part of the mount's tack such
+                  as stirrups.<br /><br />An exotic saddle is required for
+                  riding any aquatic or flying mount.</p>
                 chat: ''
               source:
                 custom: ''
@@ -358,7 +381,9 @@ pages:
             img: icons/consumables/grains/sack-rice-flour-brown.webp
             system:
               description:
-                value: <p>Standard feed suitable for a mount or other animal, often consisting of grains or hay.</p>
+                value: >-
+                  <p>Standard feed suitable for a mount or other animal, often
+                  consisting of grains or hay.</p>
                 chat: ''
               source:
                 custom: ''
@@ -491,7 +516,13 @@ pages:
             img: icons/equipment/shoulder/shoulderpad-leather-banded-ring.webp
             system:
               description:
-                value: <p>A type of seat that is fastened to a mount's back, designed to support the rider and affix part of the mount's tack such as stirrups.<br /><br />A military saddle braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted.</p>
+                value: >-
+                  <p>A type of seat that is fastened to a mount's back, designed
+                  to support the rider and affix part of the mount's tack such
+                  as stirrups.<br /><br />A military saddle braces the rider,
+                  helping you keep your seat on an active mount in battle. It
+                  gives you advantage on any check you make to remain
+                  mounted.</p>
                 chat: ''
               source:
                 custom: ''
@@ -572,7 +603,14 @@ pages:
             type: loot
             system:
               description:
-                value: <p>Essentially a specially trained beef or dairy steer that has reached the age of 5. These heavy-duty beasts of burden can pull or carry up to and over their own body weight. Used for a multitude of tasks like hauling wagons, threshing grain, powering machines that irrigate or grind grain, and even been ridden, oxen are highly prized creatures for workers in a range of fields.</p>
+                value: >-
+                  <p>Essentially a specially trained beef or dairy steer that
+                  has reached the age of 5. These heavy-duty beasts of burden
+                  can pull or carry up to and over their own body weight. Used
+                  for a multitude of tasks like hauling wagons, threshing grain,
+                  powering machines that irrigate or grind grain, and even been
+                  ridden, oxen are highly prized creatures for workers in a
+                  range of fields.</p>
                 chat: ''
               source:
                 custom: ''
@@ -626,7 +664,11 @@ pages:
             img: icons/equipment/shoulder/shoulderpad-fur-leather.webp
             system:
               description:
-                value: <p>A type of seat that is fastened to a mount's back, designed to support the rider and affix part of the mount's tack such as stirrups. This type of saddle is suitable for pack mounts.</p>
+                value: >-
+                  <p>A type of seat that is fastened to a mount's back, designed
+                  to support the rider and affix part of the mount's tack such
+                  as stirrups. This type of saddle is suitable for pack
+                  mounts.</p>
                 chat: ''
               source:
                 custom: ''
@@ -707,9 +749,17 @@ pages:
             type: loot
             system:
               description:
-                value: |-
-                  <p>A creature for medium- or larger area farmers, pigs breed relatively quickly and are sturdy creatures that provide all manner of cooking possibilities for the enterprizing cook, foremost of which is of course bacon. Their skin can also be used as a cheaper leather, but it is less tear-resistant compared to lamb or goat. Pigs are also the source of lard.</p>
-                  <p>Most pigs weigh between 250 and 270 pounds at slaughter as it gives optimal retail cuts and medium fat covering.</p>
+                value: >-
+                  <p>A creature for medium- or larger area farmers, pigs breed
+                  relatively quickly and are sturdy creatures that provide all
+                  manner of cooking possibilities for the enterprizing cook,
+                  foremost of which is of course bacon. Their skin can also be
+                  used as a cheaper leather, but it is less tear-resistant
+                  compared to lamb or goat. Pigs are also the source of
+                  lard.</p>
+
+                  <p>Most pigs weigh between 250 and 270 pounds at slaughter as
+                  it gives optimal retail cuts and medium fat covering.</p>
                 chat: ''
               source:
                 custom: ''
@@ -763,7 +813,11 @@ pages:
             img: icons/equipment/shoulder/pauldron-leather-molded.webp
             system:
               description:
-                value: <p>A type of seat that is fastened to a mount's back, designed to support the rider and affix part of the mount's tack such as stirrups. This type of saddle is suitable for riding mounts.</p>
+                value: >-
+                  <p>A type of seat that is fastened to a mount's back, designed
+                  to support the rider and affix part of the mount's tack such
+                  as stirrups. This type of saddle is suitable for riding
+                  mounts.</p>
                 chat: ''
               source:
                 custom: ''
@@ -842,7 +896,10 @@ pages:
             img: icons/containers/bags/pack-leather-black-brown.webp
             system:
               description:
-                value: <p>A set of containers that typically come as a pair, connected by a leather strap and affixed to the saddle of a mount.</p>
+                value: >-
+                  <p>A set of containers that typically come as a pair,
+                  connected by a leather strap and affixed to the saddle of a
+                  mount.</p>
                 chat: ''
               source:
                 custom: ''
@@ -913,9 +970,16 @@ pages:
             type: loot
             system:
               description:
-                value: |-
-                  <p>A useful creature for small-area farmers and highland dwellers, though not quite as nimble as goats, they have the valuable ability to be sheared every year, giving people a source of clothing, rugs, and throws for beds and chairs. Their larger size also means they are more valuable for slaughter.</p>
-                  <p>Depending on the breed, adult sheep can range from 100 pounds all the way up to 350 pounds.</p>
+                value: >-
+                  <p>A useful creature for small-area farmers and highland
+                  dwellers, though not quite as nimble as goats, they have the
+                  valuable ability to be sheared every year, giving people a
+                  source of clothing, rugs, and throws for beds and chairs.
+                  Their larger size also means they are more valuable for
+                  slaughter.</p>
+
+                  <p>Depending on the breed, adult sheep can range from 100
+                  pounds all the way up to 350 pounds.</p>
                 chat: ''
               source:
                 custom: ''
@@ -996,5 +1060,6 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.3.6
-_key: '!journal!basicShop0000009'
 categories: []
+_key: '!journal!basicShop0000009'
+

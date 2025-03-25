@@ -1,0 +1,17 @@
+name: Lodging
+sorting: m
+folder: null
+type: Item
+_id: lodging000000001
+description: ''
+sort: 10000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.3.6
+_key: '!folders!lodging000000001'
+

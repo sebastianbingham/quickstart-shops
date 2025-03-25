@@ -78,6 +78,17 @@
         "PLAYER": "LIMITED",
         "GAMEMASTER": "OWNER"
       }
+    },
+    {
+      "name": "qss-items",
+      "label": "QSS - Custom Items",
+      "path": "packs/qss-items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "GAMEMASTER": "OWNER"
+      }
     }
   ],
   "packFolders": [
@@ -88,7 +99,8 @@
       "packs": [
         "qss-core",
         "qss-srd",
-        "qss-lorebound"
+        "qss-lorebound",
+        "qss-items"
       ],
       "folders": []
     }

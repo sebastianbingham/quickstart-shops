@@ -31,7 +31,10 @@ pages:
             img: icons/containers/bags/pack-leather-white-tan.webp
             system:
               description:
-                value: <p>A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</p>
+                value: >-
+                  <p>A backpack can hold one cubic foot or 30 pounds of gear.
+                  You can also strap items, such as a bedroll or a coil of rope,
+                  to the outside of a backpack.</p>
                 chat: ''
               source:
                 custom: ''
@@ -281,7 +284,9 @@ pages:
             img: icons/containers/misc/bucket-steel.webp
             system:
               description:
-                value: <p>A bucket holds 3 gallons of liquid or ½ cubic foot of solids.</p>
+                value: >-
+                  <p>A bucket holds 3 gallons of liquid or ½ cubic foot of
+                  solids.</p>
                 chat: ''
               source:
                 custom: ''
@@ -350,7 +355,9 @@ pages:
             img: icons/sundries/lights/candle-unlit-tan.webp
             system:
               description:
-                value: <p>For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for an additional 5 feet.</p>
+                value: >-
+                  <p>For 1 hour, a candle sheds bright light in a 5-foot radius
+                  and dim light for an additional 5 feet.</p>
                 chat: ''
               source:
                 custom: ''
@@ -484,9 +491,14 @@ pages:
             type: loot
             system:
               description:
-                value: |-
-                  <p>A square yard of canvas of average quality and weight. Used for all many of items and clothing.</p>
-                  <p>Graded from 1 to 12, the lower the number, the better the quality and the heavier the weight. #1 quality canvas weighs around 1.7 pounds per square yard, while the weaker, lighter #12 can weigh only 0.7 pounds.</p>
+                value: >-
+                  <p>A square yard of canvas of average quality and weight. Used
+                  for all many of items and clothing.</p>
+
+                  <p>Graded from 1 to 12, the lower the number, the better the
+                  quality and the heavier the weight. #1 quality canvas weighs
+                  around 1.7 pounds per square yard, while the weaker, lighter
+                  #12 can weigh only 0.7 pounds.</p>
                 chat: ''
               source:
                 custom: ''
@@ -541,7 +553,10 @@ pages:
             img: icons/commodities/metal/ingot-steel.webp
             system:
               description:
-                value: <p>It is soft white porous sedimentary acarbonate rock, a form of limestone composed of the mineral calcite. Can be used to draw shapes. </p>
+                value: >-
+                  <p>It is soft white porous sedimentary acarbonate rock, a form
+                  of limestone composed of the mineral calcite. Can be used to
+                  draw shapes. </p>
                 chat: ''
               source:
                 custom: ''
@@ -733,7 +748,8 @@ pages:
           - _id: k6slRJxOGkVPuaVQ
             name: Ink Bottle
             type: loot
-            img: icons/consumables/potions/potion-bottle-labeled-medicine-capped-red-black.webp
+            img: >-
+              icons/consumables/potions/potion-bottle-labeled-medicine-capped-red-black.webp
             system:
               description:
                 value: <p>A small bottle of ink for writing upon parchment.</p>
@@ -792,7 +808,9 @@ pages:
             img: icons/tools/scribal/pen-steel-grey-brown.webp
             system:
               description:
-                value: <p>A deviced used in combination with ink to write or draw on a sheet of paper.</p>
+                value: >-
+                  <p>A deviced used in combination with ink to write or draw on
+                  a sheet of paper.</p>
                 chat: ''
               source:
                 custom: ''
@@ -917,7 +935,10 @@ pages:
             img: icons/sundries/lights/lantern-iron-yellow.webp
             system:
               description:
-                value: <p>A lamp casts bright light in a 15-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil</p>
+                value: >-
+                  <p>A lamp casts bright light in a 15-foot radius and dim light
+                  for an additional 30 feet. Once lit, it burns for 6 hours on a
+                  flask (1 pint) of oil</p>
                 chat: ''
               source:
                 custom: ''
@@ -1050,7 +1071,10 @@ pages:
             img: icons/tools/cooking/fork-steel-tan.webp
             system:
               description:
-                value: <p>This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.</p>
+                value: >-
+                  <p>This tin box contains a cup and simple cutlery. The box
+                  clamps together, and one side can be used as a cooking pan and
+                  the other as a plate or shallow bowl.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1218,7 +1242,12 @@ pages:
             img: icons/containers/bags/pouch-rounded-leather-gold-tan.webp
             system:
               description:
-                value: <p>A cloth or leather pouch can hold up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch. A pouch can hold up to ⅕ cubic foot or 6 pounds of gear.</p>
+                value: >-
+                  <p>A cloth or leather pouch can hold up to 20 sling bullets or
+                  50 blowgun needles, among other things. A compartmentalized
+                  pouch for holding spell components is called a component
+                  pouch. A pouch can hold up to ⅕ cubic foot or 6 pounds of
+                  gear.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1287,7 +1316,9 @@ pages:
             img: icons/consumables/grains/bread-loaf-boule-rustic-brown.webp
             system:
               description:
-                value: <p>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</p>
+                value: >-
+                  <p>Rations consist of dry foods suitable for extended travel,
+                  including jerky, dried fruit, hardtack, and nuts.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1420,7 +1451,9 @@ pages:
             img: icons/containers/bags/sack-cloth-orange.webp
             system:
               description:
-                value: <p>A sack can hold up to 1 cubic foot or 30 pounds of gear.</p>
+                value: >-
+                  <p>A sack can hold up to 1 cubic foot or 30 pounds of
+                  gear.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1489,7 +1522,10 @@ pages:
             img: icons/sundries/lights/candle-unlit-red.webp
             system:
               description:
-                value: <p>A wax material of a seal which, after melting, hardens quickly forming a bond that is difficult to separate without noticeable tampering.</p>
+                value: >-
+                  <p>A wax material of a seal which, after melting, hardens
+                  quickly forming a bond that is difficult to separate without
+                  noticeable tampering.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1601,7 +1637,9 @@ pages:
             img: icons/sundries/survival/rope-wrapped-brown.webp
             system:
               description:
-                value: <p>Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check.</p>
+                value: >-
+                  <p>Rope, whether made of hemp or silk, has 2 hit points and
+                  can be burst with a DC 17 Strength check.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1739,7 +1777,11 @@ pages:
             img: icons/sundries/lights/torch-black.webp
             system:
               description:
-                value: <p>A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.</p>
+                value: >-
+                  <p>A torch burns for 1 hour, providing bright light in a
+                  20-foot radius and dim light for an additional 20 feet. If you
+                  make a melee attack with a burning torch and hit, it deals 1
+                  fire damage.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1898,7 +1940,9 @@ pages:
             img: icons/environment/wilderness/camp-improvised.webp
             system:
               description:
-                value: <p>A simple and portable canvas shelter, a tent sleeps two.</p>
+                value: >-
+                  <p>A simple and portable canvas shelter, a tent sleeps
+                  two.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1954,7 +1998,10 @@ pages:
             img: icons/sundries/survival/wetskin-leather-purple.webp
             system:
               description:
-                value: <p>A leather hide sewn into an enclosed skin which can contain up to 4 pints of liquid. It weighs 5 pounds when full; a pint of water is approximately 1 pound.</p>
+                value: >-
+                  <p>A leather hide sewn into an enclosed skin which can contain
+                  up to 4 pints of liquid. It weighs 5 pounds when full; a pint
+                  of water is approximately 1 pound.</p>
                 chat: ''
               source:
                 custom: ''
@@ -2087,7 +2134,10 @@ pages:
             img: icons/commodities/stone/geode-raw-tan.webp
             system:
               description:
-                value: <p>Whetstone is a sharpening stone. It is used to sharpen the edges of steel tools and implements through grinding and honing.</p>
+                value: >-
+                  <p>Whetstone is a sharpening stone. It is used to sharpen the
+                  edges of steel tools and implements through grinding and
+                  honing.</p>
                 chat: ''
               source:
                 custom: ''
@@ -2145,7 +2195,11 @@ pages:
     image: {}
     text:
       format: 1
-      content: <p>Simple and utilitarian, the shop is lined with crates and shelves stacked with rope, lanterns, bedrolls, rations, and travel gear. Everything is practical and well-organized, with a faint smell of leather, grain, and fresh-cut wood.</p>
+      content: >-
+        <p>Simple and utilitarian, the shop is lined with crates and shelves
+        stacked with rope, lanterns, bedrolls, rations, and travel gear.
+        Everything is practical and well-organized, with a faint smell of
+        leather, grain, and fresh-cut wood.</p>
     video:
       controls: true
       volume: 0.5
@@ -2170,5 +2224,6 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.3.6
-_key: '!journal!basicShop0000007'
 categories: []
+_key: '!journal!basicShop0000007'
+

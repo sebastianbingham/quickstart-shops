@@ -31,9 +31,14 @@ pages:
             img: icons/tools/cooking/mortar-herbs-yellow.webp
             system:
               description:
-                value: |-
-                  <p>These special tools include the items needed to pursue a craft or trade in alchemy.</p>
-                  <p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>
+                value: >-
+                  <p>These special tools include the items needed to pursue a
+                  craft or trade in alchemy.</p>
+
+                  <p>Proficiency with a set of artisan's tools lets you add your
+                  proficiency bonus to any ability checks you make using the
+                  tools in your craft. Each type of artisan's tools requires a
+                  separate proficiency.</p>
                 chat: ''
               source:
                 custom: ''
@@ -148,12 +153,18 @@ pages:
           - _id: 3rQKuuoeK9MDya6S
             name: Brewer's Supplies
             type: tool
-            img: icons/consumables/plants/herb-marjoram-basil-oregano-leaf-bunch-green.webp
+            img: >-
+              icons/consumables/plants/herb-marjoram-basil-oregano-leaf-bunch-green.webp
             system:
               description:
-                value: |-
-                  <p>These special tools include the items needed to pursue a craft or trade in brewing.</p>
-                  <p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>
+                value: >-
+                  <p>These special tools include the items needed to pursue a
+                  craft or trade in brewing.</p>
+
+                  <p>Proficiency with a set of artisan's tools lets you add your
+                  proficiency bonus to any ability checks you make using the
+                  tools in your craft. Each type of artisan's tools requires a
+                  separate proficiency.</p>
                 chat: ''
               source:
                 custom: ''
@@ -271,9 +282,14 @@ pages:
             img: icons/tools/scribal/pen-steel-grey-brown.webp
             system:
               description:
-                value: |-
-                  <p>These special tools include the items needed to pursue a craft or trade in calligraphy.</p>
-                  <p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>
+                value: >-
+                  <p>These special tools include the items needed to pursue a
+                  craft or trade in calligraphy.</p>
+
+                  <p>Proficiency with a set of artisan's tools lets you add your
+                  proficiency bonus to any ability checks you make using the
+                  tools in your craft. Each type of artisan's tools requires a
+                  separate proficiency.</p>
                 chat: ''
               source:
                 custom: ''
@@ -391,9 +407,14 @@ pages:
             img: icons/tools/hand/brush-paint-brown-tan.webp
             system:
               description:
-                value: |-
-                  <p>These special tools include the items needed to pursue a craft or trade in painting.</p>
-                  <p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>
+                value: >-
+                  <p>These special tools include the items needed to pursue a
+                  craft or trade in painting.</p>
+
+                  <p>Proficiency with a set of artisan's tools lets you add your
+                  proficiency bonus to any ability checks you make using the
+                  tools in your craft. Each type of artisan's tools requires a
+                  separate proficiency.</p>
                 chat: ''
               source:
                 custom: ''
@@ -511,7 +532,13 @@ pages:
             img: icons/weapons/sickles/sickle-hooked-wood.webp
             system:
               description:
-                value: <p>A climber's kit includes special pitons, boot tips, gloves, and a harness. You can use the climber's kit as an action to anchor yourself; when you do, you can't fall more than 25 feet from the point where you anchored yourself, and you can't climb more than 25 feet away from that point without undoing the anchor.</p>
+                value: >-
+                  <p>A climber's kit includes special pitons, boot tips, gloves,
+                  and a harness. You can use the climber's kit as an action to
+                  anchor yourself; when you do, you can't fall more than 25 feet
+                  from the point where you anchored yourself, and you can't
+                  climb more than 25 feet away from that point without undoing
+                  the anchor.</p>
                 chat: ''
               source:
                 custom: ''
@@ -638,7 +665,12 @@ pages:
             img: icons/equipment/back/cloak-hooded-blue.webp
             system:
               description:
-                value: <p>This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise.</p>
+                value: >-
+                  <p>This pouch of cosmetics, hair dye, and small props lets you
+                  create disguises that change your physical appearance.
+                  Proficiency with this kit lets you add your proficiency bonus
+                  to any ability checks you make to create a visual
+                  disguise.</p>
                 chat: ''
               source:
                 custom: ''
@@ -756,7 +788,13 @@ pages:
             img: icons/sundries/documents/envelope-sealed-red-tan.webp
             system:
               description:
-                value: <p>This small box contains a variety of papers and parchments, pens and inks, seals and sealing wax, gold and silver leaf, and other supplies necessary to create convincing forgeries of physical documents. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a physical forgery of a document.</p>
+                value: >-
+                  <p>This small box contains a variety of papers and parchments,
+                  pens and inks, seals and sealing wax, gold and silver leaf,
+                  and other supplies necessary to create convincing forgeries of
+                  physical documents. Proficiency with this kit lets you add
+                  your proficiency bonus to any ability checks you make to
+                  create a physical forgery of a document.</p>
                 chat: ''
               source:
                 custom: ''
@@ -874,7 +912,12 @@ pages:
             img: icons/containers/bags/pouch-leather-brown-green.webp
             system:
               description:
-                value: <p>This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check.</p>
+                value: >-
+                  <p>This kit is a leather pouch containing bandages, salves,
+                  and splints. The kit has ten uses. As an action, you can
+                  expend one use of the kit to stabilize a creature that has 0
+                  hit points, without needing to make a Wisdom (Medicine)
+                  check.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1007,7 +1050,14 @@ pages:
             img: icons/containers/bags/pouch-leather-green.webp
             system:
               description:
-                value: <p>This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing.</p>
+                value: >-
+                  <p>This kit contains a variety of instruments such as
+                  clippers, mortar and pestle, and pouches and vials used by
+                  herbalists to create remedies and potions. Proficiency with
+                  this kit lets you add your proficiency bonus to any ability
+                  checks you make to identify or apply herbs. Also, proficiency
+                  with this kit is required to create antitoxin and potions of
+                  healing.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1125,7 +1175,10 @@ pages:
             img: icons/tools/cooking/fork-steel-tan.webp
             system:
               description:
-                value: <p>This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.</p>
+                value: >-
+                  <p>This tin box contains a cup and simple cutlery. The box
+                  clamps together, and one side can be used as a cooking pan and
+                  the other as a plate or shallow bowl.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1181,7 +1234,11 @@ pages:
             img: icons/containers/bags/pouch-gold-green.webp
             system:
               description:
-                value: <p>A poisoner's kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons.</p>
+                value: >-
+                  <p>A poisoner's kit includes the vials, chemicals, and other
+                  equipment necessary for the creation of poisons. Proficiency
+                  with this kit lets you add your proficiency bonus to any
+                  ability checks you make to craft or use poisons.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1299,9 +1356,14 @@ pages:
             img: icons/tools/hand/saw-steel-grey.webp
             system:
               description:
-                value: |-
-                  <p>These special tools include the items needed to pursue a craft or trade in carpentry.</p>
-                  <p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>
+                value: >-
+                  <p>These special tools include the items needed to pursue a
+                  craft or trade in carpentry.</p>
+
+                  <p>Proficiency with a set of artisan's tools lets you add your
+                  proficiency bonus to any ability checks you make using the
+                  tools in your craft. Each type of artisan's tools requires a
+                  separate proficiency.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1419,9 +1481,14 @@ pages:
             img: icons/tools/navigation/map-chart-tan.webp
             system:
               description:
-                value: |-
-                  <p>These special tools include the items needed to pursue a craft or trade in cartography.</p>
-                  <p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>
+                value: >-
+                  <p>These special tools include the items needed to pursue a
+                  craft or trade in cartography.</p>
+
+                  <p>Proficiency with a set of artisan's tools lets you add your
+                  proficiency bonus to any ability checks you make using the
+                  tools in your craft. Each type of artisan's tools requires a
+                  separate proficiency.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1539,9 +1606,14 @@ pages:
             img: icons/tools/hand/awl-steel-tan.webp
             system:
               description:
-                value: |-
-                  <p>These special tools include the items needed to pursue a craft or trade in cobblery.</p>
-                  <p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>
+                value: >-
+                  <p>These special tools include the items needed to pursue a
+                  craft or trade in cobblery.</p>
+
+                  <p>Proficiency with a set of artisan's tools lets you add your
+                  proficiency bonus to any ability checks you make using the
+                  tools in your craft. Each type of artisan's tools requires a
+                  separate proficiency.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1659,9 +1731,14 @@ pages:
             img: icons/commodities/tech/metal-insert.webp
             system:
               description:
-                value: |-
-                  <p>These special tools include the items needed to pursue a craft or trade in glassblowing.</p>
-                  <p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>
+                value: >-
+                  <p>These special tools include the items needed to pursue a
+                  craft or trade in glassblowing.</p>
+
+                  <p>Proficiency with a set of artisan's tools lets you add your
+                  proficiency bonus to any ability checks you make using the
+                  tools in your craft. Each type of artisan's tools requires a
+                  separate proficiency.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1779,9 +1856,14 @@ pages:
             img: icons/commodities/gems/gem-rough-rose-teal.webp
             system:
               description:
-                value: |-
-                  <p>These special tools include the items needed to pursue a craft or trade in jewelry.</p>
-                  <p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>
+                value: >-
+                  <p>These special tools include the items needed to pursue a
+                  craft or trade in jewelry.</p>
+
+                  <p>Proficiency with a set of artisan's tools lets you add your
+                  proficiency bonus to any ability checks you make using the
+                  tools in your craft. Each type of artisan's tools requires a
+                  separate proficiency.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1899,9 +1981,14 @@ pages:
             img: icons/commodities/leather/leather-buckle-steel-tan.webp
             system:
               description:
-                value: |-
-                  <p>These special tools include the items needed to pursue a craft or trade in leatherworking.</p>
-                  <p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>
+                value: >-
+                  <p>These special tools include the items needed to pursue a
+                  craft or trade in leatherworking.</p>
+
+                  <p>Proficiency with a set of artisan's tools lets you add your
+                  proficiency bonus to any ability checks you make using the
+                  tools in your craft. Each type of artisan's tools requires a
+                  separate proficiency.</p>
                 chat: ''
               source:
                 custom: ''
@@ -2019,9 +2106,14 @@ pages:
             img: icons/tools/hand/hammer-and-nail.webp
             system:
               description:
-                value: |-
-                  <p>These special tools include the items needed to pursue a craft or trade in masonry.</p>
-                  <p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>
+                value: >-
+                  <p>These special tools include the items needed to pursue a
+                  craft or trade in masonry.</p>
+
+                  <p>Proficiency with a set of artisan's tools lets you add your
+                  proficiency bonus to any ability checks you make using the
+                  tools in your craft. Each type of artisan's tools requires a
+                  separate proficiency.</p>
                 chat: ''
               source:
                 custom: ''
@@ -2139,7 +2231,12 @@ pages:
             img: icons/tools/navigation/sextant-brass-brown.webp
             system:
               description:
-                value: <p>This set of instruments is used for navigation at sea. Proficiency with navigator's tools lets you chart a ship's course and follow navigation charts. In addition, these tools allow you to add your proficiency bonus to any ability check you make to avoid getting lost at sea.</p>
+                value: >-
+                  <p>This set of instruments is used for navigation at sea.
+                  Proficiency with navigator's tools lets you chart a ship's
+                  course and follow navigation charts. In addition, these tools
+                  allow you to add your proficiency bonus to any ability check
+                  you make to avoid getting lost at sea.</p>
                 chat: ''
               source:
                 custom: ''
@@ -2257,9 +2354,14 @@ pages:
             img: icons/containers/kitchenware/vase-bottle-brown.webp
             system:
               description:
-                value: |-
-                  <p>These special tools include the items needed to pursue a craft or trade in pottery.</p>
-                  <p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>
+                value: >-
+                  <p>These special tools include the items needed to pursue a
+                  craft or trade in pottery.</p>
+
+                  <p>Proficiency with a set of artisan's tools lets you add your
+                  proficiency bonus to any ability checks you make using the
+                  tools in your craft. Each type of artisan's tools requires a
+                  separate proficiency.</p>
                 chat: ''
               source:
                 custom: ''
@@ -2377,7 +2479,12 @@ pages:
             img: icons/tools/hand/lockpicks-steel-grey.webp
             system:
               description:
-                value: <p>This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks.</p>
+                value: >-
+                  <p>This set of tools includes a small file, a set of lock
+                  picks, a small mirror mounted on a metal handle, a set of
+                  narrow-bladed scissors, and a pair of pliers. Proficiency with
+                  these tools lets you add your proficiency bonus to any ability
+                  checks you make to disarm traps or open locks.</p>
                 chat: ''
               source:
                 custom: ''
@@ -2495,9 +2602,14 @@ pages:
             img: icons/commodities/cloth/thread-spindle-white-needle.webp
             system:
               description:
-                value: |-
-                  <p>These special tools include the items needed to pursue a craft or trade in tinkering.</p>
-                  <p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>
+                value: >-
+                  <p>These special tools include the items needed to pursue a
+                  craft or trade in tinkering.</p>
+
+                  <p>Proficiency with a set of artisan's tools lets you add your
+                  proficiency bonus to any ability checks you make using the
+                  tools in your craft. Each type of artisan's tools requires a
+                  separate proficiency.</p>
                 chat: ''
               source:
                 custom: ''
@@ -2615,9 +2727,14 @@ pages:
             img: icons/equipment/back/cloak-hooded-pink.webp
             system:
               description:
-                value: |-
-                  <p>These special tools include the items needed to pursue a craft or trade in weaving.</p>
-                  <p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>
+                value: >-
+                  <p>These special tools include the items needed to pursue a
+                  craft or trade in weaving.</p>
+
+                  <p>Proficiency with a set of artisan's tools lets you add your
+                  proficiency bonus to any ability checks you make using the
+                  tools in your craft. Each type of artisan's tools requires a
+                  separate proficiency.</p>
                 chat: ''
               source:
                 custom: ''
@@ -2735,9 +2852,14 @@ pages:
             img: icons/tools/hand/chisel-steel-brown.webp
             system:
               description:
-                value: |-
-                  <p>These special tools include the items needed to pursue a craft or trade in woodcarving.</p>
-                  <p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>
+                value: >-
+                  <p>These special tools include the items needed to pursue a
+                  craft or trade in woodcarving.</p>
+
+                  <p>Proficiency with a set of artisan's tools lets you add your
+                  proficiency bonus to any ability checks you make using the
+                  tools in your craft. Each type of artisan's tools requires a
+                  separate proficiency.</p>
                 chat: ''
               source:
                 custom: ''
@@ -2855,9 +2977,14 @@ pages:
             img: icons/tools/laboratory/bowl-mixing.webp
             system:
               description:
-                value: |-
-                  <p>These special tools include the items needed to pursue a craft or trade in cookery.</p>
-                  <p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>
+                value: >-
+                  <p>These special tools include the items needed to pursue a
+                  craft or trade in cookery.</p>
+
+                  <p>Proficiency with a set of artisan's tools lets you add your
+                  proficiency bonus to any ability checks you make using the
+                  tools in your craft. Each type of artisan's tools requires a
+                  separate proficiency.</p>
                 chat: ''
               source:
                 custom: ''
@@ -2975,7 +3102,9 @@ pages:
             img: icons/containers/bags/case-scroll-leather-tan.webp
             system:
               description:
-                value: <p>This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment.</p>
+                value: >-
+                  <p>This cylindrical leather case can hold up to ten rolled-up
+                  sheets of paper or five rolled-up sheets of parchment.</p>
                 chat: ''
               source:
                 custom: ''
@@ -3153,7 +3282,8 @@ pages:
           - _id: gIOMZVUTAxb8XbSG
             name: Ink Bottle
             type: loot
-            img: icons/consumables/potions/potion-bottle-labeled-medicine-capped-red-black.webp
+            img: >-
+              icons/consumables/potions/potion-bottle-labeled-medicine-capped-red-black.webp
             system:
               description:
                 value: <p>A small bottle of ink for writing upon parchment.</p>
@@ -3212,7 +3342,9 @@ pages:
             img: icons/tools/scribal/pen-steel-grey-brown.webp
             system:
               description:
-                value: <p>A deviced used in combination with ink to write or draw on a sheet of paper.</p>
+                value: >-
+                  <p>A deviced used in combination with ink to write or draw on
+                  a sheet of paper.</p>
                 chat: ''
               source:
                 custom: ''
@@ -3268,7 +3400,10 @@ pages:
             img: icons/sundries/lights/candle-unlit-red.webp
             system:
               description:
-                value: <p>A wax material of a seal which, after melting, hardens quickly forming a bond that is difficult to separate without noticeable tampering.</p>
+                value: >-
+                  <p>A wax material of a seal which, after melting, hardens
+                  quickly forming a bond that is difficult to separate without
+                  noticeable tampering.</p>
                 chat: ''
               source:
                 custom: ''
@@ -3324,7 +3459,11 @@ pages:
             img: icons/tools/hand/scale-balances-merchant-brown.webp
             system:
               description:
-                value: <p>A scale includes a small balance, pans, and a suitable assortment of weights up to 2 pounds. With it, you can measure the exact weight of small objects, such as raw precious metals or trade goods, to help determine their worth.</p>
+                value: >-
+                  <p>A scale includes a small balance, pans, and a suitable
+                  assortment of weights up to 2 pounds. With it, you can measure
+                  the exact weight of small objects, such as raw precious metals
+                  or trade goods, to help determine their worth.</p>
                 chat: ''
               source:
                 custom: ''
@@ -3380,7 +3519,9 @@ pages:
             img: icons/equipment/finger/ring-cabochon-gold-orange.webp
             system:
               description:
-                value: <p>A ring with specific design to denote membership and rank within a house or organization.</p>
+                value: >-
+                  <p>A ring with specific design to denote membership and rank
+                  within a house or organization.</p>
                 chat: ''
               source:
                 custom: ''
@@ -3436,7 +3577,14 @@ pages:
             img: icons/tools/scribal/magnifying-glass.webp
             system:
               description:
-                value: <p>This lens allows a closer look at small objects. It is also useful as a substitute for flint and steel when starting fires. Lighting a fire with a magnifying glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite. A magnifying glass grants advantage on any ability check made to appraise or inspect an item that is small or highly detailed.</p>
+                value: >-
+                  <p>This lens allows a closer look at small objects. It is also
+                  useful as a substitute for flint and steel when starting
+                  fires. Lighting a fire with a magnifying glass requires light
+                  as bright as sunlight to focus, tinder to ignite, and about 5
+                  minutes for the fire to ignite. A magnifying glass grants
+                  advantage on any ability check made to appraise or inspect an
+                  item that is small or highly detailed.</p>
                 chat: ''
               source:
                 custom: ''
@@ -3492,7 +3640,9 @@ pages:
             img: icons/containers/chest/chest-simple-box-brown.webp
             system:
               description:
-                value: <p>A box with a money slot and detachable base mainly used by priests and the like to collect alms.</p>
+                value: >-
+                  <p>A box with a money slot and detachable base mainly used by
+                  priests and the like to collect alms.</p>
                 chat: ''
               source:
                 custom: ''
@@ -3563,7 +3713,12 @@ pages:
     image: {}
     text:
       format: 1
-      content: <p data-start="1617" data-end="1867">The faint scratch of quills on parchment fills the quiet space. Scroll racks, ink pots, and stacks of neatly bound papers line the walls. A single desk sits beneath a reading lamp, surrounded by shelves full of maps, ledgers, and sealed scroll tubes.</p>
+      content: >-
+        <p data-start="1617" data-end="1867">The faint scratch of quills on
+        parchment fills the quiet space. Scroll racks, ink pots, and stacks of
+        neatly bound papers line the walls. A single desk sits beneath a reading
+        lamp, surrounded by shelves full of maps, ledgers, and sealed scroll
+        tubes.</p>
     video:
       controls: true
       volume: 0.5
@@ -3588,5 +3743,6 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.3.6
-_key: '!journal!basicShop0000008'
 categories: []
+_key: '!journal!basicShop0000008'
+

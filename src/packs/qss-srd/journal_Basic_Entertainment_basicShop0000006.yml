@@ -31,7 +31,10 @@ pages:
             img: icons/equipment/head/crown-feather-brown.webp
             system:
               description:
-                value: <p>A complete costume usually used by performers and artists in all manner of entertainment halls or for those that simply refuse to get out of character.</p>
+                value: >-
+                  <p>A complete costume usually used by performers and artists
+                  in all manner of entertainment halls or for those that simply
+                  refuse to get out of character.</p>
                 chat: ''
               source:
                 custom: ''
@@ -161,7 +164,10 @@ pages:
             img: icons/containers/bags/pack-leather-gold-pink.webp
             system:
               description:
-                value: <p>A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</p>
+                value: >-
+                  <p>A backpack can hold one cubic foot or 30 pounds of gear.
+                  You can also strap items, such as a bedroll or a coil of rope,
+                  to the outside of a backpack.</p>
                 chat: ''
               source:
                 custom: ''
@@ -231,9 +237,15 @@ pages:
             img: icons/sundries/survival/waterskin-leather-brown.webp
             system:
               description:
-                value: |-
-                  <p>A set of bagpipes to evoke awe, wonder, or fear in your audience.</p>
-                  <p>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency. </p>
+                value: >-
+                  <p>A set of bagpipes to evoke awe, wonder, or fear in your
+                  audience.</p>
+
+                  <p>If you have proficiency with a given musical instrument,
+                  you can add your proficiency bonus to any ability checks you
+                  make to play music with the instrument. A bard can use a
+                  musical instrument as a spellcasting focus. Each type of
+                  musical instrument requires a separate proficiency. </p>
                 chat: ''
               source:
                 custom: ''
@@ -351,9 +363,15 @@ pages:
             img: icons/tools/instruments/drum-brown-red.webp
             system:
               description:
-                value: |-
-                  <p>A drum, of any variety, to evoke awe, wonder, or fear in your audience.</p>
-                  <p>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency. </p>
+                value: >-
+                  <p>A drum, of any variety, to evoke awe, wonder, or fear in
+                  your audience.</p>
+
+                  <p>If you have proficiency with a given musical instrument,
+                  you can add your proficiency bonus to any ability checks you
+                  make to play music with the instrument. A bard can use a
+                  musical instrument as a spellcasting focus. Each type of
+                  musical instrument requires a separate proficiency. </p>
                 chat: ''
               source:
                 custom: ''
@@ -471,9 +489,15 @@ pages:
             img: icons/tools/instruments/lute-gold-brown.webp
             system:
               description:
-                value: |-
-                  <p>A dulcimer to evoke awe, wonder, or fear in your audience.</p>
-                  <p>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency. </p>
+                value: >-
+                  <p>A dulcimer to evoke awe, wonder, or fear in your
+                  audience.</p>
+
+                  <p>If you have proficiency with a given musical instrument,
+                  you can add your proficiency bonus to any ability checks you
+                  make to play music with the instrument. A bard can use a
+                  musical instrument as a spellcasting focus. Each type of
+                  musical instrument requires a separate proficiency. </p>
                 chat: ''
               source:
                 custom: ''
@@ -591,9 +615,14 @@ pages:
             img: icons/tools/instruments/flute-simple-wood.webp
             system:
               description:
-                value: |-
+                value: >-
                   <p>A lute to evoke awe, wonder, or fear in your audience.</p>
-                  <p>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency. </p>
+
+                  <p>If you have proficiency with a given musical instrument,
+                  you can add your proficiency bonus to any ability checks you
+                  make to play music with the instrument. A bard can use a
+                  musical instrument as a spellcasting focus. Each type of
+                  musical instrument requires a separate proficiency. </p>
                 chat: ''
               source:
                 custom: ''
@@ -711,9 +740,15 @@ pages:
             img: icons/tools/instruments/flute-simple-wood.webp
             system:
               description:
-                value: |-
-                  <p>A horn, of any variety, to evoke awe, wonder, or fear in your audience.</p>
-                  <p>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency. </p>
+                value: >-
+                  <p>A horn, of any variety, to evoke awe, wonder, or fear in
+                  your audience.</p>
+
+                  <p>If you have proficiency with a given musical instrument,
+                  you can add your proficiency bonus to any ability checks you
+                  make to play music with the instrument. A bard can use a
+                  musical instrument as a spellcasting focus. Each type of
+                  musical instrument requires a separate proficiency. </p>
                 chat: ''
               source:
                 custom: ''
@@ -831,9 +866,14 @@ pages:
             img: icons/tools/instruments/lute-gold-brown.webp
             system:
               description:
-                value: |-
+                value: >-
                   <p>A lute to evoke awe, wonder, or fear in your audience.</p>
-                  <p>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency. </p>
+
+                  <p>If you have proficiency with a given musical instrument,
+                  you can add your proficiency bonus to any ability checks you
+                  make to play music with the instrument. A bard can use a
+                  musical instrument as a spellcasting focus. Each type of
+                  musical instrument requires a separate proficiency. </p>
                 chat: ''
               source:
                 custom: ''
@@ -951,9 +991,14 @@ pages:
             img: icons/tools/instruments/lute-gold-brown.webp
             system:
               description:
-                value: |-
+                value: >-
                   <p>A lyre to evoke awe, wonder, or fear in your audience.</p>
-                  <p>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency. </p>
+
+                  <p>If you have proficiency with a given musical instrument,
+                  you can add your proficiency bonus to any ability checks you
+                  make to play music with the instrument. A bard can use a
+                  musical instrument as a spellcasting focus. Each type of
+                  musical instrument requires a separate proficiency. </p>
                 chat: ''
               source:
                 custom: ''
@@ -1071,9 +1116,15 @@ pages:
             img: icons/tools/instruments/flute-simple-wood.webp
             system:
               description:
-                value: |-
-                  <p>A set of panpipes to evoke awe, wonder, or fear in your audience.</p>
-                  <p>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency. </p>
+                value: >-
+                  <p>A set of panpipes to evoke awe, wonder, or fear in your
+                  audience.</p>
+
+                  <p>If you have proficiency with a given musical instrument,
+                  you can add your proficiency bonus to any ability checks you
+                  make to play music with the instrument. A bard can use a
+                  musical instrument as a spellcasting focus. Each type of
+                  musical instrument requires a separate proficiency. </p>
                 chat: ''
               source:
                 custom: ''
@@ -1191,9 +1242,14 @@ pages:
             img: icons/tools/instruments/lute-gold-brown.webp
             system:
               description:
-                value: |-
+                value: >-
                   <p>A shawm to evoke awe, wonder, or fear in your audience.</p>
-                  <p>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency. </p>
+
+                  <p>If you have proficiency with a given musical instrument,
+                  you can add your proficiency bonus to any ability checks you
+                  make to play music with the instrument. A bard can use a
+                  musical instrument as a spellcasting focus. Each type of
+                  musical instrument requires a separate proficiency. </p>
                 chat: ''
               source:
                 custom: ''
@@ -1311,9 +1367,14 @@ pages:
             img: icons/tools/instruments/lute-gold-brown.webp
             system:
               description:
-                value: |-
+                value: >-
                   <p>A viol to evoke awe, wonder, or fear in your audience.</p>
-                  <p>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency. </p>
+
+                  <p>If you have proficiency with a given musical instrument,
+                  you can add your proficiency bonus to any ability checks you
+                  make to play music with the instrument. A bard can use a
+                  musical instrument as a spellcasting focus. Each type of
+                  musical instrument requires a separate proficiency. </p>
                 chat: ''
               source:
                 custom: ''
@@ -1431,9 +1492,14 @@ pages:
             img: icons/sundries/gaming/dice-runed-brown.webp
             system:
               description:
-                value: |-
-                  <p>This item encompasses a wide range of dice, both straight and weighted.</p>
-                  <p>If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency.</p>
+                value: >-
+                  <p>This item encompasses a wide range of dice, both straight
+                  and weighted.</p>
+
+                  <p>If you are proficient with a gaming set, you can add your
+                  proficiency bonus to ability checks you make to play a game
+                  with that set. Each type of gaming set requires a separate
+                  proficiency.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1551,9 +1617,14 @@ pages:
             img: icons/sundries/gaming/playing-cards.webp
             system:
               description:
-                value: |-
-                  <p>This item encompasses a wide range of playing card types, both unmarked and marked.</p>
-                  <p>If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency.</p>
+                value: >-
+                  <p>This item encompasses a wide range of playing card types,
+                  both unmarked and marked.</p>
+
+                  <p>If you are proficient with a gaming set, you can add your
+                  proficiency bonus to ability checks you make to play a game
+                  with that set. Each type of gaming set requires a separate
+                  proficiency.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1671,7 +1742,9 @@ pages:
             img: icons/commodities/materials/hair-tuft-white.webp
             system:
               description:
-                value: <p>A placeholder for the non-SRD items introduced on pg. 159, with the d100 table on 160-161.</p>
+                value: >-
+                  <p>A placeholder for the non-SRD items introduced on pg. 159,
+                  with the d100 table on 160-161.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1726,7 +1799,9 @@ pages:
             img: icons/commodities/materials/hair-tuft-white.webp
             system:
               description:
-                value: <p>A placeholder for the non-SRD items introduced on pg. 159, with the d100 table on 160-161.</p>
+                value: >-
+                  <p>A placeholder for the non-SRD items introduced on pg. 159,
+                  with the d100 table on 160-161.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1784,7 +1859,11 @@ pages:
     image: {}
     text:
       format: 1
-      content: <p>Bright fabrics, glittering instruments, and costumes in every color fill the space with theatrical flair. The air smells of wax and old perfume, and the walls are adorned with posters, playbills, and masks frozen in permanent expression.</p>
+      content: >-
+        <p>Bright fabrics, glittering instruments, and costumes in every color
+        fill the space with theatrical flair. The air smells of wax and old
+        perfume, and the walls are adorned with posters, playbills, and masks
+        frozen in permanent expression.</p>
     video:
       controls: true
       volume: 0.5
@@ -1809,5 +1888,6 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.3.6
-_key: '!journal!basicShop0000006'
 categories: []
+_key: '!journal!basicShop0000006'
+

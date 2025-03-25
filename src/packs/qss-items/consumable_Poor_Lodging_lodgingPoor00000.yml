@@ -1,0 +1,65 @@
+type: consumable
+img: modules/quickstart-shops/assets/icons/basic-tavern.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: true
+    max: ''
+  description:
+    value: <p>Single-night stay in a poor establishment. Includes one bed and minimal amenities appropriate to the poor lifestyle.</p>
+    chat: ''
+  identifier: poor-lodging
+  source:
+    revision: 1
+    rules: '2024'
+    book: Quickstart Shops
+    page: ''
+    custom: QSS
+    license: GPL-3.0
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 1
+    denomination: sp
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  type:
+    value: ''
+    subtype: ''
+  damage:
+    base:
+      number: null
+      denomination: null
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  magicalBonus: null
+  properties: []
+effects: []
+folder: lodging000000001
+sort: 1000
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.3.6
+_id: lodgingPoor00000
+name: Poor Lodging
+_key: '!items!lodgingPoor00000'
