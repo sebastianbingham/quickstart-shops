@@ -43,7 +43,7 @@ jobs:
 
       - name: Clean Dev Files
         run: |
-          rm -rf .github .gitignore .vscode src metrics
+          rm -rf .github .gitignore .gitattributes foundry-cli-scripts src package.json package-lock.json
 
       - name: Commit Clean Release
         run: |
