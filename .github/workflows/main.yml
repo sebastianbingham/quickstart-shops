@@ -41,6 +41,43 @@ jobs:
       - name: Move Final Manifest to Root
         run: mv src/module.json module.json
 
+      - name: Add New Version to Issue Form
+        run: |
+          ISSUE_FORM=".github/ISSUE_TEMPLATE/shop-change-request.yml"
+          NEW_VERSION="v${{ steps.generate_version.outputs.version }}"
+
+          # Extract current versions (excluding "Older Version")
+          current_versions=$(awk '/^ {8}- v[0-9]+\.[0-9]+\.[0-9]+/ {gsub(/^ +- /, "", $0); print $0}' "$ISSUE_FORM")
+
+          # Add the new version to the list if it's not already there
+          updated_versions=$(echo -e "$NEW_VERSION\n$current_versions" | grep -v 'Older Version' | sort -r | uniq | head -n 5)
+
+          # Rebuild the YAML with updated version block
+          awk -v new_versions="$updated_versions" '
+            BEGIN {
+              split(new_versions, lines, "\n")
+              in_versions = 0
+            }
+            {
+              if ($1 == "options:") {
+                print $0
+                in_versions = 1
+                for (i in lines) {
+                  print "        - " lines[i]
+                }
+                print "        - Older Version"
+                next
+              }
+              if (in_versions && $1 ~ /^ *- /) {
+                next
+              }
+              print $0
+            }
+          ' "$ISSUE_FORM" > temp.yml && mv temp.yml "$ISSUE_FORM"
+
+          echo "✅ Updated versions in issue form:"
+          echo "$updated_versions"
+
       - name: Clean Dev Files
         run: |
           rm -rf .github .gitignore .gitattributes foundry-cli-scripts src package.json package-lock.json
