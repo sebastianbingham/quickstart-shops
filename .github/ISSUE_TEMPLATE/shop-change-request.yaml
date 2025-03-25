@@ -16,6 +16,15 @@ body:
         - This **does not** affect shops that have already been imported into a world.
         - This is a change **request**, not a guarantee.
         - Please provide a clear rationale for the change—there are no hard rules yet, but we value thoughtful feedback.
+  - type: input
+    id: documentUUID
+    attributes:
+      label: Document UUID
+      description: |
+        The UUID of the shop journal entry. You can find it by clicking the book icon with the globe in the upper-left of the journal header.
+      placeholder: "e.g. JournalEntry.quickstart-shop-name"
+    validations:
+      required: true
 
   - type: dropdown
     id: version
