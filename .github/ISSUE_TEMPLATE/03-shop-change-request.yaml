@@ -60,6 +60,9 @@ body:
       label: Version
       description: What version of the Quickstart Shops module are you using?
       options:
+        - v25.03.250657
+        - v25.03.230514
+        - Older Version
         - v25.03.230514
         - Older Version
     validations:
