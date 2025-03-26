@@ -9,32 +9,28 @@ export async function showWelcomeOrUpdateMessage(moduleId, isFirstInstall, isUpd
             return;
         }
 
-        const linkId = "qss-getting-started-link";
+        const uuidLink = `@UUID[Compendium.quickstart-shops.qss-core.JournalEntry.qssGetStarted001]{Open the Getting Started Journal}`;
+        const enriched = await TextEditor.enrichHTML(uuidLink, { async: true });
+
         ChatMessage.create({
-            user: game.user.id,
+            speaker: {
+                alias: "Quickstart Shops"
+            },
             whisper: [game.user.id],
             content: `
-                <p>Thanks for installing <strong>Quickstart Shops</strong>!</p>
-                <p>
-                  <span id="${linkId}" style="color: #1a0dab; cursor: pointer;">
-                    <i class="fas fa-book-open"></i> Open the Getting Started Journal
-                  </span>
-                </p>
-                <p>This message will only show this one time. You can always access it from the compendium later.</p>`
-        }).then(msg => {
-            Hooks.once("renderChatMessage", (message, html) => {
-                if (message.id !== msg.id) return;
-                html.find(`#${linkId}`).on("click", () => {
-                    entry.sheet.render(true);
-                });
-            });
+    <p>Thanks for installing <strong>Quickstart Shops</strong>!</p>
+    <p>${enriched}</p>
+    <p>This message will only show this one time. You can always access it from the compendium later.</p>
+  `
         });
     }
 
     if (isUpdate) {
         console.log("QSS | Showing update message");
         ChatMessage.create({
-            user: game.user.id,
+            speaker: {
+                alias: "Quickstart Shops"
+            },
             whisper: [game.user.id],
             content: `
         <p><strong>Quickstart Shops</strong> has been updated!</p>
