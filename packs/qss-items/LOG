@@ -1,3 +1,5 @@
-2025/04/21-00:08:30.935 5e68 Recovering log #11
-2025/04/21-00:08:30.940 5e68 Delete type=0 #11
-2025/04/21-00:08:30.940 5e68 Delete type=3 #10
+2025/04/21-00:13:04.582 2f4c Delete type=3 #1
+2025/04/21-00:13:04.585 4efc Level-0 table #5: started
+2025/04/21-00:13:04.586 4efc Level-0 table #5: 2595 bytes OK
+2025/04/21-00:13:04.587 4efc Delete type=0 #3
+2025/04/21-00:13:04.588 4efc Manual compaction at level-0 from '!folders!food000000000001' @ 72057594037927935 : 1 .. '!items!lodgingWealthy00' @ 0 : 0; will stop at (end)

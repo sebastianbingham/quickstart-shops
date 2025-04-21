@@ -1,3 +1,5 @@
-2025/04/21-00:08:30.982 1248 Recovering log #11
-2025/04/21-00:08:30.987 1248 Delete type=0 #11
-2025/04/21-00:08:30.987 1248 Delete type=3 #10
+2025/04/21-00:13:04.623 2f4c Delete type=3 #1
+2025/04/21-00:13:04.625 4efc Level-0 table #5: started
+2025/04/21-00:13:04.627 4efc Level-0 table #5: 416 bytes OK
+2025/04/21-00:13:04.628 4efc Delete type=0 #3
+2025/04/21-00:13:04.629 4efc Manual compaction at level-0 from '!folders!qssStandShops001' @ 72057594037927935 : 1 .. '!folders!qssStandShops001' @ 0 : 0; will stop at (end)
