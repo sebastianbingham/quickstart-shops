@@ -1,0 +1,70 @@
+{
+  "folder": "qssBasicShops002",
+  "name": "Lionshield Coster",
+  "flags": {
+    "monks-enhanced-journal": {
+      "pagetype": "shop",
+      "img": "modules/monks-enhanced-journal/assets/shop.png"
+    }
+  },
+  "_id": "ISK88TDxGIrL9pSi",
+  "pages": [
+    {
+      "type": "text",
+      "name": "Lionshield Coster",
+      "flags": {
+        "monks-enhanced-journal": {
+          "type": "shop",
+          "scrollPos": "{\".tab.description .tab-inner\":0}",
+          "shoptype": "",
+          "location": "",
+          "state": "open",
+          "autoopen": false,
+          "purchasing": "locked",
+          "selling": "locked",
+          "appendix": false
+        }
+      },
+      "_id": "Atle8FoxWchSHT0A",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6"
+      },
+      "_key": "!journal.pages!ISK88TDxGIrL9pSi.Atle8FoxWchSHT0A"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6"
+  },
+  "categories": [],
+  "_key": "!journal!ISK88TDxGIrL9pSi"
+}

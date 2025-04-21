@@ -1,0 +1,1249 @@
+{
+  "name": "Basic Clothier",
+  "flags": {
+    "monks-enhanced-journal": {
+      "pagetype": "shop",
+      "img": "modules/quickstart-shops/assets/icons/basic-clothier.webp"
+    }
+  },
+  "_id": "basicShop0000005",
+  "pages": [
+    {
+      "type": "text",
+      "name": "Basic Clothier",
+      "flags": {
+        "monks-enhanced-journal": {
+          "type": "shop",
+          "shoptype": "Clothier",
+          "location": "",
+          "state": "open",
+          "autoopen": false,
+          "purchasing": "confirm",
+          "selling": "confirm",
+          "appendix": false,
+          "_lasttab": "items",
+          "twentyfour": true,
+          "opening": 540,
+          "closing": 1020,
+          "scrollPos": "{\".tab.description .tab-inner\":0}",
+          "items": [
+            {
+              "_id": "42K4eKiYepD7QdlO",
+              "name": "Common Clothes",
+              "type": "equipment",
+              "img": "icons/equipment/chest/shirt-collared-brown.webp",
+              "system": {
+                "description": {
+                  "value": "<p>Clothes worn by most commoners.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 3,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 5,
+                  "denomination": "sp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "cover": null,
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "armor": {
+                  "value": null,
+                  "dex": null,
+                  "magicalBonus": null
+                },
+                "hp": {
+                  "value": 0,
+                  "max": 0,
+                  "dt": null,
+                  "conditions": ""
+                },
+                "speed": {
+                  "value": null,
+                  "conditions": ""
+                },
+                "strength": null,
+                "proficient": null,
+                "type": {
+                  "value": "clothing",
+                  "baseItem": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "crewed": false,
+                "properties": [],
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "utility",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "roll": {
+                      "formula": "",
+                      "name": "",
+                      "prompt": false,
+                      "visible": false
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "common-clothes"
+              },
+              "effects": [],
+              "folder": "aJgMxnZED9XdoN2W",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 12,
+                  "price": "5 sp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "8RXjiddJ6VGyE7vB",
+                  "cost": "5 sp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037114441,
+                "modifiedTime": 1725992488646,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "gz8RtGMQMixXq5sq",
+              "name": "Costume Clothes",
+              "type": "equipment",
+              "img": "icons/equipment/head/crown-feather-brown.webp",
+              "system": {
+                "description": {
+                  "value": "<p>A complete costume usually used by performers and artists in all manner of entertainment halls or for those that simply refuse to get out of character.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 4,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 5,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "cover": null,
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "armor": {
+                  "value": null,
+                  "dex": null,
+                  "magicalBonus": null
+                },
+                "hp": {
+                  "value": 0,
+                  "max": 0,
+                  "dt": null,
+                  "conditions": ""
+                },
+                "speed": {
+                  "value": null,
+                  "conditions": ""
+                },
+                "strength": null,
+                "proficient": null,
+                "type": {
+                  "value": "clothing",
+                  "baseItem": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "crewed": false,
+                "properties": [],
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "utility",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "roll": {
+                      "formula": "",
+                      "name": "",
+                      "prompt": false,
+                      "visible": false
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "costume-clothes"
+              },
+              "effects": [],
+              "folder": "aJgMxnZED9XdoN2W",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 3,
+                  "price": "5 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "E2h6sEe6FU2tnU96",
+                  "cost": "5 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037135672,
+                "modifiedTime": 1725992495704,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "jF01sFvJ2DalBezw",
+              "name": "Fine Clothes",
+              "type": "equipment",
+              "img": "icons/equipment/chest/robe-layered-white.webp",
+              "system": {
+                "description": {
+                  "value": "<p>Set of clothes designed specifically to be expensive and show it.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 6,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 15,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "cover": null,
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "armor": {
+                  "value": null,
+                  "dex": null,
+                  "magicalBonus": null
+                },
+                "hp": {
+                  "value": 0,
+                  "max": 0,
+                  "dt": null,
+                  "conditions": ""
+                },
+                "speed": {
+                  "value": null,
+                  "conditions": ""
+                },
+                "strength": null,
+                "proficient": null,
+                "type": {
+                  "value": "clothing",
+                  "baseItem": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "crewed": false,
+                "properties": [],
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "utility",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "roll": {
+                      "formula": "",
+                      "name": "",
+                      "prompt": false,
+                      "visible": false
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "fine-clothes"
+              },
+              "effects": [],
+              "folder": "aJgMxnZED9XdoN2W",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 2,
+                  "price": "15 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "3OXueEpvDDCVfGFA",
+                  "cost": "15 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037092999,
+                "modifiedTime": 1725992481417,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "sRfPd83b5nbePimN",
+              "name": "Traveler's Clothes",
+              "type": "equipment",
+              "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
+              "system": {
+                "description": {
+                  "value": "<p>A set of clothes worn by travellers.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 4,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 2,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "cover": null,
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "armor": {
+                  "value": null,
+                  "dex": null,
+                  "magicalBonus": null
+                },
+                "hp": {
+                  "value": 0,
+                  "max": 0,
+                  "dt": null,
+                  "conditions": ""
+                },
+                "speed": {
+                  "value": null,
+                  "conditions": ""
+                },
+                "strength": null,
+                "proficient": null,
+                "type": {
+                  "value": "clothing",
+                  "baseItem": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "crewed": false,
+                "properties": [],
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "utility",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "roll": {
+                      "formula": "",
+                      "name": "",
+                      "prompt": false,
+                      "visible": false
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "travelers-clothes"
+              },
+              "effects": [],
+              "folder": "aJgMxnZED9XdoN2W",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 7,
+                  "price": "2 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "SsAmWV6YBqeOFihT",
+                  "cost": "2 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037191290,
+                "modifiedTime": 1725992514491,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "82xxTj0JBfG2EwGA",
+              "name": "Robes",
+              "type": "equipment",
+              "img": "icons/equipment/chest/robe-layered-teal.webp",
+              "system": {
+                "description": {
+                  "value": "<p>Simple or ceremonial wear, often used by priests and other religious figures.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 4,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 1,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "cover": null,
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "armor": {
+                  "value": null,
+                  "dex": null,
+                  "magicalBonus": null
+                },
+                "hp": {
+                  "value": 0,
+                  "max": 0,
+                  "dt": null,
+                  "conditions": ""
+                },
+                "speed": {
+                  "value": null,
+                  "conditions": ""
+                },
+                "strength": null,
+                "proficient": null,
+                "type": {
+                  "value": "clothing",
+                  "baseItem": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "crewed": false,
+                "properties": [],
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "utility",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "roll": {
+                      "formula": "",
+                      "name": "",
+                      "prompt": false,
+                      "visible": false
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "robes"
+              },
+              "effects": [],
+              "folder": "aJgMxnZED9XdoN2W",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 4,
+                  "price": "1 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "8GCEodUsTEEpBlO6",
+                  "cost": "1 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037112090,
+                "modifiedTime": 1725992487881,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "Bd9Vkq8UHWQrP2Rz",
+              "name": "Vestments",
+              "type": "equipment",
+              "img": "icons/equipment/back/mantle-collared-black.webp",
+              "system": {
+                "description": {
+                  "value": "<p>Simple or ostentacious wear, often used by priests and other religious figures for use in rituals and ceremonies.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 4,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 1,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "cover": null,
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "armor": {
+                  "value": null,
+                  "dex": null,
+                  "magicalBonus": null
+                },
+                "hp": {
+                  "value": 0,
+                  "max": 0,
+                  "dt": null,
+                  "conditions": ""
+                },
+                "speed": {
+                  "value": null,
+                  "conditions": ""
+                },
+                "strength": null,
+                "proficient": null,
+                "type": {
+                  "value": "clothing",
+                  "baseItem": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "crewed": false,
+                "properties": [],
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "utility",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "roll": {
+                      "formula": "",
+                      "name": "",
+                      "prompt": false,
+                      "visible": false
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "vestments"
+              },
+              "effects": [],
+              "folder": "aJgMxnZED9XdoN2W",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 2,
+                  "price": "1 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "irtqrzaUCeshmTZp",
+                  "cost": "1 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037262985,
+                "modifiedTime": 1725992538202,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "BETI9HgdaHGkrsjo",
+              "name": "Cotton",
+              "ownership": {
+                "default": 0
+              },
+              "type": "loot",
+              "system": {
+                "description": {
+                  "value": "<p>A square yard of cotton of average quality and weight. Used for all many of items and clothing.</p>\n<p>Far lighter, more comfortable, and easier to work with than canvas; however, the comparatively more delicate crop means it is accordingly more expensive and potentially harder to come by.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 0.5,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 5,
+                  "denomination": "sp"
+                },
+                "rarity": "",
+                "identified": true,
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "type": {
+                  "value": "",
+                  "subtype": ""
+                },
+                "identifier": "cotton",
+                "equipped": false
+              },
+              "sort": 0,
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 17,
+                  "price": "5 sp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "ZcAgZHJ1hhqbedLF",
+                  "cost": "5 sp",
+                  "consumable": false
+                }
+              },
+              "img": "icons/sundries/flags/banner-worn-green.webp",
+              "effects": [],
+              "folder": null,
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037332449,
+                "modifiedTime": 1725992737514,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "RBrSDi3ICos4ofUR",
+              "name": "Linen",
+              "ownership": {
+                "default": 0
+              },
+              "type": "loot",
+              "system": {
+                "description": {
+                  "value": "<p>A square yard of linen of average quality and weight. Used for all many of items and clothing.</p>\n<p>Longer lasting than cotton, its durability and breathability make it particularly valued in warm climtes.</p>\n<p>Different types of linen do exist, with lighter weaves starting at 6 ounces per square yard, and the rest going up to 15 ounces.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 0.6,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 5,
+                  "denomination": "gp"
+                },
+                "rarity": "",
+                "identified": true,
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "type": {
+                  "value": "",
+                  "subtype": ""
+                },
+                "identifier": "linen",
+                "equipped": false
+              },
+              "sort": 0,
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 7,
+                  "price": "5 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "Gh1JxTlM9aRGNrUH",
+                  "cost": "5 gp",
+                  "consumable": false
+                }
+              },
+              "img": "icons/sundries/flags/banner-worn-blue.webp",
+              "effects": [],
+              "folder": null,
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037332259,
+                "modifiedTime": 1725992737409,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "YH2GabLtMYytzXWY",
+              "name": "Silk",
+              "ownership": {
+                "default": 0
+              },
+              "type": "loot",
+              "system": {
+                "description": {
+                  "value": "<p>A square yard of silk of average quality and weight. Used for all many of items and clothing.</p>\n<p>The finest and most desirable of the common fabrics, silk is also the lightest. Most silks will weigh between 2 and 4 ounces per square yard. The heavier the silk, the higher the quality, more durable, and more opaque in color it is.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 0.2,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 10,
+                  "denomination": "gp"
+                },
+                "rarity": "",
+                "identified": true,
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "type": {
+                  "value": "",
+                  "subtype": ""
+                },
+                "identifier": "silk",
+                "equipped": false
+              },
+              "sort": 0,
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 3,
+                  "price": "10 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "jad5oFMDv21mPvJP",
+                  "cost": "10 gp",
+                  "consumable": false
+                }
+              },
+              "img": "icons/equipment/back/cloak-hooded-pink.webp",
+              "effects": [],
+              "folder": null,
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037332489,
+                "modifiedTime": 1725992737555,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            }
+          ]
+        }
+      },
+      "_id": "clothier00000001",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/quickstart-shops/assets/icons/basic-clothier.webp",
+      "sort": 0,
+      "ownership": {
+        "default": 2
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6"
+      },
+      "_key": "!journal.pages!basicShop0000005.clothier00000001"
+    }
+  ],
+  "folder": "qssBasicShops001",
+  "sort": 125000,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6"
+  },
+  "categories": [],
+  "_key": "!journal!basicShop0000005"
+}

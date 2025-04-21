@@ -1,20 +1,16 @@
 import fs from "fs/promises";
 import path from "path";
-import yaml from "js-yaml";
 
-const inputDir = "./src/packs"; // Update if needed
+const inputDir = "./src/packs";
 
 function sanitizeOwnership(ownership = {}) {
     const sanitized = {};
-
     if (typeof ownership.default === "number") {
         sanitized.default = ownership.default;
     }
-
     if (!("default" in sanitized)) {
         sanitized.default = 0;
     }
-
     return sanitized;
 }
 
@@ -28,13 +24,9 @@ function cleanStats(stats = {}) {
 
 function checkIdLengths(data, filePath) {
     const issues = [];
-
-    // Check root _id
     if (typeof data._id === "string" && data._id.length !== 16) {
         issues.push(`⚠️ Root _id is ${data._id.length} chars: "${data._id}"`);
     }
-
-    // Check page _id(s)
     if (Array.isArray(data.pages)) {
         for (const page of data.pages) {
             if (typeof page._id === "string" && page._id.length !== 16) {
@@ -42,39 +34,34 @@ function checkIdLengths(data, filePath) {
             }
         }
     }
-
     if (issues.length > 0) {
         console.warn(`🚨 ID Length Issues in ${filePath}:\n${issues.join("\n")}`);
     }
 }
 
-async function processYamlFile(filePath) {
+async function processJsonFile(filePath) {
     const content = await fs.readFile(filePath, "utf8");
-    const data = yaml.load(content);
+    const data = JSON.parse(content);
     let modified = false;
 
-    // ID length check
     checkIdLengths(data, filePath);
 
-    // Sanitize ownership
     if (data.ownership) {
-        const cleanedOwnership = sanitizeOwnership(data.ownership);
-        if (JSON.stringify(data.ownership) !== JSON.stringify(cleanedOwnership)) {
-            data.ownership = cleanedOwnership;
+        const cleaned = sanitizeOwnership(data.ownership);
+        if (JSON.stringify(data.ownership) !== JSON.stringify(cleaned)) {
+            data.ownership = cleaned;
             modified = true;
         }
     }
 
-    // Clean top-level _stats
     if (data._stats) {
-        const cleanedStats = cleanStats(data._stats);
-        if (JSON.stringify(data._stats) !== JSON.stringify(cleanedStats)) {
-            data._stats = cleanedStats;
+        const cleaned = cleanStats(data._stats);
+        if (JSON.stringify(data._stats) !== JSON.stringify(cleaned)) {
+            data._stats = cleaned;
             modified = true;
         }
     }
 
-    // Pages
     if (Array.isArray(data.pages)) {
         for (const page of data.pages) {
             if (page.ownership) {
@@ -84,7 +71,6 @@ async function processYamlFile(filePath) {
                     modified = true;
                 }
             }
-
             if (page._stats) {
                 const cleanedStats = cleanStats(page._stats);
                 if (JSON.stringify(page._stats) !== JSON.stringify(cleanedStats)) {
@@ -96,8 +82,7 @@ async function processYamlFile(filePath) {
     }
 
     if (modified) {
-        const newYaml = yaml.dump(data, { lineWidth: -1 });
-        await fs.writeFile(filePath, newYaml, "utf8");
+        await fs.writeFile(filePath, JSON.stringify(data, null, 2), "utf8");
         console.log(`✅ Sanitized: ${filePath}`);
     }
 }
@@ -108,11 +93,11 @@ async function walkDir(dir) {
         const fullPath = path.join(dir, entry.name);
         if (entry.isDirectory()) {
             await walkDir(fullPath);
-        } else if (entry.name.endsWith(".yml") || entry.name.endsWith(".yaml")) {
-            await processYamlFile(fullPath);
+        } else if (entry.name.endsWith(".json")) {
+            await processJsonFile(fullPath);
         }
     }
 }
 
 await walkDir(inputDir);
-console.log("🎉 YAML sanitation complete.");
+console.log("🎉 JSON sanitation complete.");

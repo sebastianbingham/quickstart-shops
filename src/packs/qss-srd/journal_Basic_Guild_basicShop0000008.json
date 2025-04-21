@@ -1,0 +1,4387 @@
+{
+  "name": "Basic Guild",
+  "flags": {
+    "monks-enhanced-journal": {
+      "pagetype": "shop",
+      "img": "modules/quickstart-shops/assets/icons/basic-guild.webp"
+    }
+  },
+  "_id": "basicShop0000008",
+  "pages": [
+    {
+      "type": "text",
+      "name": "Basic Guild",
+      "flags": {
+        "monks-enhanced-journal": {
+          "type": "shop",
+          "scrollPos": "{\".tab.description .tab-inner\":0}",
+          "shoptype": "Guild",
+          "location": "",
+          "state": "open",
+          "autoopen": false,
+          "purchasing": "confirm",
+          "selling": "confirm",
+          "appendix": false,
+          "7frIvrnKdDEsk744": {
+            "notes": ""
+          },
+          "_lasttab": "items",
+          "twentyfour": true,
+          "opening": 540,
+          "closing": 1020,
+          "items": [
+            {
+              "_id": "hhlzK69YxF4oFg1A",
+              "name": "Alchemist's Supplies",
+              "type": "tool",
+              "img": "icons/tools/cooking/mortar-herbs-yellow.webp",
+              "system": {
+                "description": {
+                  "value": "<p>These special tools include the items needed to pursue a craft or trade in alchemy.</p>\n<p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 8,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 50,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "ability": "int",
+                "chatFlavor": "",
+                "proficient": null,
+                "bonus": "",
+                "type": {
+                  "value": "art",
+                  "baseItem": "alchemist"
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "check",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "check": {
+                      "ability": "int",
+                      "dc": {},
+                      "associated": []
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "alchemists-supplies"
+              },
+              "effects": [],
+              "folder": "uvZXbqK3cHirDzeT",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "50 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "SztwZhbhZeCqyAes",
+                  "cost": "50 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037192417,
+                "modifiedTime": 1725992514876,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "3rQKuuoeK9MDya6S",
+              "name": "Brewer's Supplies",
+              "type": "tool",
+              "img": "icons/consumables/plants/herb-marjoram-basil-oregano-leaf-bunch-green.webp",
+              "system": {
+                "description": {
+                  "value": "<p>These special tools include the items needed to pursue a craft or trade in brewing.</p>\n<p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 9,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 20,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "ability": "wis",
+                "chatFlavor": "",
+                "proficient": null,
+                "bonus": "",
+                "type": {
+                  "value": "art",
+                  "baseItem": "brewer"
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "check",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "check": {
+                      "ability": "wis",
+                      "dc": {},
+                      "associated": []
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "brewers-supplies"
+              },
+              "effects": [],
+              "folder": "uvZXbqK3cHirDzeT",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "20 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "Y9S75go1hLMXUD48",
+                  "cost": "20 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037212822,
+                "modifiedTime": 1725992521609,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "ehjuzJAmdJvqjSHH",
+              "name": "Calligrapher's Supplies",
+              "type": "tool",
+              "img": "icons/tools/scribal/pen-steel-grey-brown.webp",
+              "system": {
+                "description": {
+                  "value": "<p>These special tools include the items needed to pursue a craft or trade in calligraphy.</p>\n<p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 5,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 10,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "ability": "int",
+                "chatFlavor": "",
+                "proficient": null,
+                "bonus": "",
+                "type": {
+                  "value": "art",
+                  "baseItem": "calligrapher"
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "check",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "check": {
+                      "ability": "int",
+                      "dc": {},
+                      "associated": []
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "calligraphers-supplies"
+              },
+              "effects": [],
+              "folder": "uvZXbqK3cHirDzeT",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "10 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "jhjo20QoiD5exf09",
+                  "cost": "10 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037265832,
+                "modifiedTime": 1725992539160,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "GDxXSWtosffuJEdJ",
+              "name": "Painter's Supplies",
+              "type": "tool",
+              "img": "icons/tools/hand/brush-paint-brown-tan.webp",
+              "system": {
+                "description": {
+                  "value": "<p>These special tools include the items needed to pursue a craft or trade in painting.</p>\n<p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 5,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 10,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "ability": "int",
+                "chatFlavor": "",
+                "proficient": null,
+                "bonus": "",
+                "type": {
+                  "value": "art",
+                  "baseItem": "painter"
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "check",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "check": {
+                      "ability": "int",
+                      "dc": {},
+                      "associated": []
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "painters-supplies"
+              },
+              "effects": [],
+              "folder": "uvZXbqK3cHirDzeT",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "10 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "ccm5xlWhx74d6lsK",
+                  "cost": "10 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037231482,
+                "modifiedTime": 1725992527819,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "JHolbcLq4weMpPGP",
+              "name": "Climber's Kit",
+              "type": "consumable",
+              "img": "icons/weapons/sickles/sickle-hooked-wood.webp",
+              "system": {
+                "description": {
+                  "value": "<p>A climber's kit includes special pitons, boot tips, gloves, and a harness. You can use the climber's kit as an action to anchor yourself; when you do, you can't fall more than 25 feet from the point where you anchored yourself, and you can't climb more than 25 feet away from that point without undoing the anchor.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 12,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 25,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "autoDestroy": false,
+                  "spent": 0
+                },
+                "damage": {
+                  "base": {
+                    "number": null,
+                    "denomination": null,
+                    "types": [],
+                    "custom": {
+                      "enabled": false
+                    },
+                    "scaling": {
+                      "number": 1
+                    }
+                  },
+                  "replace": false
+                },
+                "type": {
+                  "value": "trinket",
+                  "subtype": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "magicalBonus": null,
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "utility",
+                    "activation": {
+                      "type": "action",
+                      "value": 1,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "roll": {
+                      "formula": "",
+                      "name": "",
+                      "prompt": false,
+                      "visible": false
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "climbers-kit"
+              },
+              "effects": [],
+              "folder": "UnUwTG4YIgd0kaUJ",
+              "sort": 10400000,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "25 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "ugzwHl8vYaPu2GNd",
+                  "cost": "25 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037313885,
+                "modifiedTime": 1725992555663,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "leeCaSGuZRhri0kc",
+              "name": "Disguise Kit",
+              "type": "tool",
+              "img": "icons/equipment/back/cloak-hooded-blue.webp",
+              "system": {
+                "description": {
+                  "value": "<p>This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 3,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 25,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "ability": "int",
+                "chatFlavor": "",
+                "proficient": null,
+                "bonus": "",
+                "type": {
+                  "value": "",
+                  "baseItem": "disg"
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "check",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "check": {
+                      "ability": "int",
+                      "dc": {},
+                      "associated": []
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "disguise-kit"
+              },
+              "effects": [],
+              "folder": "uvZXbqK3cHirDzeT",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "25 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "IBhDAr7WkhWPYLVn",
+                  "cost": "25 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037154887,
+                "modifiedTime": 1725992502178,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "t3n277bIOFHtDL2q",
+              "name": "Forgery Kit",
+              "type": "tool",
+              "img": "icons/sundries/documents/envelope-sealed-red-tan.webp",
+              "system": {
+                "description": {
+                  "value": "<p>This small box contains a variety of papers and parchments, pens and inks, seals and sealing wax, gold and silver leaf, and other supplies necessary to create convincing forgeries of physical documents. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a physical forgery of a document.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 5,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 15,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "ability": "int",
+                "chatFlavor": "",
+                "proficient": null,
+                "bonus": "",
+                "type": {
+                  "value": "",
+                  "baseItem": "forg"
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "check",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "check": {
+                      "ability": "int",
+                      "dc": {},
+                      "associated": []
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "forgery-kit"
+              },
+              "effects": [],
+              "folder": "uvZXbqK3cHirDzeT",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "15 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "cG3m4YlHfbQlLEOx",
+                  "cost": "15 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037229779,
+                "modifiedTime": 1725992527220,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "qtg0BETTUAVkgR4c",
+              "name": "Healer's Kit",
+              "type": "consumable",
+              "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+              "system": {
+                "description": {
+                  "value": "<p>This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 3,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 5,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "uses": {
+                  "max": "10",
+                  "recovery": [],
+                  "autoDestroy": true,
+                  "spent": 0
+                },
+                "damage": {
+                  "base": {
+                    "number": null,
+                    "denomination": null,
+                    "types": [],
+                    "custom": {
+                      "enabled": false
+                    },
+                    "scaling": {
+                      "number": 1
+                    }
+                  },
+                  "replace": false
+                },
+                "type": {
+                  "value": "trinket",
+                  "subtype": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "magicalBonus": null,
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "utility",
+                    "activation": {
+                      "type": "action",
+                      "value": 1,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [
+                        {
+                          "type": "itemUses",
+                          "target": "",
+                          "value": "1",
+                          "scaling": {
+                            "mode": "",
+                            "formula": ""
+                          }
+                        }
+                      ],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "touch",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "1",
+                        "type": "creature",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "roll": {
+                      "formula": "",
+                      "name": "",
+                      "prompt": false,
+                      "visible": false
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "healers-kit"
+              },
+              "effects": [],
+              "folder": "UnUwTG4YIgd0kaUJ",
+              "sort": 1400000,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "5 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "6rocoBx5jdzG1QQH",
+                  "cost": "5 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037107694,
+                "modifiedTime": 1725992486434,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "DkCsBCWe9rhQVAWW",
+              "name": "Herbalism Kit",
+              "type": "tool",
+              "img": "icons/containers/bags/pouch-leather-green.webp",
+              "system": {
+                "description": {
+                  "value": "<p>This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 3,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 5,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "ability": "wis",
+                "chatFlavor": "",
+                "proficient": null,
+                "bonus": "",
+                "type": {
+                  "value": "",
+                  "baseItem": "herb"
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "check",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "check": {
+                      "ability": "wis",
+                      "dc": {},
+                      "associated": []
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "herbalism-kit"
+              },
+              "effects": [],
+              "folder": "uvZXbqK3cHirDzeT",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "5 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "i89okN7GFTWHsvPy",
+                  "cost": "5 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037259581,
+                "modifiedTime": 1725992537016,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "fZJosJDoCFlWAUiT",
+              "name": "Mess Kit",
+              "type": "loot",
+              "img": "icons/tools/cooking/fork-steel-tan.webp",
+              "system": {
+                "description": {
+                  "value": "<p>This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 1,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 2,
+                  "denomination": "sp"
+                },
+                "rarity": "",
+                "identified": true,
+                "type": {
+                  "value": "",
+                  "subtype": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "identifier": "mess-kit",
+                "equipped": false
+              },
+              "effects": [],
+              "folder": "dlru9Hy74nSMv6fr",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "2 sp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "V13fjV5oSmvbRdgP",
+                  "cost": "2 sp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037200192,
+                "modifiedTime": 1725992517416,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "U02IqdtExaBVYahW",
+              "name": "Poisoner's Kit",
+              "type": "tool",
+              "img": "icons/containers/bags/pouch-gold-green.webp",
+              "system": {
+                "description": {
+                  "value": "<p>A poisoner's kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 2,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 50,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "ability": "wis",
+                "chatFlavor": "",
+                "proficient": null,
+                "bonus": "",
+                "type": {
+                  "value": "",
+                  "baseItem": "pois"
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "check",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "check": {
+                      "ability": "wis",
+                      "dc": {},
+                      "associated": []
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "poisoners-kit"
+              },
+              "effects": [],
+              "folder": "uvZXbqK3cHirDzeT",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "50 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "il2GNi8C0DvGLL9P",
+                  "cost": "50 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037262700,
+                "modifiedTime": 1725992538099,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "4zPmst8fNbvPKEeL",
+              "name": "Carpenter's Tools",
+              "type": "tool",
+              "img": "icons/tools/hand/saw-steel-grey.webp",
+              "system": {
+                "description": {
+                  "value": "<p>These special tools include the items needed to pursue a craft or trade in carpentry.</p>\n<p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 6,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 8,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "ability": "str",
+                "chatFlavor": "",
+                "proficient": null,
+                "bonus": "",
+                "type": {
+                  "value": "art",
+                  "baseItem": "carpenter"
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "check",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "check": {
+                      "ability": "str",
+                      "dc": {},
+                      "associated": []
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "carpenters-tools"
+              },
+              "effects": [],
+              "folder": "uvZXbqK3cHirDzeT",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "8 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "8NS6MSOdXtUqD7Ib",
+                  "cost": "8 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037113832,
+                "modifiedTime": 1725992488456,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "dRnlXnzLzSXljIE4",
+              "name": "Cartographer's Tools",
+              "type": "tool",
+              "img": "icons/tools/navigation/map-chart-tan.webp",
+              "system": {
+                "description": {
+                  "value": "<p>These special tools include the items needed to pursue a craft or trade in cartography.</p>\n<p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 6,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 15,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "ability": "int",
+                "chatFlavor": "",
+                "proficient": null,
+                "bonus": "",
+                "type": {
+                  "value": "art",
+                  "baseItem": "cartographer"
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "check",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "check": {
+                      "ability": "int",
+                      "dc": {},
+                      "associated": []
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "cartographers-tools"
+              },
+              "effects": [],
+              "folder": "uvZXbqK3cHirDzeT",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "15 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "fC0lFK8P4RuhpfaU",
+                  "cost": "15 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037246077,
+                "modifiedTime": 1725992532487,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "7VdnmucoB6wSYgPF",
+              "name": "Cobbler's Tools",
+              "type": "tool",
+              "img": "icons/tools/hand/awl-steel-tan.webp",
+              "system": {
+                "description": {
+                  "value": "<p>These special tools include the items needed to pursue a craft or trade in cobblery.</p>\n<p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 5,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 5,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "ability": "int",
+                "chatFlavor": "",
+                "proficient": null,
+                "bonus": "",
+                "type": {
+                  "value": "art",
+                  "baseItem": "cobbler"
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "check",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "check": {
+                      "ability": "int",
+                      "dc": {},
+                      "associated": []
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "cobblers-tools"
+              },
+              "effects": [],
+              "folder": "uvZXbqK3cHirDzeT",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "5 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "hM84pZnpCqKfi8XH",
+                  "cost": "5 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037256194,
+                "modifiedTime": 1725992535858,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "Y2EkXlCycOes0OWn",
+              "name": "Glassblower's Tools",
+              "type": "tool",
+              "img": "icons/commodities/tech/metal-insert.webp",
+              "system": {
+                "description": {
+                  "value": "<p>These special tools include the items needed to pursue a craft or trade in glassblowing.</p>\n<p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 5,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 30,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "ability": "int",
+                "chatFlavor": "",
+                "proficient": null,
+                "bonus": "",
+                "type": {
+                  "value": "art",
+                  "baseItem": "glassblower"
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "check",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "check": {
+                      "ability": "int",
+                      "dc": {},
+                      "associated": []
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "glassblowers-tools"
+              },
+              "effects": [],
+              "folder": "uvZXbqK3cHirDzeT",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "30 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "rTbVrNcwApnuTz5E",
+                  "cost": "30 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037299107,
+                "modifiedTime": 1725992550672,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "DtMrh0D0zGcIwKt8",
+              "name": "Jeweler's Tools",
+              "type": "tool",
+              "img": "icons/commodities/gems/gem-rough-rose-teal.webp",
+              "system": {
+                "description": {
+                  "value": "<p>These special tools include the items needed to pursue a craft or trade in jewelry.</p>\n<p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 2,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 25,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "ability": "int",
+                "chatFlavor": "",
+                "proficient": null,
+                "bonus": "",
+                "type": {
+                  "value": "art",
+                  "baseItem": "jeweler"
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "check",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "check": {
+                      "ability": "int",
+                      "dc": {},
+                      "associated": []
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "jewelers-tools"
+              },
+              "effects": [],
+              "folder": "uvZXbqK3cHirDzeT",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "25 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "YfBwELTgPFHmQdHh",
+                  "cost": "25 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037215349,
+                "modifiedTime": 1725992522470,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "WIIoqnwUNerv9pag",
+              "name": "Leatherworker's Tools",
+              "type": "tool",
+              "img": "icons/commodities/leather/leather-buckle-steel-tan.webp",
+              "system": {
+                "description": {
+                  "value": "<p>These special tools include the items needed to pursue a craft or trade in leatherworking.</p>\n<p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 5,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 5,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "ability": "int",
+                "chatFlavor": "",
+                "proficient": null,
+                "bonus": "",
+                "type": {
+                  "value": "art",
+                  "baseItem": "leatherworker"
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "check",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "check": {
+                      "ability": "int",
+                      "dc": {},
+                      "associated": []
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "leatherworkers-tools"
+              },
+              "effects": [],
+              "folder": "uvZXbqK3cHirDzeT",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "5 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "PUMfwyVUbtyxgYbD",
+                  "cost": "5 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037181619,
+                "modifiedTime": 1725992511209,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "42kqiNsEL665IPZn",
+              "name": "Mason's Tools",
+              "type": "tool",
+              "img": "icons/tools/hand/hammer-and-nail.webp",
+              "system": {
+                "description": {
+                  "value": "<p>These special tools include the items needed to pursue a craft or trade in masonry.</p>\n<p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 8,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 10,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "ability": "wis",
+                "chatFlavor": "",
+                "proficient": null,
+                "bonus": "",
+                "type": {
+                  "value": "art",
+                  "baseItem": "mason"
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "check",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "check": {
+                      "ability": "wis",
+                      "dc": {},
+                      "associated": []
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "masons-tools"
+              },
+              "effects": [],
+              "folder": "uvZXbqK3cHirDzeT",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "10 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "skUih6tBvcBbORzA",
+                  "cost": "10 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037303739,
+                "modifiedTime": 1725992552231,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "rer9DbVkYIR56SzJ",
+              "name": "Navigator's Tools",
+              "type": "tool",
+              "img": "icons/tools/navigation/sextant-brass-brown.webp",
+              "system": {
+                "description": {
+                  "value": "<p>This set of instruments is used for navigation at sea. Proficiency with navigator's tools lets you chart a ship's course and follow navigation charts. In addition, these tools allow you to add your proficiency bonus to any ability check you make to avoid getting lost at sea.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 2,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 25,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "ability": "int",
+                "chatFlavor": "",
+                "proficient": null,
+                "bonus": "",
+                "type": {
+                  "value": "",
+                  "baseItem": "navg"
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "check",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "check": {
+                      "ability": "int",
+                      "dc": {},
+                      "associated": []
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "navigators-tools"
+              },
+              "effects": [],
+              "folder": "uvZXbqK3cHirDzeT",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "25 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "YHCmjsiXxZ9UdUhU",
+                  "cost": "25 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037213654,
+                "modifiedTime": 1725992521909,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "Qni7cxrU22MgWcjW",
+              "name": "Potter's Tools",
+              "type": "tool",
+              "img": "icons/containers/kitchenware/vase-bottle-brown.webp",
+              "system": {
+                "description": {
+                  "value": "<p>These special tools include the items needed to pursue a craft or trade in pottery.</p>\n<p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 3,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 10,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "ability": "int",
+                "chatFlavor": "",
+                "proficient": null,
+                "bonus": "",
+                "type": {
+                  "value": "art",
+                  "baseItem": "potter"
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "check",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "check": {
+                      "ability": "int",
+                      "dc": {},
+                      "associated": []
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "potters-tools"
+              },
+              "effects": [],
+              "folder": "uvZXbqK3cHirDzeT",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "10 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "hJS8yEVkqgJjwfWa",
+                  "cost": "10 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037255933,
+                "modifiedTime": 1725992535763,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "VR7XUDG28x23b18c",
+              "name": "Thieves' Tools",
+              "type": "tool",
+              "img": "icons/tools/hand/lockpicks-steel-grey.webp",
+              "system": {
+                "description": {
+                  "value": "<p>This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 1,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 25,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "ability": "dex",
+                "chatFlavor": "",
+                "proficient": null,
+                "bonus": "",
+                "type": {
+                  "value": "",
+                  "baseItem": "thief"
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "check",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "check": {
+                      "ability": "dex",
+                      "dc": {},
+                      "associated": []
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "thieves-tools"
+              },
+              "effects": [],
+              "folder": "uvZXbqK3cHirDzeT",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "25 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "woWZ1sO5IUVGzo58",
+                  "cost": "25 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037319908,
+                "modifiedTime": 1725992557712,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "q4DJL3a2dbM0OoEP",
+              "name": "Tinker's Tools",
+              "type": "tool",
+              "img": "icons/commodities/cloth/thread-spindle-white-needle.webp",
+              "system": {
+                "description": {
+                  "value": "<p>These special tools include the items needed to pursue a craft or trade in tinkering.</p>\n<p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 10,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 50,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "ability": "int",
+                "chatFlavor": "",
+                "proficient": null,
+                "bonus": "",
+                "type": {
+                  "value": "art",
+                  "baseItem": "tinker"
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "check",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "check": {
+                      "ability": "int",
+                      "dc": {},
+                      "associated": []
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "tinkers-tools"
+              },
+              "effects": [],
+              "folder": "uvZXbqK3cHirDzeT",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "50 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "0d08g1i5WXnNrCNA",
+                  "cost": "50 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037083086,
+                "modifiedTime": 1725992478101,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "ZCrWymuoYf1fHZSL",
+              "name": "Weaver's Tools",
+              "type": "tool",
+              "img": "icons/equipment/back/cloak-hooded-pink.webp",
+              "system": {
+                "description": {
+                  "value": "<p>These special tools include the items needed to pursue a craft or trade in weaving.</p>\n<p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 5,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 1,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "ability": "dex",
+                "chatFlavor": "",
+                "proficient": null,
+                "bonus": "",
+                "type": {
+                  "value": "art",
+                  "baseItem": "weaver"
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "check",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "check": {
+                      "ability": "dex",
+                      "dc": {},
+                      "associated": []
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "weavers-tools"
+              },
+              "effects": [],
+              "folder": "uvZXbqK3cHirDzeT",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "1 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "ap9prThUB2y9lDyj",
+                  "cost": "1 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037224738,
+                "modifiedTime": 1725992525621,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "f67Twu4DuVRjq9AU",
+              "name": "Woodcarver's Tools",
+              "type": "tool",
+              "img": "icons/tools/hand/chisel-steel-brown.webp",
+              "system": {
+                "description": {
+                  "value": "<p>These special tools include the items needed to pursue a craft or trade in woodcarving.</p>\n<p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 5,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 1,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "ability": "dex",
+                "chatFlavor": "",
+                "proficient": null,
+                "bonus": "",
+                "type": {
+                  "value": "art",
+                  "baseItem": "woodcarver"
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "check",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "check": {
+                      "ability": "dex",
+                      "dc": {},
+                      "associated": []
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "woodcarvers-tools"
+              },
+              "effects": [],
+              "folder": "uvZXbqK3cHirDzeT",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "1 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "xKErqkLo4ASYr5EP",
+                  "cost": "1 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037322637,
+                "modifiedTime": 1725992558750,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "tD1aQHmn6aMBkX1N",
+              "name": "Cook's Utensils",
+              "type": "tool",
+              "img": "icons/tools/laboratory/bowl-mixing.webp",
+              "system": {
+                "description": {
+                  "value": "<p>These special tools include the items needed to pursue a craft or trade in cookery.</p>\n<p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 8,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 1,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "ability": "wis",
+                "chatFlavor": "",
+                "proficient": null,
+                "bonus": "",
+                "type": {
+                  "value": "art",
+                  "baseItem": "cook"
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "check",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "check": {
+                      "ability": "wis",
+                      "dc": {},
+                      "associated": []
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "cooks-utensils"
+              },
+              "effects": [],
+              "folder": "uvZXbqK3cHirDzeT",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "1 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "Gflnp29aEv5Lc1ZM",
+                  "cost": "1 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037148068,
+                "modifiedTime": 1725992499881,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "W9cu9QLqNzJggGKr",
+              "name": "Map or Scroll Case",
+              "type": "container",
+              "img": "icons/containers/bags/case-scroll-leather-tan.webp",
+              "system": {
+                "description": {
+                  "value": "<p>This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 1,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 1,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "capacity": {
+                  "count": null,
+                  "volume": {
+                    "value": null,
+                    "units": "cubicFoot"
+                  },
+                  "weight": {
+                    "value": null,
+                    "units": "lb"
+                  }
+                },
+                "currency": {
+                  "cp": 0,
+                  "sp": 0,
+                  "ep": 0,
+                  "gp": 0,
+                  "pp": 0
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "attuned": false,
+                "identifier": "map-or-scroll-case"
+              },
+              "effects": [],
+              "folder": "PgtyWdfkDTDbc0ov",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "1 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "5mIeX824uMklU3xq",
+                  "cost": "1 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037102156,
+                "modifiedTime": 1725992484595,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "NqeLuDrdFZYi5Eb7",
+              "name": "Paper",
+              "type": "loot",
+              "img": "icons/sundries/documents/paper-plain-white.webp",
+              "system": {
+                "description": {
+                  "value": "<p>A single sheet of paper.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 0,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 2,
+                  "denomination": "sp"
+                },
+                "rarity": "",
+                "identified": true,
+                "type": {
+                  "value": "",
+                  "subtype": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "identifier": "paper",
+                "equipped": false
+              },
+              "effects": [],
+              "folder": "dlru9Hy74nSMv6fr",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 100,
+                  "price": "2 sp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "fNMkFCOvMiW2Rh3t",
+                  "cost": "2 sp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037246995,
+                "modifiedTime": 1725992532770,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "xJgHgOus2HnHehSV",
+              "name": "Parchment",
+              "type": "loot",
+              "img": "icons/sundries/scrolls/scroll-plain-tan.webp",
+              "system": {
+                "description": {
+                  "value": "<p>A single sheet of heavier parchment paper.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 0,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 1,
+                  "denomination": "sp"
+                },
+                "rarity": "",
+                "identified": true,
+                "type": {
+                  "value": "",
+                  "subtype": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "identifier": "parchment",
+                "equipped": false
+              },
+              "effects": [],
+              "folder": "dlru9Hy74nSMv6fr",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 25,
+                  "price": "1 sp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "WFQS2vT8ddrFjTJg",
+                  "cost": "1 sp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037203861,
+                "modifiedTime": 1725992518626,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "gIOMZVUTAxb8XbSG",
+              "name": "Ink Bottle",
+              "type": "loot",
+              "img": "icons/consumables/potions/potion-bottle-labeled-medicine-capped-red-black.webp",
+              "system": {
+                "description": {
+                  "value": "<p>A small bottle of ink for writing upon parchment.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 0.06,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 10,
+                  "denomination": "gp"
+                },
+                "rarity": "",
+                "identified": true,
+                "type": {
+                  "value": "",
+                  "subtype": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "identifier": "ink-bottle",
+                "equipped": false
+              },
+              "effects": [],
+              "folder": "dlru9Hy74nSMv6fr",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 10,
+                  "price": "10 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "dP7jMKyHTTgVb3ii",
+                  "cost": "10 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037234139,
+                "modifiedTime": 1725992528669,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "4TUNKZwwBcmCFRiF",
+              "name": "Ink Pen",
+              "type": "loot",
+              "img": "icons/tools/scribal/pen-steel-grey-brown.webp",
+              "system": {
+                "description": {
+                  "value": "<p>A deviced used in combination with ink to write or draw on a sheet of paper.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 0,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 2,
+                  "denomination": "cp"
+                },
+                "rarity": "",
+                "identified": true,
+                "type": {
+                  "value": "",
+                  "subtype": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "identifier": "ink-pen",
+                "equipped": false
+              },
+              "effects": [],
+              "folder": "dlru9Hy74nSMv6fr",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 10,
+                  "price": "2 cp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "uVm7MiB71QblfnoY",
+                  "cost": "2 cp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037312533,
+                "modifiedTime": 1725992555201,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "iXN0hdvKhUuSDwLo",
+              "name": "Sealing Wax",
+              "type": "loot",
+              "img": "icons/sundries/lights/candle-unlit-red.webp",
+              "system": {
+                "description": {
+                  "value": "<p>A wax material of a seal which, after melting, hardens quickly forming a bond that is difficult to separate without noticeable tampering.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 0,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 5,
+                  "denomination": "sp"
+                },
+                "rarity": "",
+                "identified": true,
+                "type": {
+                  "value": "",
+                  "subtype": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "identifier": "sealing-wax",
+                "equipped": false
+              },
+              "effects": [],
+              "folder": "dlru9Hy74nSMv6fr",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 10,
+                  "price": "5 sp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "3uEyuCfnAzGkwAn5",
+                  "cost": "5 sp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037096695,
+                "modifiedTime": 1725992482683,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "m3eqfVaKzkYisiio",
+              "name": "Merchant's Scale",
+              "type": "loot",
+              "img": "icons/tools/hand/scale-balances-merchant-brown.webp",
+              "system": {
+                "description": {
+                  "value": "<p>A scale includes a small balance, pans, and a suitable assortment of weights up to 2 pounds. With it, you can measure the exact weight of small objects, such as raw precious metals or trade goods, to help determine their worth.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 3,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 5,
+                  "denomination": "gp"
+                },
+                "rarity": "",
+                "identified": true,
+                "type": {
+                  "value": "",
+                  "subtype": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "identifier": "merchants-scale",
+                "equipped": false
+              },
+              "effects": [],
+              "folder": "dlru9Hy74nSMv6fr",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "5 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "vJvb6fx3JVPmhG8x",
+                  "cost": "5 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037315227,
+                "modifiedTime": 1725992556128,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "hYtu6f7uCSdCIYe4",
+              "name": "Signet Ring",
+              "type": "loot",
+              "img": "icons/equipment/finger/ring-cabochon-gold-orange.webp",
+              "system": {
+                "description": {
+                  "value": "<p>A ring with specific design to denote membership and rank within a house or organization.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 0,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 5,
+                  "denomination": "gp"
+                },
+                "rarity": "",
+                "identified": true,
+                "type": {
+                  "value": "",
+                  "subtype": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "identifier": "signet-ring",
+                "equipped": false
+              },
+              "effects": [],
+              "folder": "dlru9Hy74nSMv6fr",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 3,
+                  "price": "5 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "kdkpSZMUHGXGM15H",
+                  "cost": "5 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037269201,
+                "modifiedTime": 1725992540306,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "FejNqYTDmcZdP8li",
+              "name": "Magnifying Glass",
+              "type": "loot",
+              "img": "icons/tools/scribal/magnifying-glass.webp",
+              "system": {
+                "description": {
+                  "value": "<p>This lens allows a closer look at small objects. It is also useful as a substitute for flint and steel when starting fires. Lighting a fire with a magnifying glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite. A magnifying glass grants advantage on any ability check made to appraise or inspect an item that is small or highly detailed.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 0,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 100,
+                  "denomination": "gp"
+                },
+                "rarity": "",
+                "identified": true,
+                "type": {
+                  "value": "",
+                  "subtype": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "identifier": "magnifying-glass",
+                "equipped": false
+              },
+              "effects": [],
+              "folder": "dlru9Hy74nSMv6fr",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "100 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "PV0sn2Nlr8CNn4W9",
+                  "cost": "100 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037181885,
+                "modifiedTime": 1725992511300,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "Py5RjuVu0QEWTjPc",
+              "name": "Alms Box",
+              "type": "container",
+              "img": "icons/containers/chest/chest-simple-box-brown.webp",
+              "system": {
+                "description": {
+                  "value": "<p>A box with a money slot and detachable base mainly used by priests and the like to collect alms.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 2,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 1,
+                  "denomination": "sp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "capacity": {
+                  "weight": {
+                    "value": 2,
+                    "units": "lb"
+                  },
+                  "count": null,
+                  "volume": {
+                    "value": null,
+                    "units": "cubicFoot"
+                  }
+                },
+                "currency": {
+                  "cp": 0,
+                  "sp": 0,
+                  "ep": 0,
+                  "gp": 0,
+                  "pp": 0
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "attuned": false,
+                "identifier": "alms-box"
+              },
+              "effects": [],
+              "folder": "PgtyWdfkDTDbc0ov",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "1 sp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "g8fQZ1WyTz2bTtvA",
+                  "cost": "1 sp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037250509,
+                "modifiedTime": 1725992533901,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            }
+          ]
+        }
+      },
+      "_id": "guild00000000001",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p data-start=\"1617\" data-end=\"1867\">The faint scratch of quills on parchment fills the quiet space. Scroll racks, ink pots, and stacks of neatly bound papers line the walls. A single desk sits beneath a reading lamp, surrounded by shelves full of maps, ledgers, and sealed scroll tubes.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/quickstart-shops/assets/icons/basic-guild.webp",
+      "sort": 0,
+      "ownership": {
+        "default": 2
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6"
+      },
+      "_key": "!journal.pages!basicShop0000008.guild00000000001"
+    }
+  ],
+  "folder": "qssBasicShops001",
+  "sort": 103125,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6"
+  },
+  "categories": [],
+  "_key": "!journal!basicShop0000008"
+}

@@ -1,0 +1,3533 @@
+{
+  "name": "Basic Arcana",
+  "flags": {
+    "monks-enhanced-journal": {
+      "pagetype": "shop",
+      "img": "modules/quickstart-shops/assets/icons/basic-arcana.webp"
+    }
+  },
+  "_id": "basicShop0000002",
+  "pages": [
+    {
+      "type": "text",
+      "name": "Basic Arcana",
+      "flags": {
+        "monks-enhanced-journal": {
+          "type": "shop",
+          "scrollPos": "{\".tab.description .tab-inner\":0}",
+          "shoptype": "Arcana",
+          "location": "",
+          "state": "open",
+          "autoopen": false,
+          "purchasing": "confirm",
+          "selling": "confirm",
+          "appendix": false,
+          "7frIvrnKdDEsk744": {
+            "notes": ""
+          },
+          "_lasttab": "items",
+          "twentyfour": true,
+          "opening": 540,
+          "closing": 1020,
+          "items": [
+            {
+              "_id": "uqqG4hSFVl6TfH92",
+              "name": "Alchemist's Fire",
+              "type": "consumable",
+              "img": "icons/consumables/potions/bottle-round-corked-yellow.webp",
+              "system": {
+                "description": {
+                  "value": "<p>This sticky, adhesive fluid ignites when exposed to air. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. On a hit, the target takes 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 1,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 50,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "uses": {
+                  "max": "1",
+                  "recovery": [],
+                  "autoDestroy": true,
+                  "spent": 0
+                },
+                "damage": {
+                  "base": {
+                    "number": 1,
+                    "denomination": 4,
+                    "bonus": "",
+                    "types": [
+                      "fire"
+                    ],
+                    "custom": {
+                      "enabled": false,
+                      "formula": ""
+                    },
+                    "scaling": {
+                      "mode": "",
+                      "number": null,
+                      "formula": ""
+                    }
+                  },
+                  "replace": false
+                },
+                "type": {
+                  "value": "potion",
+                  "subtype": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "magicalBonus": null,
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "attack",
+                    "activation": {
+                      "type": "action",
+                      "value": 1,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [
+                        {
+                          "type": "itemUses",
+                          "target": "",
+                          "value": "1",
+                          "scaling": {
+                            "mode": "",
+                            "formula": ""
+                          }
+                        }
+                      ],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": "improvised weapon"
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "value": "20",
+                      "units": "ft",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "1",
+                        "type": "creature",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "attack": {
+                      "ability": "dex",
+                      "bonus": "",
+                      "critical": {
+                        "threshold": null
+                      },
+                      "flat": false,
+                      "type": {
+                        "value": "ranged",
+                        "classification": "weapon"
+                      }
+                    },
+                    "damage": {
+                      "critical": {
+                        "bonus": ""
+                      },
+                      "includeBase": true,
+                      "parts": [
+                        {
+                          "number": 1,
+                          "denomination": 4,
+                          "bonus": "",
+                          "types": [
+                            "fire"
+                          ],
+                          "custom": {
+                            "enabled": false,
+                            "formula": ""
+                          },
+                          "scaling": {
+                            "mode": "whole",
+                            "number": null,
+                            "formula": ""
+                          }
+                        }
+                      ]
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  },
+                  "dnd5eactivity100": {
+                    "_id": "dnd5eactivity100",
+                    "type": "save",
+                    "activation": {
+                      "type": "action",
+                      "value": 1,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [
+                        {
+                          "type": "itemUses",
+                          "target": "",
+                          "value": "1",
+                          "scaling": {
+                            "mode": "",
+                            "formula": ""
+                          }
+                        }
+                      ],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": "improvised weapon"
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "value": "20",
+                      "units": "ft",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "1",
+                        "type": "creature",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "damage": {
+                      "onSave": "half",
+                      "parts": [
+                        {
+                          "number": 1,
+                          "denomination": 4,
+                          "bonus": "",
+                          "types": [
+                            "fire"
+                          ],
+                          "custom": {
+                            "enabled": false,
+                            "formula": ""
+                          },
+                          "scaling": {
+                            "mode": "whole",
+                            "number": null,
+                            "formula": ""
+                          }
+                        }
+                      ]
+                    },
+                    "save": {
+                      "ability": [
+                        "dex"
+                      ],
+                      "dc": {
+                        "calculation": "",
+                        "formula": "10"
+                      }
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "alchemists-fire"
+              },
+              "effects": [],
+              "folder": "gyBZp72zKb56Da84",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 2,
+                  "price": "50 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "FvNOwWbh5FXyX4xe",
+                  "cost": "50 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037145495,
+                "modifiedTime": 1725992499021,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "a34tohawytNoClwO",
+              "name": "Alchemist's Supplies",
+              "type": "tool",
+              "img": "icons/tools/cooking/mortar-herbs-yellow.webp",
+              "system": {
+                "description": {
+                  "value": "<p>These special tools include the items needed to pursue a craft or trade in alchemy.</p>\n<p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 8,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 50,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "ability": "int",
+                "chatFlavor": "",
+                "proficient": null,
+                "bonus": "",
+                "type": {
+                  "value": "art",
+                  "baseItem": "alchemist"
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "check",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "check": {
+                      "ability": "int",
+                      "dc": {},
+                      "associated": []
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "alchemists-supplies"
+              },
+              "effects": [],
+              "folder": "uvZXbqK3cHirDzeT",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 2,
+                  "price": "50 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "SztwZhbhZeCqyAes",
+                  "cost": "50 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037192417,
+                "modifiedTime": 1725992514876,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "cdeEF3jUqguxuvom",
+              "name": "Antitoxin",
+              "type": "consumable",
+              "img": "icons/consumables/potions/bottle-round-corked-pink.webp",
+              "system": {
+                "description": {
+                  "value": "<p>A creature that drinks this vial of liquid gains advantage on saving throws against poison for 1 hour. It confers no benefit to undead or constructs.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 0.1,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 50,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "uses": {
+                  "max": "1",
+                  "recovery": [],
+                  "autoDestroy": true,
+                  "spent": 0
+                },
+                "damage": {
+                  "base": {
+                    "number": null,
+                    "denomination": null,
+                    "types": [],
+                    "custom": {
+                      "enabled": false
+                    },
+                    "scaling": {
+                      "number": 1
+                    }
+                  },
+                  "replace": false
+                },
+                "type": {
+                  "value": "potion",
+                  "subtype": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "magicalBonus": null,
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "utility",
+                    "activation": {
+                      "type": "action",
+                      "value": 1,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [
+                        {
+                          "type": "itemUses",
+                          "target": "",
+                          "value": "1",
+                          "scaling": {
+                            "mode": "",
+                            "formula": ""
+                          }
+                        }
+                      ],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "1",
+                      "units": "hour",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "self",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "roll": {
+                      "formula": "",
+                      "name": "",
+                      "prompt": false,
+                      "visible": false
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "antitoxin"
+              },
+              "effects": [],
+              "folder": "gyBZp72zKb56Da84",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 3,
+                  "price": "50 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "Fc6UfFNOnW80XMzi",
+                  "cost": "50 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037143228,
+                "modifiedTime": 1725992498253,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "ROm9hfPU6T1cAOFN",
+              "name": "Basic Poison",
+              "type": "consumable",
+              "img": "icons/consumables/potions/potion-bottle-skull-label-poison-teal.webp",
+              "system": {
+                "description": {
+                  "value": "<p>You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 10 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 0,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 100,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "uses": {
+                  "max": "3",
+                  "recovery": [],
+                  "autoDestroy": true,
+                  "spent": 0
+                },
+                "damage": {
+                  "base": {
+                    "number": 1,
+                    "denomination": 4,
+                    "bonus": "",
+                    "types": [
+                      "poison"
+                    ],
+                    "custom": {
+                      "enabled": false,
+                      "formula": ""
+                    },
+                    "scaling": {
+                      "mode": "",
+                      "number": null,
+                      "formula": ""
+                    }
+                  },
+                  "replace": false
+                },
+                "type": {
+                  "value": "potion",
+                  "subtype": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "magicalBonus": null,
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "save",
+                    "activation": {
+                      "type": "action",
+                      "value": 1,
+                      "condition": "one slashing or piercing weapon, or up to three pieces of ammunition",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [
+                        {
+                          "type": "itemUses",
+                          "target": "",
+                          "value": "1",
+                          "scaling": {
+                            "mode": "",
+                            "formula": ""
+                          }
+                        }
+                      ],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "1",
+                      "units": "minute",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "touch",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "damage": {
+                      "onSave": "half",
+                      "parts": [
+                        {
+                          "number": 1,
+                          "denomination": 4,
+                          "bonus": "",
+                          "types": [
+                            "poison"
+                          ],
+                          "custom": {
+                            "enabled": false,
+                            "formula": ""
+                          },
+                          "scaling": {
+                            "mode": "whole",
+                            "number": null,
+                            "formula": ""
+                          }
+                        }
+                      ]
+                    },
+                    "save": {
+                      "ability": [
+                        "con"
+                      ],
+                      "dc": {
+                        "calculation": "",
+                        "formula": "10"
+                      }
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "basic-poison"
+              },
+              "effects": [],
+              "folder": "ZzUfnm1OuSL02nLG",
+              "sort": 200000,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 3,
+                  "price": "100 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "eVbPkYjpl29RE2uW",
+                  "cost": "100 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037241703,
+                "modifiedTime": 1725992531189,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "mQUZDoDLdwGgdWwX",
+              "name": "Book",
+              "type": "loot",
+              "img": "icons/sundries/books/book-rounded-red.webp",
+              "system": {
+                "description": {
+                  "value": "<p>A book might contain poetry, historical accounts, information pertaining to a particular field of lore, diagrams and notes on gnomish contraptions, or just about anything else that can be represented using text or pictures. A book of spells is a spellbook.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 5,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 25,
+                  "denomination": "gp"
+                },
+                "rarity": "",
+                "identified": true,
+                "type": {
+                  "value": "",
+                  "subtype": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "identifier": "book",
+                "equipped": false
+              },
+              "effects": [],
+              "folder": "dlru9Hy74nSMv6fr",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 6,
+                  "price": "25 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "RMi9efrW9ouHVLI2",
+                  "cost": "25 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037186419,
+                "modifiedTime": 1725992512832,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "GSxpIOUM4yNNb2I5",
+              "name": "Book of Lore",
+              "type": "loot",
+              "img": "icons/sundries/books/book-simple-brown.webp",
+              "system": {
+                "description": {
+                  "value": "<p>A book containing historical accounts, information pertaining to a particular field of lore, myth, or legend.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 5,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 25,
+                  "denomination": "gp"
+                },
+                "rarity": "",
+                "identified": true,
+                "type": {
+                  "value": "",
+                  "subtype": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "identifier": "book-of-lore",
+                "equipped": false
+              },
+              "effects": [],
+              "folder": "dlru9Hy74nSMv6fr",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 2,
+                  "price": "25 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "l794iywHk8Wc6Uvi",
+                  "cost": "25 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037271726,
+                "modifiedTime": 1725992541143,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "a5mWsmbEqQHjLP24",
+              "name": "Censer",
+              "type": "loot",
+              "img": "icons/containers/kitchenware/goblet-worn-clay-white.webp",
+              "system": {
+                "description": {
+                  "value": "<p>Usually used in conjunction with blocks of incense to perfume the air.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 1,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 5,
+                  "denomination": "gp"
+                },
+                "rarity": "",
+                "identified": true,
+                "type": {
+                  "value": "",
+                  "subtype": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "identifier": "censer",
+                "equipped": false
+              },
+              "effects": [],
+              "folder": "dlru9Hy74nSMv6fr",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 2,
+                  "price": "5 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "7ztvHyYJCcOOAWmR",
+                  "cost": "5 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037110676,
+                "modifiedTime": 1725992487409,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "DqPlmoMOzmiYTkA9",
+              "name": "Component Pouch",
+              "type": "container",
+              "img": "icons/containers/bags/pack-leather-brown.webp",
+              "system": {
+                "description": {
+                  "value": "<p>A component pouch is a small, watertight leather belt pouch that has compartments to hold all the material components and other special items you need to cast your spells, except for those components that have a specific cost (as indicated in a spell's description).</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 2,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 25,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "currency": {
+                  "pp": 0,
+                  "gp": 0,
+                  "ep": 0,
+                  "sp": 0,
+                  "cp": 0
+                },
+                "capacity": {
+                  "count": null,
+                  "volume": {
+                    "value": null,
+                    "units": "cubicFoot"
+                  },
+                  "weight": {
+                    "value": null,
+                    "units": "lb"
+                  }
+                },
+                "properties": [],
+                "attuned": false,
+                "identifier": "component-pouch"
+              },
+              "effects": [],
+              "folder": "PgtyWdfkDTDbc0ov",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 4,
+                  "price": "25 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "eZGmdOhaTWMicXPW",
+                  "cost": "25 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037242022,
+                "modifiedTime": 1725992531282,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "J0qis4VRD73Tewjj",
+              "name": "Crystal",
+              "type": "equipment",
+              "img": "icons/commodities/gems/gem-faceted-large-green.webp",
+              "system": {
+                "description": {
+                  "value": "<p>This crystaline talisman serves as a spellcasting focus, helping the practitioner to channel arcane, primal, or divine energies.</p>\n<p><strong>Spellcasting Focus. </strong>An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 1,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 10,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "cover": null,
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "armor": {
+                  "value": 10,
+                  "magicalBonus": null,
+                  "dex": null
+                },
+                "hp": {
+                  "value": 0,
+                  "max": 0,
+                  "dt": null,
+                  "conditions": ""
+                },
+                "properties": [
+                  "foc"
+                ],
+                "proficient": null,
+                "type": {
+                  "value": "trinket",
+                  "baseItem": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "crewed": false,
+                "activities": {},
+                "attuned": false,
+                "identifier": "crystal",
+                "strength": null
+              },
+              "effects": [],
+              "folder": "xedn1r43VWuEBcli",
+              "sort": 200000,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "dnd5e": {
+                  "riders": {
+                    "activity": [],
+                    "effect": []
+                  }
+                },
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "10 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "uXOT4fYbgPY8DGdd",
+                  "cost": "10 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.1.0",
+                "createdTime": 1725037313094,
+                "modifiedTime": 1730324874928,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "RDEuNK8nwPl8JWfw",
+              "name": "Glass Bottle",
+              "type": "container",
+              "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
+              "system": {
+                "description": {
+                  "value": "<p>A bottle holds 1½ pints of liquid.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 2,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 2,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "capacity": {
+                  "weight": {
+                    "value": 1.5,
+                    "units": "lb"
+                  },
+                  "count": null,
+                  "volume": {
+                    "value": null,
+                    "units": "cubicFoot"
+                  }
+                },
+                "currency": {
+                  "cp": 0,
+                  "sp": 0,
+                  "ep": 0,
+                  "gp": 0,
+                  "pp": 0
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "attuned": false,
+                "identifier": "glass-bottle"
+              },
+              "effects": [],
+              "folder": "PgtyWdfkDTDbc0ov",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 10,
+                  "price": "2 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "HZp69hhyNZUUCipF",
+                  "cost": "2 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037151206,
+                "modifiedTime": 1725992500920,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "eIcsAqnj42Go8phP",
+              "name": "Herbalism Kit",
+              "type": "tool",
+              "img": "icons/containers/bags/pouch-leather-green.webp",
+              "system": {
+                "description": {
+                  "value": "<p>This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 3,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 5,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "ability": "wis",
+                "chatFlavor": "",
+                "proficient": null,
+                "bonus": "",
+                "type": {
+                  "value": "",
+                  "baseItem": "herb"
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "check",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "check": {
+                      "ability": "wis",
+                      "dc": {},
+                      "associated": []
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "herbalism-kit"
+              },
+              "effects": [],
+              "folder": "uvZXbqK3cHirDzeT",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 2,
+                  "price": "5 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "i89okN7GFTWHsvPy",
+                  "cost": "5 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037259581,
+                "modifiedTime": 1725992537016,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "ZPr4dUQQzBSIkGhC",
+              "name": "Ink Bottle",
+              "type": "loot",
+              "img": "icons/consumables/potions/potion-bottle-labeled-medicine-capped-red-black.webp",
+              "system": {
+                "description": {
+                  "value": "<p>A small bottle of ink for writing upon parchment.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 0.06,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 10,
+                  "denomination": "gp"
+                },
+                "rarity": "",
+                "identified": true,
+                "type": {
+                  "value": "",
+                  "subtype": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "identifier": "ink-bottle",
+                "equipped": false
+              },
+              "effects": [],
+              "folder": "dlru9Hy74nSMv6fr",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 10,
+                  "price": "10 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "dP7jMKyHTTgVb3ii",
+                  "cost": "10 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037234139,
+                "modifiedTime": 1725992528669,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "wCESbgm6Xw2qIkZ3",
+              "name": "Ink Pen",
+              "type": "loot",
+              "img": "icons/tools/scribal/pen-steel-grey-brown.webp",
+              "system": {
+                "description": {
+                  "value": "<p>A deviced used in combination with ink to write or draw on a sheet of paper.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 0,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 2,
+                  "denomination": "cp"
+                },
+                "rarity": "",
+                "identified": true,
+                "type": {
+                  "value": "",
+                  "subtype": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "identifier": "ink-pen",
+                "equipped": false
+              },
+              "effects": [],
+              "folder": "dlru9Hy74nSMv6fr",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 6,
+                  "price": "2 cp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "uVm7MiB71QblfnoY",
+                  "cost": "2 cp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037312533,
+                "modifiedTime": 1725992555201,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "qBYfcPEwX9hnqnpV",
+              "name": "Magnifying Glass",
+              "type": "loot",
+              "img": "icons/tools/scribal/magnifying-glass.webp",
+              "system": {
+                "description": {
+                  "value": "<p>This lens allows a closer look at small objects. It is also useful as a substitute for flint and steel when starting fires. Lighting a fire with a magnifying glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite. A magnifying glass grants advantage on any ability check made to appraise or inspect an item that is small or highly detailed.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 0,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 100,
+                  "denomination": "gp"
+                },
+                "rarity": "",
+                "identified": true,
+                "type": {
+                  "value": "",
+                  "subtype": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "identifier": "magnifying-glass",
+                "equipped": false
+              },
+              "effects": [],
+              "folder": "dlru9Hy74nSMv6fr",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 1,
+                  "price": "100 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "PV0sn2Nlr8CNn4W9",
+                  "cost": "100 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037181885,
+                "modifiedTime": 1725992511300,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "cbQwWxdcSglfkqz2",
+              "name": "Orb",
+              "type": "equipment",
+              "img": "icons/commodities/gems/pearl-purple-smooth.webp",
+              "system": {
+                "description": {
+                  "value": "<p>This spherical talisman serves as a spellcasting focus, helping the practitioner to channel arcane, primal, or divine energies.</p>\n<p><strong>Spellcasting Focus. </strong>An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 3,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 20,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "cover": null,
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "armor": {
+                  "value": 10,
+                  "magicalBonus": null,
+                  "dex": null
+                },
+                "hp": {
+                  "value": 0,
+                  "max": 0,
+                  "dt": null,
+                  "conditions": ""
+                },
+                "properties": [
+                  "foc"
+                ],
+                "proficient": null,
+                "type": {
+                  "value": "trinket",
+                  "baseItem": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "crewed": false,
+                "activities": {},
+                "attuned": false,
+                "identifier": "orb",
+                "strength": null
+              },
+              "effects": [],
+              "folder": "xedn1r43VWuEBcli",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "dnd5e": {
+                  "riders": {
+                    "activity": [],
+                    "effect": []
+                  }
+                },
+                "monks-enhanced-journal": {
+                  "quantity": 3,
+                  "price": "20 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "tH5Rn0JVRG1zdmPa",
+                  "cost": "20 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.1.0",
+                "createdTime": 1725037307591,
+                "modifiedTime": 1730324881021,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "TisEaP5rUIvhodZO",
+              "name": "Perfume",
+              "type": "loot",
+              "img": "icons/consumables/potions/bottle-bulb-corked-purple.webp",
+              "system": {
+                "description": {
+                  "value": "<p>A vial of aromatic perfume.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 0,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 5,
+                  "denomination": "gp"
+                },
+                "rarity": "",
+                "identified": true,
+                "type": {
+                  "value": "",
+                  "subtype": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "identifier": "perfume",
+                "equipped": false
+              },
+              "effects": [],
+              "folder": "dlru9Hy74nSMv6fr",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 3,
+                  "price": "5 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "uuh4UH3Jx5CsFjdA",
+                  "cost": "5 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037314400,
+                "modifiedTime": 1725992555844,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "ZkpBGWGXvNvppGBG",
+              "name": "Poisoner's Kit",
+              "type": "tool",
+              "img": "icons/containers/bags/pouch-gold-green.webp",
+              "system": {
+                "description": {
+                  "value": "<p>A poisoner's kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 2,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 50,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "ability": "wis",
+                "chatFlavor": "",
+                "proficient": null,
+                "bonus": "",
+                "type": {
+                  "value": "",
+                  "baseItem": "pois"
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "check",
+                    "activation": {
+                      "type": "",
+                      "value": null,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "check": {
+                      "ability": "wis",
+                      "dc": {},
+                      "associated": []
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "poisoners-kit"
+              },
+              "effects": [],
+              "folder": "uvZXbqK3cHirDzeT",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 2,
+                  "price": "50 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "il2GNi8C0DvGLL9P",
+                  "cost": "50 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037262700,
+                "modifiedTime": 1725992538099,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "RbQxLp255Wjf9DNM",
+              "name": "Potion of Climbing",
+              "type": "consumable",
+              "img": "icons/consumables/potions/potion-vial-corked-labeled-purple.webp",
+              "system": {
+                "description": {
+                  "value": "<p><em>The potion is separated into brown, silver, and gray layers resembling bands of stone. Shaking the bottle fails to mix the colors.</em></p>\n<p>When you drink this potion, you gain a climbing speed equal to your walking speed for 1 hour. During this time, you have advantage on Strength (Athletics) checks you make to climb. </p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 0.1,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 180,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "common",
+                "identified": true,
+                "uses": {
+                  "max": "1",
+                  "recovery": [],
+                  "autoDestroy": true,
+                  "spent": 0
+                },
+                "damage": {
+                  "base": {
+                    "number": null,
+                    "denomination": null,
+                    "types": [],
+                    "custom": {
+                      "enabled": false
+                    },
+                    "scaling": {
+                      "number": 1
+                    }
+                  },
+                  "replace": false
+                },
+                "type": {
+                  "value": "potion",
+                  "subtype": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [
+                  "mgc"
+                ],
+                "magicalBonus": null,
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "utility",
+                    "activation": {
+                      "type": "action",
+                      "value": 1,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [
+                        {
+                          "type": "itemUses",
+                          "target": "",
+                          "value": "1",
+                          "scaling": {
+                            "mode": "",
+                            "formula": ""
+                          }
+                        }
+                      ],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "1",
+                      "units": "hour",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "touch",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "1",
+                        "type": "creature",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "roll": {
+                      "formula": "",
+                      "name": "",
+                      "prompt": false,
+                      "visible": false
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "potion-of-climbing"
+              },
+              "effects": [],
+              "folder": "gyBZp72zKb56Da84",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 3,
+                  "price": "180 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "aMnWi1WXWpxRHq4r",
+                  "cost": "180 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037222595,
+                "modifiedTime": 1725992524921,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "QJBirDZgF1jAUTZ4",
+              "name": "Potion of Healing",
+              "type": "consumable",
+              "img": "icons/consumables/potions/potion-tube-corked-red.webp",
+              "system": {
+                "description": {
+                  "value": "<p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 2d4+2 hit points when you drink this potion.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 0.1,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 50,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "common",
+                "identified": true,
+                "uses": {
+                  "max": "1",
+                  "recovery": [],
+                  "autoDestroy": true,
+                  "spent": 0
+                },
+                "damage": {
+                  "base": {
+                    "number": 2,
+                    "denomination": 4,
+                    "bonus": "2",
+                    "types": [
+                      "healing"
+                    ],
+                    "custom": {
+                      "enabled": false,
+                      "formula": ""
+                    },
+                    "scaling": {
+                      "mode": "",
+                      "number": null,
+                      "formula": ""
+                    }
+                  },
+                  "replace": false
+                },
+                "type": {
+                  "value": "potion",
+                  "subtype": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [
+                  "mgc"
+                ],
+                "magicalBonus": null,
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "heal",
+                    "activation": {
+                      "type": "action",
+                      "value": 1,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [
+                        {
+                          "type": "itemUses",
+                          "target": "",
+                          "value": "1",
+                          "scaling": {
+                            "mode": "",
+                            "formula": ""
+                          }
+                        }
+                      ],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "units": "touch",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "1",
+                        "type": "creature",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "healing": {
+                      "number": 2,
+                      "denomination": 4,
+                      "bonus": "2",
+                      "types": [
+                        "healing"
+                      ],
+                      "custom": {
+                        "enabled": false,
+                        "formula": ""
+                      },
+                      "scaling": {
+                        "mode": "whole",
+                        "number": null,
+                        "formula": ""
+                      }
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": []
+                    },
+                    "sort": 0
+                  }
+                },
+                "attuned": false,
+                "identifier": "potion-of-healing"
+              },
+              "effects": [],
+              "folder": "gyBZp72zKb56Da84",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 6,
+                  "price": "50 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "ytlsBjYsZ7OBSEBs",
+                  "cost": "50 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037327576,
+                "modifiedTime": 1725992560463,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "BHOH4o6V7MeAhwCD",
+              "name": "Rod",
+              "type": "equipment",
+              "img": "icons/weapons/staves/staff-blue-jewel.webp",
+              "system": {
+                "description": {
+                  "value": "<p>An intricately carved or shaped rod of bone, stone, metal, or more exotic materials. Such rods are used by spellcasters to focus their attention and arcane energy.</p>\n<p><strong>Spellcasting Focus. </strong>An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 2,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 10,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "cover": null,
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "armor": {
+                  "value": 10,
+                  "magicalBonus": null,
+                  "dex": null
+                },
+                "hp": {
+                  "value": 0,
+                  "max": 0,
+                  "dt": null,
+                  "conditions": ""
+                },
+                "properties": [
+                  "foc"
+                ],
+                "proficient": null,
+                "type": {
+                  "value": "rod",
+                  "baseItem": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "crewed": false,
+                "activities": {},
+                "attuned": false,
+                "identifier": "rod",
+                "strength": null
+              },
+              "effects": [],
+              "folder": "xedn1r43VWuEBcli",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "dnd5e": {
+                  "riders": {
+                    "activity": [],
+                    "effect": []
+                  }
+                },
+                "monks-enhanced-journal": {
+                  "quantity": 2,
+                  "price": "10 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "OojyyGfh91iViuMF",
+                  "cost": "10 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.1.0",
+                "createdTime": 1725037178199,
+                "modifiedTime": 1730324889641,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "jjcarJUSLIUxElNK",
+              "name": "Map or Scroll Case",
+              "type": "container",
+              "img": "icons/containers/bags/case-scroll-leather-tan.webp",
+              "system": {
+                "description": {
+                  "value": "<p>This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 1,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 1,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "capacity": {
+                  "count": null,
+                  "volume": {
+                    "value": null,
+                    "units": "cubicFoot"
+                  },
+                  "weight": {
+                    "value": null,
+                    "units": "lb"
+                  }
+                },
+                "currency": {
+                  "cp": 0,
+                  "sp": 0,
+                  "ep": 0,
+                  "gp": 0,
+                  "pp": 0
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "attuned": false,
+                "identifier": "map-or-scroll-case"
+              },
+              "effects": [],
+              "folder": "PgtyWdfkDTDbc0ov",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 4,
+                  "price": "1 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "5mIeX824uMklU3xq",
+                  "cost": "1 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037102156,
+                "modifiedTime": 1725992484595,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "ioEWffQrcNCNfq9w",
+              "name": "Spell Scroll 1st Level",
+              "type": "consumable",
+              "img": "icons/sundries/scrolls/scroll-bound-black-tan.webp",
+              "system": {
+                "description": {
+                  "value": "<p>A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.</p>\n<p>If the spell is on your class's spell list but of a higher level than you can normally cast, you must make a DC 11 ability check using your spellcasting ability to determine whether you cast it successfully. On a failed check, the spell disappears from the scroll with no other effect.</p>\n<p>The level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity.</p>\n<p><strong>Save DC</strong>: 13<br /><strong>Attack Bonus</strong>: +5.</p>\n<p>A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 11 Intelligence (Arcana) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 0,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 60,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "common",
+                "identified": true,
+                "uses": {
+                  "max": "1",
+                  "recovery": [],
+                  "autoDestroy": true,
+                  "spent": 0
+                },
+                "damage": {
+                  "base": {
+                    "number": null,
+                    "denomination": null,
+                    "types": [],
+                    "custom": {
+                      "enabled": false
+                    },
+                    "scaling": {
+                      "number": 1
+                    }
+                  },
+                  "replace": false
+                },
+                "type": {
+                  "value": "scroll",
+                  "subtype": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [
+                  "mgc"
+                ],
+                "magicalBonus": null,
+                "activities": {},
+                "attuned": false,
+                "identifier": "spell-scroll-1st-level"
+              },
+              "effects": [],
+              "folder": "epDf8I2SD3cS6ctz",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 5,
+                  "price": "60 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "9GSfMg0VOA2b4uFN",
+                  "cost": "60 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037117038,
+                "modifiedTime": 1725992489545,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "IEqrodc78HnX8NNr",
+              "name": "Spell Scroll Cantrip",
+              "type": "consumable",
+              "img": "icons/sundries/scrolls/scroll-bound-white-tan.webp",
+              "system": {
+                "description": {
+                  "value": "<p>A spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.</p>\n<p>If the spell is on your class's spell list but of a higher level than you can normally cast, you must make a DC 10 ability check using your spellcasting ability to determine whether you cast it successfully. On a failed check, the spell disappears from the scroll with no other effect.</p>\n<p>The level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity.</p>\n<p><strong>Save DC</strong>: 13<br /><strong>Attack Bonus</strong>: +5.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 0,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 10,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "common",
+                "identified": true,
+                "uses": {
+                  "max": "1",
+                  "recovery": [],
+                  "autoDestroy": true,
+                  "spent": 0
+                },
+                "damage": {
+                  "base": {
+                    "number": null,
+                    "denomination": null,
+                    "types": [],
+                    "custom": {
+                      "enabled": false
+                    },
+                    "scaling": {
+                      "number": 1
+                    }
+                  },
+                  "replace": false
+                },
+                "type": {
+                  "value": "scroll",
+                  "subtype": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [
+                  "mgc"
+                ],
+                "magicalBonus": null,
+                "activities": {},
+                "attuned": false,
+                "identifier": "spell-scroll-cantrip"
+              },
+              "effects": [],
+              "folder": "epDf8I2SD3cS6ctz",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 7,
+                  "price": "10 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "rQ6sO7HDWzqMhSI3",
+                  "cost": "10 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037298555,
+                "modifiedTime": 1725992550490,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "DvFM6erKUdHlXOeY",
+              "name": "Spellbook",
+              "type": "loot",
+              "img": "icons/sundries/books/book-symbol-triangle-silver-brown.webp",
+              "system": {
+                "description": {
+                  "value": "<p>Essential for wizards, a spellbook is a leather-bound tome with 100 blank vellum pages suitable for recording spells.</p>\n<p> </p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 3,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 50,
+                  "denomination": "gp"
+                },
+                "rarity": "",
+                "identified": true,
+                "type": {
+                  "value": "",
+                  "subtype": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "identifier": "spellbook",
+                "equipped": false
+              },
+              "effects": [],
+              "folder": "dlru9Hy74nSMv6fr",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 3,
+                  "price": "50 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "LBajgahniRJbAgDr",
+                  "cost": "50 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037165251,
+                "modifiedTime": 1725992505595,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "a8QMKYPQrCEjpvVQ",
+              "name": "Sprig of Mistletoe",
+              "type": "equipment",
+              "img": "icons/consumables/plants/fern-lady-green.webp",
+              "system": {
+                "description": {
+                  "value": "<p>A hardy sprig of mistletoe, holly, or some other sacred leaf, picked from a tree whose roots are sunken deep into a ley line. Those who heed nature's call are able to harness this connection to call forth the incredible power of nature.</p>\n<p><strong>Spellcasting Focus</strong>. A druidic focus is a special item designed to channel the power of spells from the druid's spell list. A druid can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 0,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 1,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "cover": null,
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "armor": {
+                  "value": 10,
+                  "magicalBonus": null,
+                  "dex": null
+                },
+                "hp": {
+                  "value": 0,
+                  "max": 0,
+                  "dt": null,
+                  "conditions": ""
+                },
+                "properties": [
+                  "foc"
+                ],
+                "proficient": null,
+                "type": {
+                  "value": "trinket",
+                  "baseItem": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "crewed": false,
+                "activities": {},
+                "attuned": false,
+                "identifier": "sprig-of-mistletoe",
+                "strength": null
+              },
+              "effects": [],
+              "folder": "xedn1r43VWuEBcli",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "dnd5e": {
+                  "riders": {
+                    "activity": [],
+                    "effect": []
+                  }
+                },
+                "monks-enhanced-journal": {
+                  "quantity": 3,
+                  "price": "1 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "xDK9GQd2iqOGH8Sd",
+                  "cost": "1 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.1.0",
+                "createdTime": 1725037322071,
+                "modifiedTime": 1730324896046,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "xfHjutMPDCqOSvLd",
+              "name": "Staff",
+              "type": "weapon",
+              "img": "icons/weapons/staves/staff-simple-spiral-grey.webp",
+              "system": {
+                "description": {
+                  "value": "<p>A gnarled or polished staff of wood, bone, or more exotic materials like crystal. Such implements are frequently used by spellcasters to hone their arcane focus.</p>\n<p><strong>Spellcasting Focus.</strong> An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 4,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 5,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "cover": null,
+                "range": {
+                  "value": null,
+                  "long": null,
+                  "units": "ft",
+                  "reach": null
+                },
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "damage": {
+                  "versatile": {
+                    "number": 1,
+                    "denomination": 8,
+                    "bonus": "",
+                    "types": [],
+                    "custom": {
+                      "enabled": false,
+                      "formula": ""
+                    },
+                    "scaling": {
+                      "mode": "",
+                      "number": null,
+                      "formula": ""
+                    }
+                  },
+                  "base": {
+                    "number": 1,
+                    "denomination": 6,
+                    "bonus": "",
+                    "types": [
+                      "bludgeoning"
+                    ],
+                    "custom": {
+                      "enabled": false,
+                      "formula": ""
+                    },
+                    "scaling": {
+                      "mode": "",
+                      "number": null,
+                      "formula": ""
+                    }
+                  }
+                },
+                "armor": {
+                  "value": 10
+                },
+                "hp": {
+                  "value": 0,
+                  "max": 0,
+                  "dt": null,
+                  "conditions": ""
+                },
+                "properties": [
+                  "foc",
+                  "ver"
+                ],
+                "proficient": null,
+                "type": {
+                  "value": "simpleM",
+                  "baseItem": "quarterstaff"
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "crewed": false,
+                "magicalBonus": null,
+                "activities": {
+                  "dnd5eactivity000": {
+                    "_id": "dnd5eactivity000",
+                    "type": "attack",
+                    "activation": {
+                      "type": "action",
+                      "value": 1,
+                      "condition": "",
+                      "override": false
+                    },
+                    "consumption": {
+                      "targets": [],
+                      "scaling": {
+                        "allowed": false,
+                        "max": ""
+                      },
+                      "spellSlot": true
+                    },
+                    "description": {
+                      "chatFlavor": ""
+                    },
+                    "duration": {
+                      "concentration": false,
+                      "value": "",
+                      "units": "inst",
+                      "special": "",
+                      "override": false
+                    },
+                    "effects": [],
+                    "range": {
+                      "value": "5",
+                      "units": "ft",
+                      "special": "",
+                      "override": false
+                    },
+                    "target": {
+                      "template": {
+                        "count": "",
+                        "contiguous": false,
+                        "type": "",
+                        "size": "",
+                        "width": "",
+                        "height": "",
+                        "units": ""
+                      },
+                      "affects": {
+                        "count": "",
+                        "type": "",
+                        "choice": false,
+                        "special": ""
+                      },
+                      "prompt": true,
+                      "override": false
+                    },
+                    "attack": {
+                      "ability": "",
+                      "bonus": "",
+                      "critical": {
+                        "threshold": null
+                      },
+                      "flat": false,
+                      "type": {
+                        "value": "",
+                        "classification": ""
+                      }
+                    },
+                    "damage": {
+                      "critical": {
+                        "bonus": ""
+                      },
+                      "includeBase": true,
+                      "parts": []
+                    },
+                    "uses": {
+                      "spent": 0,
+                      "recovery": [],
+                      "max": ""
+                    },
+                    "sort": 0,
+                    "name": ""
+                  }
+                },
+                "attuned": false,
+                "ammunition": {},
+                "identifier": "staff",
+                "mastery": ""
+              },
+              "effects": [],
+              "folder": "xedn1r43VWuEBcli",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "dnd5e": {
+                  "riders": {
+                    "activity": [],
+                    "effect": []
+                  }
+                },
+                "monks-enhanced-journal": {
+                  "quantity": 2,
+                  "price": "5 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "BeKIrNIvNHRPQ4t5",
+                  "cost": "5 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.1.0",
+                "createdTime": 1725037124380,
+                "modifiedTime": 1730324904161,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "y85H67e1xgOfYesZ",
+              "name": "Steel Mirror",
+              "type": "loot",
+              "img": "icons/sundries/survival/mirror-plain.webp",
+              "system": {
+                "description": {
+                  "value": "<p>A mirror made of steel.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 0.5,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 5,
+                  "denomination": "gp"
+                },
+                "rarity": "",
+                "identified": true,
+                "type": {
+                  "value": "",
+                  "subtype": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "properties": [],
+                "identifier": "steel-mirror",
+                "equipped": false
+              },
+              "effects": [],
+              "folder": "dlru9Hy74nSMv6fr",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "monks-enhanced-journal": {
+                  "quantity": 1,
+                  "price": "5 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "HZsvDPmvysQKGzGy",
+                  "cost": "5 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.0.0",
+                "createdTime": 1725037151475,
+                "modifiedTime": 1725992501017,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "pCC4RbhiirGkdMjV",
+              "name": "Totem",
+              "type": "equipment",
+              "img": "icons/equipment/neck/collar-carved-bone-teeth-ring.webp",
+              "system": {
+                "description": {
+                  "value": "<p>A totem incorporating feathers, fur, bones, and teeth from an animal sacred to the user. Those who heed nature's call are able to harness this to call forth the incredible power of nature.</p>\n<p><strong>Spellcasting Focus</strong>. A druidic focus is a special item designed to channel the power of spells from the druid's spell list. A druid can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 0,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 1,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "cover": null,
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "armor": {
+                  "value": 10,
+                  "magicalBonus": null,
+                  "dex": null
+                },
+                "hp": {
+                  "value": 0,
+                  "max": 0,
+                  "dt": null,
+                  "conditions": ""
+                },
+                "properties": [
+                  "foc"
+                ],
+                "proficient": null,
+                "type": {
+                  "value": "trinket",
+                  "baseItem": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "crewed": false,
+                "activities": {},
+                "attuned": false,
+                "identifier": "totem",
+                "strength": null
+              },
+              "effects": [],
+              "folder": "xedn1r43VWuEBcli",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "dnd5e": {
+                  "riders": {
+                    "activity": [],
+                    "effect": []
+                  }
+                },
+                "monks-enhanced-journal": {
+                  "quantity": 2,
+                  "price": "1 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "PGL6aaM0wE5h0VN5",
+                  "cost": "1 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.1.0",
+                "createdTime": 1725037180486,
+                "modifiedTime": 1730324916655,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "pxT4CBM1Lns6RJEo",
+              "name": "Wand",
+              "type": "equipment",
+              "img": "icons/weapons/staves/staff-orante-gold.webp",
+              "system": {
+                "description": {
+                  "value": "<p>A single-handed delicate implement of wood, bone, crystal, or other exotic materials which is commonly used as a focus to assist with arcane spellcasting.</p>\n<p><strong>Spellcasting Focus</strong>. An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 1,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 10,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "cover": null,
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "armor": {
+                  "value": 10,
+                  "magicalBonus": null,
+                  "dex": null
+                },
+                "hp": {
+                  "value": 0,
+                  "max": 0,
+                  "dt": null,
+                  "conditions": ""
+                },
+                "properties": [
+                  "foc"
+                ],
+                "proficient": null,
+                "type": {
+                  "value": "wand",
+                  "baseItem": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "crewed": false,
+                "activities": {},
+                "attuned": false,
+                "identifier": "wand",
+                "strength": null
+              },
+              "effects": [],
+              "folder": "xedn1r43VWuEBcli",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "dnd5e": {
+                  "riders": {
+                    "activity": [],
+                    "effect": []
+                  }
+                },
+                "monks-enhanced-journal": {
+                  "quantity": 4,
+                  "price": "10 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "KA2P6I48iOWlnboO",
+                  "cost": "10 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.1.0",
+                "createdTime": 1725037161790,
+                "modifiedTime": 1730324920124,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            },
+            {
+              "_id": "4Mr4bdUujT0vsocI",
+              "name": "Yew Wand",
+              "type": "equipment",
+              "img": "icons/weapons/staves/staff-ornate-wood.webp",
+              "system": {
+                "description": {
+                  "value": "<p>This wand or scepter has been carved from yew or another special wood and inscribed with powerful runes to invoke the power of nature by those who heed its call.</p>\n<p><strong>Spellcasting Focus</strong>. A druidic focus is a special item designed to channel the power of spells from the druid's spell list. A druid can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost.</p>",
+                  "chat": ""
+                },
+                "source": {
+                  "custom": "",
+                  "book": "SRD 5.1",
+                  "page": "",
+                  "license": "CC-BY-4.0",
+                  "rules": "2014",
+                  "revision": 1
+                },
+                "quantity": 1,
+                "weight": {
+                  "value": 1,
+                  "units": "lb"
+                },
+                "price": {
+                  "value": 10,
+                  "denomination": "gp"
+                },
+                "attunement": "",
+                "equipped": false,
+                "rarity": "",
+                "identified": true,
+                "cover": null,
+                "uses": {
+                  "max": "",
+                  "recovery": [],
+                  "spent": 0
+                },
+                "armor": {
+                  "value": 10,
+                  "magicalBonus": null,
+                  "dex": null
+                },
+                "hp": {
+                  "value": 0,
+                  "max": 0,
+                  "dt": null,
+                  "conditions": ""
+                },
+                "properties": [
+                  "foc"
+                ],
+                "proficient": null,
+                "type": {
+                  "value": "wand",
+                  "baseItem": ""
+                },
+                "unidentified": {
+                  "description": ""
+                },
+                "container": null,
+                "crewed": false,
+                "activities": {},
+                "attuned": false,
+                "identifier": "yew-wand",
+                "strength": null
+              },
+              "effects": [],
+              "folder": "xedn1r43VWuEBcli",
+              "sort": 0,
+              "ownership": {
+                "default": 0
+              },
+              "flags": {
+                "dnd5e": {
+                  "riders": {
+                    "activity": [],
+                    "effect": []
+                  }
+                },
+                "monks-enhanced-journal": {
+                  "quantity": 2,
+                  "price": "10 gp",
+                  "hide": false,
+                  "lock": false,
+                  "parentId": "t5yP0d7YaKwuKKiH",
+                  "cost": "10 gp",
+                  "consumable": false
+                }
+              },
+              "_stats": {
+                "duplicateSource": null,
+                "coreVersion": "12.331",
+                "systemId": "dnd5e",
+                "systemVersion": "4.1.0",
+                "createdTime": 1725037305821,
+                "modifiedTime": 1730324933141,
+                "lastModifiedBy": "dnd5ebuilder0000",
+                "compendiumSource": null
+              }
+            }
+          ]
+        }
+      },
+      "_id": "arcana0000000001",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>The interior hums with quiet energy. Shelves are packed with arcane tomes, crystal spheres, and spell components neatly organized in brass-labeled drawers. A faint shimmer lingers in the air, and faint glyphs flicker on the walls when the light hits them just right.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/quickstart-shops/assets/icons/basic-arcana.webp",
+      "sort": 0,
+      "ownership": {
+        "default": 2
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6"
+      },
+      "_key": "!journal.pages!basicShop0000002.arcana0000000001"
+    }
+  ],
+  "folder": "qssBasicShops001",
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6"
+  },
+  "categories": [],
+  "_key": "!journal!basicShop0000002"
+}

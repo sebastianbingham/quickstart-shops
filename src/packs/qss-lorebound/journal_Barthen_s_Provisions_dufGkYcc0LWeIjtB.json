@@ -1,0 +1,70 @@
+{
+  "folder": "qssBasicShops002",
+  "name": "Barthen's Provisions",
+  "flags": {
+    "monks-enhanced-journal": {
+      "pagetype": "shop",
+      "img": "modules/monks-enhanced-journal/assets/shop.png"
+    }
+  },
+  "_id": "dufGkYcc0LWeIjtB",
+  "pages": [
+    {
+      "type": "text",
+      "name": "Barthen's Provisions",
+      "flags": {
+        "monks-enhanced-journal": {
+          "type": "shop",
+          "scrollPos": "{\".tab.description .tab-inner\":0}",
+          "shoptype": "",
+          "location": "",
+          "state": "open",
+          "autoopen": false,
+          "purchasing": "locked",
+          "selling": "locked",
+          "appendix": false
+        }
+      },
+      "_id": "hAFkZXyqps0yq3M0",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6"
+      },
+      "_key": "!journal.pages!dufGkYcc0LWeIjtB.hAFkZXyqps0yq3M0"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6"
+  },
+  "categories": [],
+  "_key": "!journal!dufGkYcc0LWeIjtB"
+}

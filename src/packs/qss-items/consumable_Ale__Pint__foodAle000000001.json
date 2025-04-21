@@ -1,0 +1,81 @@
+{
+  "type": "consumable",
+  "img": "modules/quickstart-shops/assets/icons/basic-tavern.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true,
+      "max": ""
+    },
+    "description": {
+      "value": "<p>Single pint of ale</p>",
+      "chat": ""
+    },
+    "identifier": "food-ale",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Quickstart Shops",
+      "page": "",
+      "custom": "QSS",
+      "license": "GPL-3.0"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "price": {
+      "value": 4,
+      "denomination": "cp"
+    },
+    "rarity": "common",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "type": {
+      "value": "food",
+      "subtype": ""
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "replace": false
+    },
+    "magicalBonus": null,
+    "properties": []
+  },
+  "effects": [],
+  "folder": "food000000000001",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6"
+  },
+  "_id": "foodAle000000001",
+  "name": "Ale (Pint)",
+  "_key": "!items!foodAle000000001"
+}
