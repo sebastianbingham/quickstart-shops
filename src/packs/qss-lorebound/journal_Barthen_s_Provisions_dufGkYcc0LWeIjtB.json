@@ -383,7 +383,7 @@
                   }
                 },
                 "monks-enhanced-journal": {
-                  "quantity": 1,
+                  "quantity": 50,
                   "price": "1 cp",
                   "hide": false,
                   "lock": false,
@@ -477,7 +477,7 @@
               "flags": {
                 "dnd5e": {},
                 "monks-enhanced-journal": {
-                  "quantity": 1,
+                  "quantity": 2,
                   "price": "25 gp",
                   "hide": false,
                   "lock": false,
@@ -640,7 +640,7 @@
                   }
                 },
                 "monks-enhanced-journal": {
-                  "quantity": 1,
+                  "quantity": 3,
                   "price": "2 gp",
                   "hide": false,
                   "lock": false,
@@ -930,7 +930,7 @@
                   }
                 },
                 "monks-enhanced-journal": {
-                  "quantity": 1,
+                  "quantity": 10,
                   "price": "1 gp",
                   "hide": false,
                   "lock": false,
@@ -1013,7 +1013,7 @@
               "flags": {
                 "dnd5e": {},
                 "monks-enhanced-journal": {
-                  "quantity": 1,
+                  "quantity": 12,
                   "price": "1 cp",
                   "hide": false,
                   "lock": false,
@@ -1080,7 +1080,7 @@
               "flags": {
                 "dnd5e": {},
                 "monks-enhanced-journal": {
-                  "quantity": 1,
+                  "quantity": 4,
                   "price": "2 gp",
                   "hide": false,
                   "lock": false,
@@ -1163,7 +1163,7 @@
               "flags": {
                 "dnd5e": {},
                 "monks-enhanced-journal": {
-                  "quantity": 1,
+                  "quantity": 12,
                   "price": "2 sp",
                   "hide": false,
                   "lock": false,
@@ -1254,7 +1254,7 @@
               "flags": {
                 "dnd5e": {},
                 "monks-enhanced-journal": {
-                  "quantity": 1,
+                  "quantity": 60,
                   "price": "5 sp",
                   "hide": false,
                   "lock": false,
@@ -1475,7 +1475,7 @@
                   }
                 },
                 "monks-enhanced-journal": {
-                  "quantity": 1,
+                  "quantity": 3,
                   "price": "1 gp",
                   "hide": false,
                   "lock": false,
@@ -1558,7 +1558,7 @@
               "flags": {
                 "dnd5e": {},
                 "monks-enhanced-journal": {
-                  "quantity": 1,
+                  "quantity": 2,
                   "price": "2 gp",
                   "hide": false,
                   "lock": false,
@@ -1649,7 +1649,7 @@
               "flags": {
                 "dnd5e": {},
                 "monks-enhanced-journal": {
-                  "quantity": 1,
+                  "quantity": 5,
                   "price": "10 gp",
                   "hide": false,
                   "lock": false,
@@ -1743,7 +1743,7 @@
               "flags": {
                 "dnd5e": {},
                 "monks-enhanced-journal": {
-                  "quantity": 1,
+                  "quantity": 10,
                   "price": "2 cp",
                   "hide": false,
                   "lock": false,
@@ -1810,7 +1810,7 @@
               "flags": {
                 "dnd5e": {},
                 "monks-enhanced-journal": {
-                  "quantity": 1,
+                  "quantity": 40,
                   "price": "1 sp",
                   "hide": false,
                   "lock": false,
@@ -1877,7 +1877,7 @@
               "flags": {
                 "dnd5e": {},
                 "monks-enhanced-journal": {
-                  "quantity": 1,
+                  "quantity": 25,
                   "price": "2 sp",
                   "hide": false,
                   "lock": false,
@@ -1944,7 +1944,7 @@
               "flags": {
                 "dnd5e": {},
                 "monks-enhanced-journal": {
-                  "quantity": 1,
+                  "quantity": 4,
                   "price": "2 gp",
                   "hide": false,
                   "lock": false,
@@ -2226,7 +2226,7 @@
                   }
                 },
                 "monks-enhanced-journal": {
-                  "quantity": 1,
+                  "quantity": 2,
                   "price": "5 gp",
                   "hide": false,
                   "lock": false,
@@ -2293,7 +2293,7 @@
               "flags": {
                 "dnd5e": {},
                 "monks-enhanced-journal": {
-                  "quantity": 1,
+                  "quantity": 2,
                   "price": "5 gp",
                   "hide": false,
                   "lock": false,
@@ -2376,7 +2376,7 @@
               "flags": {
                 "dnd5e": {},
                 "monks-enhanced-journal": {
-                  "quantity": 1,
+                  "quantity": 10,
                   "price": "1 gp",
                   "hide": false,
                   "lock": false,
@@ -2529,7 +2529,7 @@
                   }
                 },
                 "monks-enhanced-journal": {
-                  "quantity": 1,
+                  "quantity": 2,
                   "price": "8 gp",
                   "hide": false,
                   "lock": false,
@@ -2918,7 +2918,7 @@
               "flags": {
                 "dnd5e": {},
                 "monks-enhanced-journal": {
-                  "quantity": 1,
+                  "quantity": 3,
                   "price": "2 gp",
                   "hide": false,
                   "lock": false,
@@ -3001,7 +3001,7 @@
               "flags": {
                 "dnd5e": {},
                 "monks-enhanced-journal": {
-                  "quantity": 1,
+                  "quantity": 3,
                   "price": "5 gp",
                   "hide": false,
                   "lock": false,
@@ -3539,7 +3539,7 @@
                   }
                 },
                 "monks-enhanced-journal": {
-                  "quantity": 1,
+                  "quantity": 30,
                   "price": "1 cp",
                   "hide": false,
                   "lock": false,
@@ -3587,10 +3587,7 @@
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "dnd5e",
-        "systemVersion": "4.3.6",
-        "createdTime": null,
-        "modifiedTime": 1745212094642,
-        "lastModifiedBy": "1Rj7qioypSlT5Qir"
+        "systemVersion": "4.3.6"
       },
       "_key": "!journal.pages!dufGkYcc0LWeIjtB.hAFkZXyqps0yq3M0"
     }
@@ -3604,10 +3601,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "dnd5e",
-    "systemVersion": "4.3.6",
-    "createdTime": null,
-    "modifiedTime": null,
-    "lastModifiedBy": null
+    "systemVersion": "4.3.6"
   },
   "_key": "!journal!dufGkYcc0LWeIjtB",
   "categories": []
