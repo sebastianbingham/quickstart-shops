@@ -1,8 +1,5 @@
-2025/04/02-13:15:42.013 5234 Recovering log #13
-2025/04/02-13:15:42.017 5234 Delete type=0 #13
-2025/04/02-13:15:42.018 5234 Delete type=3 #11
-2025/04/02-13:28:49.619 663c Level-0 table #20: started
-2025/04/02-13:28:49.620 663c Level-0 table #20: 0 bytes OK
-2025/04/02-13:28:49.621 663c Delete type=0 #18
-2025/04/02-13:28:49.629 663c Manual compaction at level-0 from '!folders!food000000000001' @ 72057594037927935 : 1 .. '!items!lodgingWealthy00' @ 0 : 0; will stop at (end)
-2025/04/02-13:28:49.629 663c Manual compaction at level-1 from '!folders!food000000000001' @ 72057594037927935 : 1 .. '!items!lodgingWealthy00' @ 0 : 0; will stop at (end)
+2025/04/20-23:51:38.339 a518 Delete type=3 #1
+2025/04/20-23:51:38.342 37f8 Level-0 table #5: started
+2025/04/20-23:51:38.344 37f8 Level-0 table #5: 2595 bytes OK
+2025/04/20-23:51:38.346 37f8 Delete type=0 #3
+2025/04/20-23:51:38.346 37f8 Manual compaction at level-0 from '!folders!food000000000001' @ 72057594037927935 : 1 .. '!items!lodgingWealthy00' @ 0 : 0; will stop at (end)

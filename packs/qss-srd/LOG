@@ -1,8 +1,5 @@
-2025/04/02-13:15:41.978 5234 Recovering log #13
-2025/04/02-13:15:41.982 5234 Delete type=0 #13
-2025/04/02-13:15:41.982 5234 Delete type=3 #11
-2025/04/02-13:28:49.610 663c Level-0 table #20: started
-2025/04/02-13:28:49.610 663c Level-0 table #20: 0 bytes OK
-2025/04/02-13:28:49.613 663c Delete type=0 #18
-2025/04/02-13:28:49.616 663c Manual compaction at level-0 from '!folders!qssBasicShops001' @ 72057594037927935 : 1 .. '!journal.pages!basicShop0000010.tavern0000000001' @ 0 : 0; will stop at (end)
-2025/04/02-13:28:49.616 663c Manual compaction at level-1 from '!folders!qssBasicShops001' @ 72057594037927935 : 1 .. '!journal.pages!basicShop0000010.tavern0000000001' @ 0 : 0; will stop at (end)
+2025/04/20-23:51:38.470 a518 Delete type=3 #1
+2025/04/20-23:51:38.476 37f8 Level-0 table #5: started
+2025/04/20-23:51:38.480 37f8 Level-0 table #5: 95405 bytes OK
+2025/04/20-23:51:38.482 37f8 Delete type=0 #3
+2025/04/20-23:51:38.482 37f8 Manual compaction at level-0 from '!folders!qssBasicShops001' @ 72057594037927935 : 1 .. '!journal.pages!basicShop0000010.tavern0000000001' @ 0 : 0; will stop at (end)
