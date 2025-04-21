@@ -29,13 +29,7 @@ pages:
             img: icons/consumables/potions/bottle-round-corked-green.webp
             system:
               description:
-                value: >-
-                  <p>As an action, you can splash the contents of this vial onto
-                  a creature within 5 feet of you or throw the vial up to 20
-                  feet, shattering it on impact. In either case, make a ranged
-                  attack against a creature or object, treating the acid as an
-                  improvised weapon. On a hit, the target takes 2d6 acid
-                  damage.</p>
+                value: <p>As an action, you can splash the contents of this vial onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an improvised weapon. On a hit, the target takes 2d6 acid damage.</p>
                 chat: ''
               source:
                 custom: ''
@@ -189,15 +183,7 @@ pages:
             img: icons/consumables/potions/bottle-round-corked-yellow.webp
             system:
               description:
-                value: >-
-                  <p>This sticky, adhesive fluid ignites when exposed to air. As
-                  an action, you can throw this flask up to 20 feet, shattering
-                  it on impact. Make a ranged attack against a creature or
-                  object, treating the alchemist's fire as an improvised weapon.
-                  On a hit, the target takes 1d4 fire damage at the start of
-                  each of its turns. A creature can end this damage by using its
-                  action to make a DC 10 Dexterity check to extinguish the
-                  flames.</p>
+                value: <p>This sticky, adhesive fluid ignites when exposed to air. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. On a hit, the target takes 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.</p>
                 chat: ''
               source:
                 custom: ''
@@ -432,14 +418,9 @@ pages:
             img: icons/tools/cooking/mortar-herbs-yellow.webp
             system:
               description:
-                value: >-
-                  <p>These special tools include the items needed to pursue a
-                  craft or trade in alchemy.</p>
-
-                  <p>Proficiency with a set of artisan's tools lets you add your
-                  proficiency bonus to any ability checks you make using the
-                  tools in your craft. Each type of artisan's tools requires a
-                  separate proficiency.</p>
+                value: |-
+                  <p>These special tools include the items needed to pursue a craft or trade in alchemy.</p>
+                  <p>Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</p>
                 chat: ''
               source:
                 custom: ''
@@ -557,10 +538,7 @@ pages:
             img: icons/consumables/potions/bottle-round-corked-pink.webp
             system:
               description:
-                value: >-
-                  <p>A creature that drinks this vial of liquid gains advantage
-                  on saving throws against poison for 1 hour. It confers no
-                  benefit to undead or constructs.</p>
+                value: <p>A creature that drinks this vial of liquid gains advantage on saving throws against poison for 1 hour. It confers no benefit to undead or constructs.</p>
                 chat: ''
               source:
                 custom: ''
@@ -690,17 +668,10 @@ pages:
           - _id: 0ULCEis1h7agVRHV
             name: Basic Poison
             type: consumable
-            img: >-
-              icons/consumables/potions/potion-bottle-skull-label-poison-teal.webp
+            img: icons/consumables/potions/potion-bottle-skull-label-poison-teal.webp
             system:
               description:
-                value: >-
-                  <p>You can use the poison in this vial to coat one slashing or
-                  piercing weapon or up to three pieces of ammunition. Applying
-                  the poison takes an action. A creature hit by the poisoned
-                  weapon or ammunition must make a DC 10 Constitution saving
-                  throw or take 1d4 poison damage. Once applied, the poison
-                  retains potency for 1 minute before drying.</p>
+                value: <p>You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 10 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying.</p>
                 chat: ''
               source:
                 custom: ''
@@ -755,9 +726,7 @@ pages:
                   activation:
                     type: action
                     value: 1
-                    condition: >-
-                      one slashing or piercing weapon, or up to three pieces of
-                      ammunition
+                    condition: one slashing or piercing weapon, or up to three pieces of ammunition
                     override: false
                   consumption:
                     targets:
@@ -856,9 +825,7 @@ pages:
             img: icons/commodities/metal/ingot-plain-gold.webp
             system:
               description:
-                value: >-
-                  <p>Frequently used by the rich and religious alike to scent
-                  the air for purposes of pleasure or ritual.</p>
+                value: <p>Frequently used by the rich and religious alike to scent the air for purposes of pleasure or ritual.</p>
                 chat: ''
               source:
                 custom: ''
@@ -914,9 +881,7 @@ pages:
             img: icons/sundries/lights/candle-unlit-tan.webp
             system:
               description:
-                value: >-
-                  <p>For 1 hour, a candle sheds bright light in a 5-foot radius
-                  and dim light for an additional 5 feet.</p>
+                value: <p>For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for an additional 5 feet.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1050,11 +1015,7 @@ pages:
             type: loot
             system:
               description:
-                value: >-
-                  <p>Taken from the inner bark of the cinnamon tree, a popular
-                  if slightly rarer spice, amongst chefs of the world. Adored by
-                  children when combined with sugar to make many kinds of
-                  treats.</p>
+                value: <p>Taken from the inner bark of the cinnamon tree, a popular if slightly rarer spice, amongst chefs of the world. Adored by children when combined with sugar to make many kinds of treats.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1110,14 +1071,9 @@ pages:
             type: loot
             system:
               description:
-                value: >-
-                  <p>A strong spice treasured by both chefs and distillers,
-                  working well to flavor meat and stews, rich sauces, warm
-                  beverages like cider and chai tea, bread, cheeses, and sweet
-                  desserts like pies and fruitcakes.</p>
-
-                  <p>Cloves are the rich, dried, unopened buds of the Syzygium
-                  aromaticum, an evergreen tree in the myrtle family.</p>
+                value: |-
+                  <p>A strong spice treasured by both chefs and distillers, working well to flavor meat and stews, rich sauces, warm beverages like cider and chai tea, bread, cheeses, and sweet desserts like pies and fruitcakes.</p>
+                  <p>Cloves are the rich, dried, unopened buds of the Syzygium aromaticum, an evergreen tree in the myrtle family.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1241,12 +1197,7 @@ pages:
             img: icons/containers/bags/pouch-leather-brown-green.webp
             system:
               description:
-                value: >-
-                  <p>This kit is a leather pouch containing bandages, salves,
-                  and splints. The kit has ten uses. As an action, you can
-                  expend one use of the kit to stabilize a creature that has 0
-                  hit points, without needing to make a Wisdom (Medicine)
-                  check.</p>
+                value: <p>This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1379,14 +1330,7 @@ pages:
             img: icons/containers/bags/pouch-leather-green.webp
             system:
               description:
-                value: >-
-                  <p>This kit contains a variety of instruments such as
-                  clippers, mortar and pestle, and pouches and vials used by
-                  herbalists to create remedies and potions. Proficiency with
-                  this kit lets you add your proficiency bonus to any ability
-                  checks you make to identify or apply herbs. Also, proficiency
-                  with this kit is required to create antitoxin and potions of
-                  healing.</p>
+                value: <p>This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1501,8 +1445,7 @@ pages:
           - _id: r4RWH85FKZGCYvjG
             name: Ink Bottle
             type: loot
-            img: >-
-              icons/consumables/potions/potion-bottle-labeled-medicine-capped-red-black.webp
+            img: icons/consumables/potions/potion-bottle-labeled-medicine-capped-red-black.webp
             system:
               description:
                 value: <p>A small bottle of ink for writing upon parchment.</p>
@@ -1617,11 +1560,7 @@ pages:
             img: icons/containers/bags/pouch-gold-green.webp
             system:
               description:
-                value: >-
-                  <p>A poisoner's kit includes the vials, chemicals, and other
-                  equipment necessary for the creation of poisons. Proficiency
-                  with this kit lets you add your proficiency bonus to any
-                  ability checks you make to craft or use poisons.</p>
+                value: <p>A poisoner's kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons.</p>
                 chat: ''
               source:
                 custom: ''
@@ -1739,15 +1678,9 @@ pages:
             img: icons/consumables/potions/potion-vial-corked-labeled-purple.webp
             system:
               description:
-                value: >-
-                  <p><em>The potion is separated into brown, silver, and gray
-                  layers resembling bands of stone. Shaking the bottle fails to
-                  mix the colors.</em></p>
-
-                  <p>When you drink this potion, you gain a climbing speed equal
-                  to your walking speed for 1 hour. During this time, you have
-                  advantage on Strength (Athletics) checks you make to climb.
-                  </p>
+                value: |-
+                  <p><em>The potion is separated into brown, silver, and gray layers resembling bands of stone. Shaking the bottle fails to mix the colors.</em></p>
+                  <p>When you drink this potion, you gain a climbing speed equal to your walking speed for 1 hour. During this time, you have advantage on Strength (Athletics) checks you make to climb. </p>
                 chat: ''
               source:
                 custom: ''
@@ -1881,10 +1814,7 @@ pages:
             img: icons/consumables/potions/potion-tube-corked-red.webp
             system:
               description:
-                value: >-
-                  <p><em>The potion's red liquid glimmers when
-                  agitated.</em></p><p>You regain 2d4+2 hit points when you
-                  drink this potion.</p>
+                value: <p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 2d4+2 hit points when you drink this potion.</p>
                 chat: ''
               source:
                 custom: ''
@@ -2032,15 +1962,7 @@ pages:
             type: loot
             system:
               description:
-                value: >-
-                  <p>Likely to be one of the most highly prized ingredients in
-                  the world, saffron is so expensive because it is so
-                  labor-intensive to produce. Made from the Crocus sativus, or
-                  more commonly the "saffron crocus", it takes 80,000 crocus
-                  flowers to produce 1 pound of saffron.By weight, it is worth
-                  more than gold. Treasured by the most discerning of cooks and
-                  apothecaries for its flavoring and purported health
-                  benefits.</p>
+                value: <p>Likely to be one of the most highly prized ingredients in the world, saffron is so expensive because it is so labor-intensive to produce. Made from the Crocus sativus, or more commonly the "saffron crocus", it takes 80,000 crocus flowers to produce 1 pound of saffron.By weight, it is worth more than gold. Treasured by the most discerning of cooks and apothecaries for its flavoring and purported health benefits.</p>
                 chat: ''
               source:
                 custom: ''
@@ -2096,10 +2018,7 @@ pages:
             type: loot
             system:
               description:
-                value: >-
-                  <p>Prized by chefs and quartermasters alike as a seasoning and
-                  preservative for supplies where alcohol or vinegar are
-                  undesired.</p>
+                value: <p>Prized by chefs and quartermasters alike as a seasoning and preservative for supplies where alcohol or vinegar are undesired.</p>
                 chat: ''
               source:
                 custom: ''
@@ -2210,18 +2129,9 @@ pages:
             img: icons/consumables/plants/fern-lady-green.webp
             system:
               description:
-                value: >-
-                  <p>A hardy sprig of mistletoe, holly, or some other sacred
-                  leaf, picked from a tree whose roots are sunken deep into a
-                  ley line. Those who heed nature's call are able to harness
-                  this connection to call forth the incredible power of
-                  nature.</p>
-
-                  <p><strong>Spellcasting Focus</strong>. A druidic focus is a
-                  special item designed to channel the power of spells from the
-                  druid's spell list. A druid can use such an item as a
-                  spellcasting focus, using it in place of any material
-                  component which does not list a cost.</p>
+                value: |-
+                  <p>A hardy sprig of mistletoe, holly, or some other sacred leaf, picked from a tree whose roots are sunken deep into a ley line. Those who heed nature's call are able to harness this connection to call forth the incredible power of nature.</p>
+                  <p><strong>Spellcasting Focus</strong>. A druidic focus is a special item designed to channel the power of spells from the druid's spell list. A druid can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost.</p>
                 chat: ''
               source:
                 custom: ''
@@ -2299,14 +2209,10 @@ pages:
           - _id: 2XjjKb0UMUx30Zet
             name: Stick of Incense
             type: loot
-            img: >-
-              icons/consumables/grains/breadsticks-crackers-wrapped-ration-brown.webp
+            img: icons/consumables/grains/breadsticks-crackers-wrapped-ration-brown.webp
             system:
               description:
-                value: >-
-                  <p>When blocks of incense cannot be used or a cheaper
-                  alternative is required, people often use these to perfume the
-                  air, whether for pleasurable or religious purposes.</p>
+                value: <p>When blocks of incense cannot be used or a cheaper alternative is required, people often use these to perfume the air, whether for pleasurable or religious purposes.</p>
                 chat: ''
               source:
                 custom: ''
@@ -2361,17 +2267,9 @@ pages:
             img: icons/consumables/potions/bottle-bulb-corked-labeled-blue.webp
             system:
               description:
-                value: >-
+                value: |-
                   <p><em>(ingested)</em></p>
-
-                  <p>A creature subjected to this poison must succeed on a
-                  <strong>DC 11 Constitution saving throw</strong> or become
-                  @UUID[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.lq3TRI6ZlED8ABMx]{Poisoned}
-                  for <strong>1 hour</strong>. The
-                  @UUID[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.lq3TRI6ZlED8ABMx]{Poisoned}
-                  creature can't knowingly speak a lie, as if under the effect
-                  of a @UUID[Compendium.dnd5e.spells.Item.CylBa7jR8DSbo8Z3]{Zone
-                  of Truth} spell.</p>
+                  <p>A creature subjected to this poison must succeed on a <strong>DC 11 Constitution saving throw</strong> or become @UUID[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.lq3TRI6ZlED8ABMx]{Poisoned} for <strong>1 hour</strong>. The @UUID[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.lq3TRI6ZlED8ABMx]{Poisoned} creature can't knowingly speak a lie, as if under the effect of a @UUID[Compendium.dnd5e.spells.Item.CylBa7jR8DSbo8Z3]{Zone of Truth} spell.</p>
                 chat: ''
               source:
                 custom: ''
@@ -2560,6 +2458,7 @@ pages:
               modifiedTime: 1725992543733
               lastModifiedBy: dnd5ebuilder0000
               compendiumSource: null
+        relationships: []
     _id: apothecary000001
     system: {}
     title:
@@ -2568,11 +2467,7 @@ pages:
     image: {}
     text:
       format: 1
-      content: >-
-        <p>A clean, earthy scent fills the air, mingling with dried herbs that
-        hang in neat bundles from the ceiling. Rows of wooden drawers and glass
-        jars hold powders, roots, and salves, while shelves display carefully
-        labeled tinctures and remedies, both mundane and restorative.</p>
+      content: <p>A clean, earthy scent fills the air, mingling with dried herbs that hang in neat bundles from the ceiling. Rows of wooden drawers and glass jars hold powders, roots, and salves, while shelves display carefully labeled tinctures and remedies, both mundane and restorative.</p>
     video:
       controls: true
       volume: 0.5
@@ -2597,6 +2492,5 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.3.6
-categories: []
 _key: '!journal!basicShop0000001'
-
+categories: []

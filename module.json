@@ -47,19 +47,8 @@
   ],
   "packs": [
     {
-      "name": "qss-core",
-      "label": "QSS - Core",
-      "path": "packs/qss-core",
-      "type": "JournalEntry",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "GAMEMASTER": "OWNER"
-      }
-    },
-    {
       "name": "qss-srd",
-      "label": "QSS - SRD Items",
+      "label": "SRD Item Shops",
       "path": "packs/qss-srd",
       "type": "JournalEntry",
       "system": "dnd5e",
@@ -69,9 +58,31 @@
       }
     },
     {
+      "name": "qss-premium",
+      "label": "PHB Item Shops",
+      "path": "packs/qss-premium",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
       "name": "qss-lorebound",
-      "label": "QSS - Lorebound Stores",
+      "label": "Lorebound Shops",
       "path": "packs/qss-lorebound",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "name": "qss-core",
+      "label": "QSS - Core",
+      "path": "packs/qss-core",
       "type": "JournalEntry",
       "system": "dnd5e",
       "ownership": {
@@ -97,9 +108,10 @@
       "color": "#b8860b",
       "sorting": "m",
       "packs": [
-        "qss-core",
         "qss-srd",
+        "qss-premium",
         "qss-lorebound",
+        "qss-core",
         "qss-items"
       ],
       "folders": []

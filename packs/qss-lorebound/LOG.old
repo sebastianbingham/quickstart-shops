@@ -1,0 +1,21 @@
+2025/04/02-13:12:11.706 5234 Recovering log #10
+2025/04/02-13:12:11.711 5234 Delete type=0 #10
+2025/04/02-13:12:11.711 5234 Delete type=3 #8
+2025/04/02-13:12:14.633 663c Level-0 table #14: started
+2025/04/02-13:12:14.633 663c Level-0 table #14: 0 bytes OK
+2025/04/02-13:12:14.635 663c Delete type=0 #12
+2025/04/02-13:12:14.639 663c Manual compaction at level-0 from '!folders!qssBasicShops002' @ 72057594037927935 : 1 .. '!journal.pages!xXy25CJKFkSJ4fpV.ToqbfHp9xuZqF52i' @ 0 : 0; will stop at '!journal.pages!xXy25CJKFkSJ4fpV.ToqbfHp9xuZqF52i' @ 29 : 1
+2025/04/02-13:12:14.639 663c Compacting 1@0 + 0@1 files
+2025/04/02-13:12:14.641 663c Generated table #15@0: 13 keys, 3016 bytes
+2025/04/02-13:12:14.641 663c Compacted 1@0 + 0@1 files => 3016 bytes
+2025/04/02-13:12:14.643 663c compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/04/02-13:12:14.643 663c Delete type=2 #9
+2025/04/02-13:12:14.649 663c Manual compaction at level-0 from '!journal.pages!xXy25CJKFkSJ4fpV.ToqbfHp9xuZqF52i' @ 29 : 1 .. '!journal.pages!xXy25CJKFkSJ4fpV.ToqbfHp9xuZqF52i' @ 0 : 0; will stop at (end)
+2025/04/02-13:12:14.653 663c Manual compaction at level-1 from '!folders!qssBasicShops002' @ 72057594037927935 : 1 .. '!journal.pages!xXy25CJKFkSJ4fpV.ToqbfHp9xuZqF52i' @ 0 : 0; will stop at '!journal.pages!xXy25CJKFkSJ4fpV.ToqbfHp9xuZqF52i' @ 63 : 1
+2025/04/02-13:12:14.653 663c Compacting 1@1 + 1@2 files
+2025/04/02-13:12:14.655 663c Generated table #16@1: 13 keys, 3016 bytes
+2025/04/02-13:12:14.655 663c Compacted 1@1 + 1@2 files => 3016 bytes
+2025/04/02-13:12:14.656 663c compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/02-13:12:14.657 663c Delete type=2 #5
+2025/04/02-13:12:14.657 663c Delete type=2 #15
+2025/04/02-13:12:14.662 663c Manual compaction at level-1 from '!journal.pages!xXy25CJKFkSJ4fpV.ToqbfHp9xuZqF52i' @ 63 : 1 .. '!journal.pages!xXy25CJKFkSJ4fpV.ToqbfHp9xuZqF52i' @ 0 : 0; will stop at (end)

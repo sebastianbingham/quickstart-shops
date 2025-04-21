@@ -1,8 +1,8 @@
-name: Lost Mine of Phandelver (Coming Soon)
+name: Standard Shops
 sorting: a
 folder: null
 type: JournalEntry
-_id: qssBasicShops002
+_id: qssStandShops001
 description: ''
 sort: 0
 color: null
@@ -13,5 +13,5 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.3.6
-_key: '!folders!qssBasicShops002'
+_key: '!folders!qssStandShops001'
 

@@ -1,0 +1,63 @@
+folder: qssBasicShops002
+name: Phandalin Miner’s Exchange
+flags:
+  monks-enhanced-journal:
+    pagetype: shop
+    img: modules/monks-enhanced-journal/assets/shop.png
+_id: xXy25CJKFkSJ4fpV
+pages:
+  - type: text
+    name: Phandalin Miner’s Exchange
+    flags:
+      monks-enhanced-journal:
+        type: shop
+        scrollPos: '{".tab.description .tab-inner":0}'
+        shoptype: Other
+        location: ''
+        state: open
+        autoopen: false
+        purchasing: locked
+        selling: locked
+        appendix: false
+        _lasttab: items
+        relationships:
+          - type: organization
+            uuid: Compendium.quickstart-shops.qss-core.JournalEntry.nJHwWKCOcT6Gbvab
+            id: nJHwWKCOcT6Gbvab
+            name: The Zhentarim (The Black Network)
+            img: modules/monks-enhanced-journal/assets/organization.png
+            relationship: Guild Master Halia Thornton
+            hidden: false
+    _id: ToqbfHp9xuZqF52i
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 0
+    ownership:
+      default: -1
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.6
+    _key: '!journal.pages!xXy25CJKFkSJ4fpV.ToqbfHp9xuZqF52i'
+sort: 0
+ownership:
+  default: 0
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.3.6
+_key: '!journal!xXy25CJKFkSJ4fpV'
+categories: []

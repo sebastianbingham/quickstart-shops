@@ -52,7 +52,7 @@ system:
   properties: []
 effects: []
 folder: lodging000000001
-sort: 3000
+sort: 0
 ownership:
   default: 0
 flags: {}

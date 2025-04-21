@@ -8,11 +8,9 @@ system:
     autoDestroy: true
     max: ''
   description:
-    value: >-
-      <p>Single-night stay in a wealthy establishment. Includes one bed and
-      minimal amenities appropriate to the wealthy lifestyle.</p>
+    value: <p>Single pint of ale</p>
     chat: ''
-  identifier: wealthy-lodging
+  identifier: food-ale
   source:
     revision: 1
     rules: '2024'
@@ -26,17 +24,17 @@ system:
   container: null
   quantity: 1
   weight:
-    value: 0
+    value: 1
     units: lb
   price:
-    value: 2
-    denomination: gp
+    value: 4
+    denomination: cp
   rarity: common
   attunement: ''
   attuned: false
   equipped: false
   type:
-    value: ''
+    value: food
     subtype: ''
   damage:
     base:
@@ -51,7 +49,7 @@ system:
   magicalBonus: null
   properties: []
 effects: []
-folder: lodging000000001
+folder: food000000000001
 sort: 0
 ownership:
   default: 0
@@ -62,7 +60,6 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.3.6
-_id: lodgingWealthy00
-name: Wealthy Lodging
-_key: '!items!lodgingWealthy00'
-
+_id: foodAle000000001
+name: Ale (Pint)
+_key: '!items!foodAle000000001'
